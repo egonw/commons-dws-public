@@ -2,7 +2,7 @@
 id: s5ghfvJKYE4vBKA7sYDki
 title: Reviews
 desc: ''
-updated: 1630169885790
+updated: 1630170089673
 created: 1630169573436
 ---
 One of the reviewers' comments was that the LOTUS manuscript lacked presentation of practical applications.
@@ -21,3 +21,6 @@ Let's try to build Table 1 on our side.
 
 All compounds from Actinobacteria (and childrens) with DOI https://w.wiki/3yPg
 Now lets refine by years
+
+This looks like a way to narrow by dates https://stackoverflow.com/questions/52550929/fast-publication-date-lookup-with-wikidata-query-service
+
