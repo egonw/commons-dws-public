@@ -32,7 +32,14 @@ site:
         - root
     siteRootDir: docs
     usePrettyRefs: true
-    title: Dendron
+    siteUrl: https://commons-research.github.io
+    assetsPrefix: commons-dws-public
+    gh_edit_link: true
+    gh_edit_link_text: Click here to edit this page on Github !
+    gh_edit_repository: 'https://github.com/commons-research/commons-dws-public'
+    gh_edit_branch: main
+    gh_edit_view_mode: edit
+    title: COMMONS DWS Public
     description: Personal knowledge space
     duplicateNoteBehavior:
         action: useVault
