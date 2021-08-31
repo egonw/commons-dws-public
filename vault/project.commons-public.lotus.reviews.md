@@ -2,7 +2,7 @@
 id: s5ghfvJKYE4vBKA7sYDki
 title: Reviews
 desc: ''
-updated: 1630170089673
+updated: 1630402877923
 created: 1630169573436
 ---
 One of the reviewers' comments was that the LOTUS manuscript lacked presentation of practical applications.
@@ -23,4 +23,31 @@ All compounds from Actinobacteria (and childrens) with DOI https://w.wiki/3yPg
 Now lets refine by years
 
 This looks like a way to narrow by dates https://stackoverflow.com/questions/52550929/fast-publication-date-lookup-with-wikidata-query-service
+
+
+
+### call Scorfi 
+
+
+Mode op for reproducible min example
+
+https://gitlab.com/lotus7/lotus-processor.git
+
+from the home dir 
+
+lotus-processor git:(main) make -C src/1_gathering/db -B alkamid
+returns
+
+make: *** No rule to make target `/1_gathering/db/alkamid/standardizing.R', needed by `/interim/db/alkamid.tsv.gz'.  Stop.
+
+readr needs to be >2.0 
+
+lets see how to update a condaforge package since readr condaforge is not updated
+https://conda-forge.org/docs/maintainer/updating_pkgs.html
+
+
+git clone https://github.com/conda-forge/r-readr-feedstock.git
+
+
+wget -O- https://cran.r-project.org/src/contrib/readr_2.0.1.tar.gz | shasum -a 256
 
