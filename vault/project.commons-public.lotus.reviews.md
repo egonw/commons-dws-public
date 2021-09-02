@@ -2,7 +2,7 @@
 id: s5ghfvJKYE4vBKA7sYDki
 title: Reviews
 desc: ''
-updated: 1630402877923
+updated: 1630580070782
 created: 1630169573436
 ---
 One of the reviewers' comments was that the LOTUS manuscript lacked presentation of practical applications.
@@ -26,7 +26,7 @@ This looks like a way to narrow by dates https://stackoverflow.com/questions/525
 
 
 
-### call Scorfi 
+### Called Adriano
 
 
 Mode op for reproducible min example
