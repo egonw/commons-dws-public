@@ -2,7 +2,7 @@
 id: 9V8O4UL7vxWMctVdhKagj
 title: Mibig
 desc: ''
-updated: 1630168920620
+updated: 1631031050921
 created: 1630162600311
 ---
 # Context
@@ -34,4 +34,6 @@ limited to specific strains https://w.wiki/3yPf
 
 
 Posted https://twitter.com/allard_pm/status/1431640111440138245
+
+And updated at 2021-09-07 18:10
 
