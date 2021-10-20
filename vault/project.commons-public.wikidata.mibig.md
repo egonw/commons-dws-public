@@ -16,7 +16,7 @@ Maybe LOTUS could help here.
 https://mibig.secondarymetabolites.org/
 
 
-# Log book 
+§# Log book 
 
 2021-08-28 17:00
 
