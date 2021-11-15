@@ -13,7 +13,7 @@ site:
     siteRootDir: docs
     usePrettyRefs: true
     siteUrl: 'https://commons-research.github.io'
-    assetsPrefix: commons-dws-public
+    assetsPrefix: /commons-dws-public
     gh_edit_link: true
     gh_edit_link_text: Click here to edit this page on Github !
     gh_edit_repository: 'https://github.com/commons-research/commons-dws-public'
