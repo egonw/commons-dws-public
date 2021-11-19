@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/commons-research/commons-dws-public#readme",
   "dependencies": {
-    "@dendronhq/dendron-cli": "^0.68.0"
+    "@dendronhq/dendron-cli": "^0.69.0"
   }
 }
