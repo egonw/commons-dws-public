@@ -1,26 +1,5 @@
 {
-  "name": "commons-dws-public",
-  "version": "1.0.0",
-  "description": "COMMONS Lab Public Dendron Workspace",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/commons-research/commons-dws-public.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/commons-research/commons-dws-public/issues"
-  },
-  "homepage": "https://github.com/commons-research/commons-dws-public#readme",
   "dependencies": {
-    "@dendronhq/dendron-cli": "^0.69.0"
+    "@dendronhq/dendron-cli": "^0.81.0"
   }
 }

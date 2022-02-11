@@ -1,0 +1,459 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "vault"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1644567975489,
+      "created": 1644567975490,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "QvYK9hGbCvPpEfSRYhV8j": {
+      "id": "QvYK9hGbCvPpEfSRYhV8j",
+      "title": "Root",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "welcome-to-dendron": {
+          "type": "header",
+          "text": "Welcome to Dendron",
+          "value": "welcome-to-dendron",
+          "line": 7,
+          "column": 0
+        }
+      },
+      "fname": "root",
+      "updated": 1630130450048,
+      "created": 1630130450048,
+      "parent": null,
+      "children": [
+        "vDTgZL9UHWqYtBFdtD3vK",
+        "jldFUSJGjDf1mFH8c2yUI",
+        "vuNYixxqx9AgKihkn4D74",
+        "1FrTCjiR1fQPBTJNRsbyy"
+      ],
+      "data": {},
+      "contentHash": "c871f8270cbaf4ba23c0747ae826676a",
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      }
+    },
+    "1FrTCjiR1fQPBTJNRsbyy": {
+      "id": "1FrTCjiR1fQPBTJNRsbyy",
+      "title": "Project",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "project",
+      "updated": 1636997182366,
+      "created": 1636997182366,
+      "parent": "QvYK9hGbCvPpEfSRYhV8j",
+      "children": [
+        "ABHE2n7qX9Ty8P65Olaox"
+      ],
+      "data": {},
+      "contentHash": "324117ff292b0d6a4a45414b0d205b06",
+      "custom": {
+        "stub": true
+      }
+    },
+    "ABHE2n7qX9Ty8P65Olaox": {
+      "id": "ABHE2n7qX9Ty8P65Olaox",
+      "title": "Commons Public",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "project.commons-public",
+      "updated": 1636997182366,
+      "created": 1636997182366,
+      "parent": "1FrTCjiR1fQPBTJNRsbyy",
+      "children": [
+        "FWyOwAt9PiD3jHX3Kb275"
+      ],
+      "data": {},
+      "contentHash": "89298d510f9df967102705c010d6febb",
+      "custom": {
+        "stub": true
+      }
+    },
+    "FWyOwAt9PiD3jHX3Kb275": {
+      "id": "FWyOwAt9PiD3jHX3Kb275",
+      "title": "Wikidata",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "project.commons-public.wikidata",
+      "updated": 1630162584253,
+      "created": 1630162584253,
+      "parent": "ABHE2n7qX9Ty8P65Olaox",
+      "children": [
+        "9V8O4UL7vxWMctVdhKagj",
+        "JTylZwU751oA9k16E5sWn"
+      ],
+      "data": {},
+      "contentHash": "fc764d3d247aba3cbb9611fc7c36e485",
+      "custom": {}
+    },
+    "JTylZwU751oA9k16E5sWn": {
+      "id": "JTylZwU751oA9k16E5sWn",
+      "title": "Mismall",
+      "desc": "",
+      "updated": 1638339956629,
+      "created": 1631031026632,
+      "custom": {},
+      "fname": "project.commons-public.wikidata.mismall",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b8d860d62a079010ae4085644e6f8b43",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "FWyOwAt9PiD3jHX3Kb275",
+      "data": {}
+    },
+    "9V8O4UL7vxWMctVdhKagj": {
+      "id": "9V8O4UL7vxWMctVdhKagj",
+      "title": "Mibig",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "project.commons-public.wikidata.mibig",
+            "id": "9V8O4UL7vxWMctVdhKagj",
+            "vaultName": "vault"
+          },
+          "value": "wikidata.apps",
+          "alias": "wikidata.apps",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 41,
+              "offset": 350
+            },
+            "end": {
+              "line": 16,
+              "column": 58,
+              "offset": 367
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "wikidata.apps"
+          }
+        }
+      ],
+      "anchors": {
+        "context": {
+          "type": "header",
+          "text": "Context",
+          "value": "context",
+          "line": 7,
+          "column": 0
+        }
+      },
+      "fname": "project.commons-public.wikidata.mibig",
+      "updated": 1631031050921,
+      "created": 1630162600311,
+      "parent": "FWyOwAt9PiD3jHX3Kb275",
+      "children": [],
+      "data": {},
+      "contentHash": "17f0c5c9b1b11fdb5c717833887dbf0a",
+      "custom": {}
+    },
+    "vuNYixxqx9AgKihkn4D74": {
+      "id": "vuNYixxqx9AgKihkn4D74",
+      "title": "Placeholder",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "placeholder",
+      "updated": 1636997182365,
+      "created": 1636997182365,
+      "parent": "QvYK9hGbCvPpEfSRYhV8j",
+      "children": [
+        "C59p2K29an4M7SweMQK3B"
+      ],
+      "data": {},
+      "contentHash": "6e80154ad204a908ec60efa0ac7b1868",
+      "custom": {
+        "stub": true
+      }
+    },
+    "C59p2K29an4M7SweMQK3B": {
+      "id": "C59p2K29an4M7SweMQK3B",
+      "title": "Placeholder One",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "placeholder.placeholder-one",
+      "updated": 1630131028884,
+      "created": 1630131028884,
+      "parent": "vuNYixxqx9AgKihkn4D74",
+      "children": [],
+      "data": {},
+      "contentHash": "0a018a286406ee6bfb4006ce4b6a4478",
+      "custom": {}
+    },
+    "jldFUSJGjDf1mFH8c2yUI": {
+      "id": "jldFUSJGjDf1mFH8c2yUI",
+      "title": "Courses",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "courses",
+      "updated": 1634194998970,
+      "created": 1634194998970,
+      "parent": "QvYK9hGbCvPpEfSRYhV8j",
+      "children": [
+        "Ykcls825joDD8WIqXdtCg"
+      ],
+      "data": {},
+      "contentHash": "6ebf73c5f47c992d388cc801a88771a6",
+      "custom": {}
+    },
+    "Ykcls825joDD8WIqXdtCg": {
+      "id": "Ykcls825joDD8WIqXdtCg",
+      "title": "Docker Singularity",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "concepts": {
+          "type": "header",
+          "text": "Concepts",
+          "value": "concepts",
+          "line": 33,
+          "column": 0
+        },
+        "image": {
+          "type": "header",
+          "text": "Image",
+          "value": "image",
+          "line": 35,
+          "column": 0
+        },
+        "container": {
+          "type": "header",
+          "text": "Container",
+          "value": "container",
+          "line": 44,
+          "column": 0
+        }
+      },
+      "fname": "courses.docker-singularity",
+      "updated": 1634198316808,
+      "created": 1634195008546,
+      "parent": "jldFUSJGjDf1mFH8c2yUI",
+      "children": [
+        "k2ZyWqz1dvbZP4gWGXlzf"
+      ],
+      "data": {},
+      "contentHash": "db1ba8e70931e8cb40bba3548d3fa9c6",
+      "custom": {}
+    },
+    "k2ZyWqz1dvbZP4gWGXlzf": {
+      "id": "k2ZyWqz1dvbZP4gWGXlzf",
+      "title": "Labbook",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "courses.docker-singularity.labbook",
+            "id": "k2ZyWqz1dvbZP4gWGXlzf",
+            "vaultName": "vault"
+          },
+          "value": "user.ed76dc41b28c",
+          "alias": "@ed76dc41b28c",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 5,
+              "offset": 41
+            },
+            "end": {
+              "line": 7,
+              "column": 18,
+              "offset": 54
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.ed76dc41b28c"
+          }
+        }
+      ],
+      "anchors": {
+        "piepline": {
+          "type": "header",
+          "text": "Piepline",
+          "value": "piepline",
+          "line": 58,
+          "column": 0
+        }
+      },
+      "fname": "courses.docker-singularity.labbook",
+      "updated": 1634221887636,
+      "created": 1634198546178,
+      "parent": "Ykcls825joDD8WIqXdtCg",
+      "children": [],
+      "data": {},
+      "contentHash": "96e6bc532069ce8dfaf6f25cb8d9aec3",
+      "custom": {}
+    },
+    "vDTgZL9UHWqYtBFdtD3vK": {
+      "id": "vDTgZL9UHWqYtBFdtD3vK",
+      "title": "Cfm",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "cfm",
+      "updated": 1635165794596,
+      "created": 1634199122481,
+      "parent": "QvYK9hGbCvPpEfSRYhV8j",
+      "children": [],
+      "data": {},
+      "contentHash": "858b292ba3030dbdf4bb44ee78793d59",
+      "custom": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "QvYK9hGbCvPpEfSRYhV8j",
+      "title": "Root",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "welcome-to-dendron": {
+          "type": "header",
+          "text": "Welcome to Dendron",
+          "value": "welcome-to-dendron",
+          "line": 7,
+          "column": 0
+        }
+      },
+      "fname": "root",
+      "updated": 1630130450048,
+      "created": 1630130450048,
+      "parent": null,
+      "children": [
+        "vDTgZL9UHWqYtBFdtD3vK",
+        "jldFUSJGjDf1mFH8c2yUI",
+        "vuNYixxqx9AgKihkn4D74",
+        "1FrTCjiR1fQPBTJNRsbyy"
+      ],
+      "data": {},
+      "contentHash": "c871f8270cbaf4ba23c0747ae826676a",
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. \n"
+    }
+  ],
+  "noteIndex": {
+    "id": "QvYK9hGbCvPpEfSRYhV8j",
+    "title": "Root",
+    "vault": {
+      "fsPath": "vault"
+    },
+    "type": "note",
+    "desc": "",
+    "links": [],
+    "anchors": {
+      "welcome-to-dendron": {
+        "type": "header",
+        "text": "Welcome to Dendron",
+        "value": "welcome-to-dendron",
+        "line": 7,
+        "column": 0
+      }
+    },
+    "fname": "root",
+    "updated": 1630130450048,
+    "created": 1630130450048,
+    "parent": null,
+    "children": [
+      "vDTgZL9UHWqYtBFdtD3vK",
+      "jldFUSJGjDf1mFH8c2yUI",
+      "vuNYixxqx9AgKihkn4D74",
+      "1FrTCjiR1fQPBTJNRsbyy"
+    ],
+    "data": {},
+    "contentHash": "c871f8270cbaf4ba23c0747ae826676a",
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "body": "# Welcome to Dendron\n\nThis is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. \n"
+  },
+  "vaults": [
+    {
+      "fsPath": "vault"
+    }
+  ]
+}
