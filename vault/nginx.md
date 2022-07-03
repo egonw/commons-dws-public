@@ -2,7 +2,7 @@
 id: hpnaglyhnb48vuiniqecnqf
 title: Nginx
 desc: ''
-updated: 1655630162637
+updated: 1655630224645
 created: 1655621752930
 ---
 
@@ -111,6 +111,18 @@ server {
     proxy_cache_bypass $http_upgrade;
   }
 }
+
+
+Node: **v16.15.1**
+Arch: **x64**
+Platform: **linux**
+Docker: **false**
+Database: **pg**
+ProjectOnRootDB: **true**
+RootDB: **pg**
+PackageVersion: **0.91.10**
+
+
 
 
 
