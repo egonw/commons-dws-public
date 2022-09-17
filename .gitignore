@@ -7,3 +7,6 @@ build
 .next
 .next
 .next
+.backup
+
+.DS_Store
