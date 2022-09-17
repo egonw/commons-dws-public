@@ -5,8 +5,7 @@ build
 
 .dendron.cache.*
 .next
-.next
-.next
 .backup
 
 .DS_Store
+.dendron.cache.*
