@@ -2,9 +2,11 @@
 id: wl9UhkLI0rTQARpfVs77S
 title: Scholia
 desc: ''
-updated: 1614787188353
+updated: 1663407088677
 created: 1614560154058
 ---
+
+
 
 # Scholia
 
@@ -69,4 +71,18 @@ https://cthoyt.com/2021/01/23/updating-the-wikidata-integrator.html
 
 A protocol for adding knowledge to Wikidata, a case report.
 https://www.biorxiv.org/content/10.1101/2020.04.05.026336v2.full.pdf
+
+
+## Scholia search examples 
+### Combined topics
+
+https://scholia.toolforge.org/topics/Q30046,Q1172284
+
+https://scholia.toolforge.org/topics/Q33002955,Q1418791
+
+https://scholia.toolforge.org/topics/Q33002955,Q420
+
+
+
+
 
