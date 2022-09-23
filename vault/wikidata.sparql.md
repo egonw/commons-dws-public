@@ -2,7 +2,7 @@
 id: qcUnyE9eaS2PVPPngKeB1
 title: Sparql
 desc: ''
-updated: 1663010700763
+updated: 1663683785052
 created: 1611593110381
 ---
 
@@ -789,3 +789,30 @@ https://w.wiki/5h9f
 # Solanum and erythroxylum and Apocynaceae genus compounds
 
 https://w.wiki/5h9p
+
+Manager
+
+
+# Limit by journal 
+
+https://w.wiki/5imt
+Scorfi shiny version https://w.wiki/5imj
+
+
+# filter papers which do not have found in taxon
+
+https://w.wiki/5ipT
+
+
+
+
+
+# 10 papers (random) from journal of natural products
+
+https://w.wiki/5ity
+
+
+# 10 papers (random) from phytochemistry
+
+https://w.wiki/5it$
+
