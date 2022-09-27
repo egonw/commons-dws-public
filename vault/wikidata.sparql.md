@@ -2,7 +2,7 @@
 id: qcUnyE9eaS2PVPPngKeB1
 title: Sparql
 desc: ''
-updated: 1663683785052
+updated: 1664194873313
 created: 1611593110381
 ---
 
@@ -815,4 +815,65 @@ https://w.wiki/5ity
 # 10 papers (random) from phytochemistry
 
 https://w.wiki/5it$
+
+
+### Restricting quest queries to journals and taxa
+
+# Adapted from Daniel Mietchen https://w.wiki/5a7K
+SELECT DISTINCT *
+#(CONCAT(
+#REPLACE(STR(?ta), ".*Q", "Q"), "|P703|", REPLACE(STR(?taxa), ".*Q", "Q"), "|S248|", REPLACE(STR(?i), ".*Q", "Q")) AS ?QuickStatements)
+WITH {
+SELECT DISTINCT ?ta ?n_formatted ?taxa_chem WHERE {
+#SERVICE bd:sample { ?ta wdt:P31 wd:Q11173 . bd:serviceParam bd:sample.limit 1000 }
+?ta wdt:P31 wd:Q11173 .
+SERVICE bd:sample { ?taxa_int wdt:P171 wd:Q173756 . bd:serviceParam bd:sample.limit 2000 }
+?taxa_chem wdt:P171 ?taxa_int .
+#?taxa_chem (wdt:P171*) wd:Q173756 .
+?ta p:P703 ?stmt.
+?stmt ps:P703 ?taxa_chem.
+?ta rdfs:label ?n.
+FILTER (LANG(?n) = "en") .
+BIND(REPLACE(REPLACE(REPLACE(STR(?n),"@en",""),"\\+",""),"\\-","") AS ?n_formatted) .
+}
+LIMIT 40
+}
+AS %t
+WITH
+{ SELECT ?i ?n_formatted ?ta ?ti ?taxa ?taxa_chem  WHERE {
+INCLUDE %t
+SERVICE wikibase:mwapi
+{
+bd:serviceParam wikibase:endpoint "www.wikidata.org";
+wikibase:api "Generator";
+mwapi:generator "search";
+mwapi:gsrsearch ?n_formatted ;
+mwapi:gsrlimit "max".
+?i wikibase:apiOutputItem mwapi:title.
+}
+VALUES ?ref_journal {
+    wd:Q1884753
+    wd:Q165584
+}
+?i wdt:P1433 ?ref_journal.
+?i wdt:P1476 ?ti .
+?i wdt:P921 ?taxa.
+?taxa wdt:P105 wd:Q7432.
+#?taxa (wdt:P171*) wd:Q173756 .
+FILTER (?taxa != ?taxa_chem) .
+}
+}
+AS %i
+WHERE {
+INCLUDE %i
+INCLUDE %t
+BIND (SUBSTR(?ti, STRLEN(STRBEFORE(REPLACE(?ti, ?n_formatted, "=HELP=", "i"), "=HELP=")) +1, STRLEN(?n_formatted)) AS ?a)
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+
+# Compounds and ref from the Actinobacteria phylum 
+https://w.wiki/5kCC
+with Chembl ids
+
+https://w.wiki/5kDz
 
