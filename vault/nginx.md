@@ -2,7 +2,7 @@
 id: hpnaglyhnb48vuiniqecnqf
 title: Nginx
 desc: ''
-updated: 1655630224645
+updated: 1665051740087
 created: 1655621752930
 ---
 
@@ -138,4 +138,46 @@ https://www.youtube.com/watch?v=JKxlsvZXG7c
 
 
 
+
+## serving the directus interface
+
+port 8055
+
+sudo certbot --authenticator standalone --installer nginx -d directus.dbgi.org --pre-hook "service nginx stop" --post-hook "service nginx start"
+
+Problem : 
+
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Requesting a certificate for directus.dbgi.org
+
+Certbot failed to authenticate some domains (authenticator: standalone). The Certificate Authority reported these problems:
+  Domain: directus.dbgi.org
+  Type:   dns
+  Detail: DNS problem: NXDOMAIN looking up A for directus.dbgi.org - check that a DNS record exists for this domain; DNS problem: NXDOMAIN looking up AAAA for directus.dbgi.org - check that a DNS record exists for this domain
+
+Hint: The Certificate Authority failed to download the challenge files from the temporary standalone webserver started by Certbot on port 80. Ensure that the listed domains point to this machine and that it can accept inbound connections from the internet.
+
+Of course it doesn't work as we need to declare the DNS first at our DNS provider interface lets go ther 
+It needs to be opened 
+
+Done
+
+Then copied the nocodb in /etc/nginx/sites-enabled and changed the server name
+
+Certbox command is still not OK but different error.
+Website is accessible
+
+(base) allardpm@biolpc045600:/etc/nginx/sites-enabled$ sudo certbot --authenticator standalone --installer nginx   -d directus.dbgi.org --pre-hook "service nginx stop" --post-hook "service nginx start"
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Requesting a certificate for directus.dbgi.org
+
+Certbot failed to authenticate some domains (authenticator: standalone). The Certificate Authority reported these problems:
+  Domain: directus.dbgi.org
+  Type:   connection
+  Detail: 134.21.20.118: Fetching http://directus.dbgi.org/.well-known/acme-challenge/_3RMgi4TIamOSiw_A2g5iAccqERzpJywraSNUqlFGTc: Timeout during connect (likely firewall problem)
+
+Hint: The Certificate Authority failed to download the challenge files from the temporary standalone webserver started by Certbot on port 80. Ensure that the listed domains point to this machine and that it can accept inbound connections from the internet.
+
+Some challenges have failed.
+Ask for help or search for solutions at https://community.letsencrypt.org. See the logfile /var/log/letsencrypt/letsencrypt.log or re-run Certbot with -v for more details.
 
