@@ -2,7 +2,7 @@
 id: qcUnyE9eaS2PVPPngKeB1
 title: Sparql
 desc: ''
-updated: 1664194873313
+updated: 1665406027992
 created: 1611593110381
 ---
 
@@ -876,4 +876,8 @@ https://w.wiki/5kCC
 with Chembl ids
 
 https://w.wiki/5kDz
+
+# NP with drug interactions 
+https://w.wiki/5o9R
+
 
