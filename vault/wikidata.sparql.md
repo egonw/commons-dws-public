@@ -2,7 +2,7 @@
 id: qcUnyE9eaS2PVPPngKeB1
 title: Sparql
 desc: ''
-updated: 1665406027992
+updated: 1666781306920
 created: 1611593110381
 ---
 
@@ -879,5 +879,10 @@ https://w.wiki/5kDz
 
 # NP with drug interactions 
 https://w.wiki/5o9R
+
+
+
+# Query for simon 
+https://w.wiki/5rxD
 
 
