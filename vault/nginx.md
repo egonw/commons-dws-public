@@ -2,12 +2,12 @@
 id: hpnaglyhnb48vuiniqecnqf
 title: Nginx
 desc: ''
-updated: 1665051740087
+updated: 1667396599365
 created: 1655621752930
 ---
 
 # Title 
-time
+2022-11-02 14:42
 ## Context
 Looking into nginx to setup a connection to NocoDB from the commons_lab server 
 
@@ -181,3 +181,25 @@ Hint: The Certificate Authority failed to download the challenge files from the 
 Some challenges have failed.
 Ask for help or search for solutions at https://community.letsencrypt.org. See the logfile /var/log/letsencrypt/letsencrypt.log or re-run Certbot with -v for more details.
 
+### Checking nginx status
+
+`systemctl status nginx`
+
+on metabomaps it keeps falling.Here is an error message
+
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+   Active: failed (Result: exit-code) since Mon 2022-10-17 19:05:49 UTC; 2 weeks 1 days ago
+     Docs: man:nginx(8)
+  Process: 4655 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+  Process: 4656 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=1/FAILURE)
+
+This is runned to check the nginy conf
+
+sudo nginx -t
+
+
+nginx: [warn] conflicting server name "graph.metabomaps.com" on 0.0.0.0:443, ignored
+nginx: [warn] conflicting server name "graph.metabomaps.com" on 0.0.0.0:80, ignored
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
