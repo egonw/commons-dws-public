@@ -2,7 +2,7 @@
 id: hpnaglyhnb48vuiniqecnqf
 title: Nginx
 desc: ''
-updated: 1667396599365
+updated: 1669307777671
 created: 1655621752930
 ---
 
@@ -203,3 +203,10 @@ nginx: [warn] conflicting server name "graph.metabomaps.com" on 0.0.0.0:443, ign
 nginx: [warn] conflicting server name "graph.metabomaps.com" on 0.0.0.0:80, ignored
 nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+
+## serving the directus interface foor the commons lab
+
+port 8056
+
+sudo certbot --authenticator standalone --installer nginx -d directus.commons-lab.org --pre-hook "service nginx stop" --post-hook "service nginx start"
