@@ -2,7 +2,7 @@
 id: qcUnyE9eaS2PVPPngKeB1
 title: Sparql
 desc: ''
-updated: 1666781306920
+updated: 1670338825079
 created: 1611593110381
 ---
 
@@ -885,4 +885,8 @@ https://w.wiki/5o9R
 # Query for simon 
 https://w.wiki/5rxD
 
+
+# Researcher in the field of X working in an organisation located in country Z filter by sex Y
+
+https://w.wiki/65F4
 

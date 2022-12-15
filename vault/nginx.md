@@ -2,7 +2,7 @@
 id: hpnaglyhnb48vuiniqecnqf
 title: Nginx
 desc: ''
-updated: 1669307777671
+updated: 1669999687649
 created: 1655621752930
 ---
 
@@ -43,6 +43,10 @@ We get the following error when starting nginx
 
 
 Following https://stackoverflow.com/questions/51525710/nginx-failed-to-start-a-high-performance-web-server-and-a-reverse-proxy-server
+
+
+sudo systemctl reload nginx
+
 
 we 
  sudo service apache2 stop
@@ -210,3 +214,60 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 port 8056
 
 sudo certbot --authenticator standalone --installer nginx -d directus.commons-lab.org --pre-hook "service nginx stop" --post-hook "service nginx start"
+
+## to serve a directory
+
+Here is the used nginx file
+
+```sh
+server {
+   server_name enpkg.commons-lab.org; # managed by Certbot
+
+   ignore_invalid_headers off;
+   client_max_body_size 1000m;
+   proxy_buffering off;
+
+   gzip on;
+   gzip_proxied any;
+   gzip_vary on;
+   gzip_http_version 1.1;
+   gzip_min_length 1100;
+   gzip_buffers 4 8k;
+   tcp_nopush on;
+   gzip_types application/javascript application/json text/css text/xml image/svg+xml application/svg+xml;
+   tcp_nodelay on;
+   location /sb/ {
+        proxy_pass       http://localhost:3148/; # use httpS here if needed
+        proxy_set_header Host      $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        # add this if nginx is terminating TLS
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+   listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/enpkg.commons-lab.org/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/enpkg.commons-lab.org/privkey.pem; # managed by Certbot
+   include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+   ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+}
+
+server {
+    if ($host = enpkg.commons-lab.org) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+  server_name enpkg.commons-lab.org;
+    listen 80;
+    return 404; # managed by Certbot
+}
+```
+
+What was causing issue was the fact that the style were not found by Graphdb.
+Jo send me this SO thread
+https://stackoverflow.com/questions/37301169/run-graphdb-behind-apache-proxy_add_x_forwarded_for
+And after adding this to the GDB config it went smoothly
+
+```sh
+graphdb.workbench.external-url = https://enpkg.commons-lab.org/sb/
+```
+
