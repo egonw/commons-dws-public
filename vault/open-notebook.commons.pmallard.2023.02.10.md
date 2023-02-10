@@ -2,7 +2,7 @@
 id: 5132usven8ixfw4tn6k18jx
 title: '2023-02-10'
 desc: ''
-updated: 1676016161076
+updated: 1676026977162
 created: 1676015966805
 traitIds:
   - open-notebook-commons-pmallard
@@ -34,6 +34,21 @@ Apparently this implies to copy individual Dendron's Note traits to the Multiwor
 ## Done
 
 ## Notes
+
+- Checked the GNPS + metabolite annotation with Stephanie this morning.
+
+It would be good to have a list of Anacardiaceae metabolites.
+
+1.  Download - Datawarrior (https://openmolecules.org/datawarrior/)
+2. Download and uncompress - https://zenodo.org/record/7534071#.Y-YjcZOZP8Y 230106_frozen_metadata.csv.gz
+3. load 230106_frozen_metadata.csv.gz in DW
+4. save as .dwar
+5. search and filter for Anacardiaceae
+6. search and filter for each of your plants
+
+
+
+
 
 ## Todo tomorrow
 
