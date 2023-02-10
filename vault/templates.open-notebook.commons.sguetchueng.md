@@ -1,6 +1,6 @@
 ---
 id: uc53aopgkipjexmrmajuhte
-title: Open Notebook Sguetchueng
+title: Sguetchueng
 desc: ''
 updated: 1675677824342
 created: 1675677537520
