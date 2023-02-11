@@ -2,7 +2,7 @@
 id: xfayuqwz8zd1ulxd8gv90yo
 title: '2023-02-10'
 desc: ''
-updated: 1676044409190
+updated: 1676122190632
 created: 1676020825031
 traitIds:
   - open-notebook-mvisani
@@ -51,13 +51,14 @@ Change `prepare_pseudoabsence_tables.R` in order to have a csv table and not a s
 So, for example: 2 articles report amarogentin in *Gentiana lutea*, 3 (of which 1 is the same) in *Gentiana acaulis*.
 
 Then, for the pair amarogentin in *Gentiana*:
-* `ref_child` : 5 &rarr; Gives the number of occurences were we find amarogentin related with a *Gentiana* species. 
+* `ref_child` : 5 &rarr; Gives the number of occurences were we find amarogentin related with a *Gentiana* species.
 * `ref_nochild`: 4 &rarr; Gives how many **different** papers there are that talk about amarogentin in the species *Gentiana*
 * `noref_child` : 2 &rarr; Gives how many children of that species were found with at least one reference (in that case : *Gentiana    
   lutea* and *Gentiana acaulis*)
 * `noref_nochild`: 1 &rarr; Will only be either 0 or 1. Gives if it there is at least one reference that talks about that molecule 
   in the species *Gentiana*
 
+**ATTENTION** tables are grouped also chemically. So child also refers to the "chemical children", so exactly same principle as for *Gentiana* and *G. lutea* but this for Terpenoids > Monoterpenoids > Secoiridoids (> Amarogentin)... 
 ## Todo tomorrow
 
 ###
