@@ -2,7 +2,7 @@
 id: xfayuqwz8zd1ulxd8gv90yo
 title: '2023-02-10'
 desc: ''
-updated: 1676122190632
+updated: 1676210693128
 created: 1676020825031
 traitIds:
   - open-notebook-mvisani
@@ -35,7 +35,16 @@ $$
 {\mathbb P}(p_{sm}|n_{sm}, \pi_{01}, \pi_{10}) = ...
 $$
 
-###
+### Images
+Here are the first ideas of the discussion we had with Daniel and Pierre-Marie:
+
+![image](assets/images/2023-01-30-14-53-54.jpg)
+
+![image](assets/images/2023-01-30-14-53-55.jpg)
+### Ideas 
+See forum discussion [here](https://github.com/anticipated-lotus/forum/discussions/3)
+* The probability of occurence of a given chemical class (i.e of a pseudo absence being indeed pseudo an not a real absence) could be formulated as the sum of probability of this occurence given the : chemical research effort context, phylogenetic context, covariance of other chemical classes. 
+* This last term was discussed: study of the covariance of chemical classes within a given taxa could be informative. 
 ###
 
 ## Doing
