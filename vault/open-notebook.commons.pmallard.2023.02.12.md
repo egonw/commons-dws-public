@@ -2,7 +2,7 @@
 id: 1al1z3ga0fmktf6hlr2jzkv
 title: '2023-02-12'
 desc: ''
-updated: 1676228317860
+updated: 1676228599857
 created: 1676218093828
 traitIds:
   - open-notebook-commons-pmallard
@@ -57,6 +57,15 @@ Most likely through the templates notes first  [[templates.notebook.commons.pmal
 
 Adding a 
 ` 📖 Comment what should be commented and pass this daily Notebook to it's Open Notebook counterpart`
+
+- `cmd+A` on local Notebook (without frontmatter)
+- `cmd+o cmd+c` to open new daily Open Notebook (in COMMONS)
+- `cmd+v` to paste 
+- remove/comment if needed
+- post
+
+That's some lines for now and will try redirecting to Open Notebook (in MAPP, COMMONS and DBGI) as much as possible. Will not port old notes ...too much of a burden
+
 
 
 ## Today I learned that
