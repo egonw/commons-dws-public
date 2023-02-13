@@ -1,4 +1,13 @@
 ---
+id: z7qnncucq27a69shc7hge7p
+title: commons-mvisani-model
+desc: ''
+updated: 1676306517796
+created: 1676306517796
+traitIds:
+  - open-notebook-mvisani
+---
+---
 title: Inferring the presence of metabolites
 ---
 

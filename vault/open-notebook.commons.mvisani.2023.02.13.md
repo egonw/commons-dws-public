@@ -2,7 +2,7 @@
 id: qzcz2txf8699jx340tvf33v
 title: '2023-02-13'
 desc: ''
-updated: 1676306112334
+updated: 1676306199847
 created: 1676280398443
 traitIds:
   - open-notebook-mvisani
@@ -16,7 +16,7 @@ Today is 2023.02.13
 * continue C++ courses 
 * figure out a way to add the LaTex mathematical model in Dendron in order for people to access it
 
-![[vault/assets/model/test.md]]
+![[assets.model.test.md]]
 
 
 ###
