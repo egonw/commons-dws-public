@@ -2,7 +2,7 @@
 id: xfayuqwz8zd1ulxd8gv90yo
 title: '2023-02-10'
 desc: ''
-updated: 1676291118732
+updated: 1676293770363
 created: 1676020825031
 traitIds:
   - open-notebook-mvisani
@@ -18,7 +18,7 @@ We seek to infer the presence or absence of $M$ metabolites in $S$ species. We d
 Let ${\mathbb P}(x_{sm}=1|y_{sm})=y_{sm}$ be the probability with which metabolite $m$ is present in species $s$. We then assume that
 
 $$
-logit \space y_{sm} = \mu_m + \epsilon_{sm}
+logit \space y_{sm} = log \frac{y_{sm}}{1-y_{sm}} = \mu_m + \epsilon_{sm}
 $$
 
 where $\mu$ is a metabolite-specific intercept and $\epsilon_{sm}$ is normally distributed with mean 0 and co-variance $cov(\epsilon_{sm},\epsilon_{s'm'})=\alpha \sigma_{ss'} + \beta \sigma_{mm'}$ between each combination of species and metabolite. Here, $\sigma_{ss'}$ and $\sigma_{mm'}$ are known measures of covariance between species $s$ and $s'$ and between metabolites $m$ and $m'$, respectively, and $\alpha$ and $\beta$ are positive scalars.
@@ -36,7 +36,7 @@ $$
 $$
 
 
-Product of cobv ?! and not the sum ? 
+Product of cov ?! and not the sum ? 
 ### Images
 Here are the first ideas of the discussion we had with Daniel and Pierre-Marie:
 
