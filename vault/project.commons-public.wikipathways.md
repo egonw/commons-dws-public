@@ -6,7 +6,7 @@ updated: 1646580820546
 created: 1646563156580
 ---
 
-Most likely THE place to start learning about Wikipathways https://new.wikipathways.org/academy/
+Most likely THE place to start learning about Wikipathways https://wikipathways.org/academy/
 
 Ran into the following issues
 
@@ -36,10 +36,10 @@ Needed to echo eval "$(jenv init -)" >> /Users/pma/.zshrc
 
 Documented here https://github.com/PathVisio/pathvisio/issues/155#issuecomment-1059946761
 
-Stopped here https://new.wikipathways.org/academy/stages/wp-publish/index.html
+Stopped here https://wikipathways.org/academy/stages/wp-publish/index.html
 Now waiting for an auth from Wikipathways to upload
 
-https://new.wikipathways.org/academy/path.html
+https://wikipathways.org/academy/path.html
 
 The last part (QA protocol) could give some inspiration regarding a curation interface for lotus data
 
