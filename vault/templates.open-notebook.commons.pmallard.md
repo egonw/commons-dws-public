@@ -2,11 +2,11 @@
 id: qyxwa1l9hfoi9d8pis7v98l
 title: Pmallard
 desc: ''
-updated: 1676015946164
+updated: 1676215832834
 created: 1676015914796
 ---
 
-# This is PMAS's COMMONS Lab daily open-notebook.
+# This is PMAS's COMMONS Lab daily Open Notebook.
 
 Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
 
