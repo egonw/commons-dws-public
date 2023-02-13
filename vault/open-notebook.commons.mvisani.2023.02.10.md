@@ -2,7 +2,7 @@
 id: xfayuqwz8zd1ulxd8gv90yo
 title: '2023-02-10'
 desc: ''
-updated: 1676210693128
+updated: 1676291118732
 created: 1676020825031
 traitIds:
   - open-notebook-mvisani
@@ -35,6 +35,8 @@ $$
 {\mathbb P}(p_{sm}|n_{sm}, \pi_{01}, \pi_{10}) = ...
 $$
 
+
+Product of cobv ?! and not the sum ? 
 ### Images
 Here are the first ideas of the discussion we had with Daniel and Pierre-Marie:
 
