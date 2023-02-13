@@ -2,7 +2,7 @@
 id: qzcz2txf8699jx340tvf33v
 title: '2023-02-13'
 desc: ''
-updated: 1676296920327
+updated: 1676298760121
 created: 1676280398443
 traitIds:
   - open-notebook-mvisani
@@ -17,10 +17,8 @@ Today is 2023.02.13
 * continue C++ courses 
 try to be as general as possible 
 
+[[vault/assets/model/Metabolites.pdf]]
 
-[[assets/images/Metabolites.pdf]]
-
-[[vault/assets/images/Metabolites.pdf]]
 ###
 ###
 
