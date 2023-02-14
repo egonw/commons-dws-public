@@ -16,7 +16,7 @@ Today is 2023.02.13
 * continue C++ courses 
 * figure out a way to add the LaTex mathematical model in Dendron in order for people to access it
 
-![[open-notebook.commons.mvisani.model]]
+![[A]]
 
 ###
 ###

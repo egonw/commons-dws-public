@@ -1,15 +1,17 @@
 ---
 id: z7qnncucq27a69shc7hge7p
-title: Model creation 
+title: Model
 desc: ''
-updated: 1676308043218
+updated: 1676386293125
 created: 1676306517796
 traitIds:
   - open-notebook-mvisani
 ---
----
-title: Inferring the presence of metabolites
----
+
+# ATTENTION
+Please look at the [following link](https://commons-research.github.io/common_dws_public_storage/anticipated_lotus/model/Metabolites.pdf) for the full model. Unfortunately the Markdown can't contains DAGs genrerated in Latex. 
+
+# Model 
 
 We seek to infer the presence or absence of $M$ metabolites in $S$
 species. We denote by $x_{sm}$ whether metabolite $m=1,\ldots,M$ is
