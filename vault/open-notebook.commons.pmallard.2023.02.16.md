@@ -2,7 +2,7 @@
 id: td03orht7dsxlg9rrde1tmv
 title: '2023-02-16'
 desc: ''
-updated: 1676562903489
+updated: 1676568390359
 created: 1676530545924
 traitIds:
   - open-notebook-commons-pmallard
@@ -104,6 +104,12 @@ Knowledge Space
 https://gist.github.com/tkuhn/a3842683b810f1e0dbc72a021083ea31
 
 Peta Pico https://github.com/peta-pico
+
+
+# This is my nanopub intro page
+https://np.petapico.org/RAo1CRf-4uDsGEhblzPIAYJrAiFGfJ20ST6hhIWsns0Go
+
+And my first nanopub ! I know J. Bisson http://purl.org/np/RAn2gGIzaJ21w72ZGbA92_p50iyomQ-Kb_a8etfmIKZyo
 
 
 
