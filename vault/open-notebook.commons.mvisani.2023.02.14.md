@@ -2,7 +2,7 @@
 id: a190edwty8eeyo3sfuqcq4n
 title: '2023-02-14'
 desc: ''
-updated: 1676392524048
+updated: 1676454294688
 created: 1676364390201
 traitIds:
   - open-notebook-mvisani
@@ -29,6 +29,9 @@ Today is 2023.02.14
 Discussion with Pierre-Marie about the structure of MS and what could be used to implement the model. 
 
 ![image](assets/images/2023-02-14-15-17-40.jpg)
+
+We shouldn't forget that our model will likely not be on a 3D molecular level but a 2D since mass spec is not able to make the difference between enantiomers. 
+ 
 ## Notes
 Sirius and ISDB = info to molecular level 
 CANOPUS info to NPC (NP classifier class)
