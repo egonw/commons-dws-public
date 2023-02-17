@@ -2,7 +2,7 @@
 id: 0rxtkzv5lbizy9q160n0oi1
 title: '2023-02-15'
 desc: ''
-updated: 1676454332197
+updated: 1676639443384
 created: 1676453726968
 traitIds:
   - open-notebook-mvisani
@@ -20,6 +20,11 @@ Today is 2023.02.15
 ## Paused
 
 ## Done
+* Finished learning polymorphisms in C++
+* Finished concept of `static` and "friend" in C++
+* Finished chapter about containers and iterators in C++
+* Finished chapter functors C++
+* 
 
 ## Notes
 
