@@ -2,7 +2,7 @@
 id: qyxwa1l9hfoi9d8pis7v98l
 title: Pmallard
 desc: ''
-updated: 1677219552066
+updated: 1677220268656
 created: 1676015914796
 ---
 
@@ -26,9 +26,6 @@ Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
 ## Notes
 
 ## Todo tomorrow, one day ... or never 
-
-### Upload the SI of James Levere paper to Wikidata
-https://www.mdpi.com/1660-3397/20/9/554
 
 
 ###

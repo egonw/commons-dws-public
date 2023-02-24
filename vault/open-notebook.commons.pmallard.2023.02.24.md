@@ -1,9 +1,9 @@
 ---
-id: e7fw4jital3ylh44ze98ho5
+id: j4e9zoyjabmni4clkq82wl8
 title: '2023-02-24'
 desc: ''
-updated: 1677219428053
-created: 1677219428053
+updated: 1677220281855
+created: 1677220271593
 traitIds:
   - open-notebook-commons-pmallard
 ---
@@ -14,8 +14,8 @@ Today is 2023.02.24
 
 ## Todo today
 
-### Have a look at the XXXX discussion forum
-    - https://github.com/orgs/XXXXX/discussions
+### Have a look at the COMMONS research discussion forum
+    - https://github.com/orgs/commons-research/discussions
 ###
 ###
 
@@ -27,9 +27,12 @@ Today is 2023.02.24
 
 ## Notes
 
-## Todo tomorrow
+## Todo tomorrow, one day ... or never 
 
-###
+### Upload the SI of James Lever paper to Wikidata
+https://www.mdpi.com/1660-3397/20/9/554
+
+
 ###
 ###
 
