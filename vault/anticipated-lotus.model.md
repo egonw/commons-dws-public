@@ -2,7 +2,7 @@
 id: z7qnncucq27a69shc7hge7p
 title: Model
 desc: ''
-updated: 1676997495006
+updated: 1677839926292
 created: 1676306517796
 traitIds:
   - open-notebook-mvisani
@@ -13,8 +13,77 @@ Please look at the [following link](https://commons-research.github.io/common_dw
 
 # Model 
 ---
-title: Inferring the presence of metabolites
+bibliography:
+- /Users/Marco/BibTex/BibTex.bib
+title: Inferring the presence of metabolites 
 ---
+
+# Model
+
+## TODO {#subsec:top of model}
+
+We seek to infer the presence or absence of $M$ metabolites in tissue
+$T$ in $S$ species. We denote by $x_{smt}$ whether metabolite
+$m=1,\ldots,M$ is present ($x_{smt}=1$) or absent ($x_{smt}=0$) in
+tissue $t = 1, \ldots T$ in species $s=1,\ldots,S$. We denote
+$\vec{x_{st}} = (x_{st1}, \ldots, x_{stM})$ the vector of molecules
+present in a tissue $t$ of a specific species $s$.
+
+Let us further denote
+$\vec{x_s} = (\vec{x_{s1}}, \ldots , \vec{x_{sT}}) = (x_{s11}, \ldots, x_{s1M}, x_{s21}, \ldots, x_{sTM})$
+the vector of presence/absence of all molecules across all tissues for
+species $s$.
+
+We assume that related species share a similar set of metabolites and
+that metabolites related in their synthesis share a similar distribution
+across species. Let $\mathbb{P}(x_{sm}=1|\mu_m, \epsilon_{sm})$ be the
+probability with which metabolite $m$ is present in species $s$. We then
+assume that
+
+$$\mathop{\mathrm{logit}}\mathbb{P}(x_{sm}=1|\mu_m, \epsilon_{sm}) = \mu_m + \epsilon_{sm}$$
+
+where $\mu_m$ is a metabolite-specific intercept and $\epsilon_{sm}$ is
+normally distributed with mean 0 and co-variance :
+$$\mathop{\mathrm{cov}}(\epsilon_{\vec{c}},\epsilon_{\vec{c'}})= \sum_{i=1}^{C} \sum_{d\ne i} \sum_{f=1}^{F} \alpha_{df} \sigma_{c_ic'_i}^{(f)}$$
+
+between each combination of properties in
+$\vec{c} = \{c_1, \ldots, c_C\}$. In our case and based on the
+definition at the top of
+[1.1](#subsec:top of model){reference-type="ref"
+reference="subsec:top of model"}, we would define
+$\vec{c} = \{s, m, t\}$ being a specific species, molecule and tissue
+respectively. $\sigma_{c_ic'_i}^{(f)}$ is defined as a known measure of
+covariance between property $c_i$ and $c_i'$ when looking at feature
+$f$. $f$ being a measure of \"phenotype\", or \"environment\" or any
+arbitrary feature one is interested in.
+
+TODO
+
+Furthermore, we have two origins of data, mass spectrometry data and the
+Lotus database. We denote $d_{sj}$ the $j^{ \text th}$ mass spectrometry
+run for species $s$ and $\vec{L_s}$ all molecules assigned to species
+$s$ present in the LOTUS database. Finally we define $R$, a function
+representing the research effort produced for either a species $s$ or a
+specific molecule $m$. We also define $\vec{\epsilon_j}$ a vector of
+error that is specific for each mass-spectrometry run.
+
+A DAG of the model can be seen in
+[\[fig:DAG_model\]](#fig:DAG_model){reference-type="ref"
+reference="fig:DAG_model"}.
+
+With $\vec{\mu} = (\mu_1, \ldots, \mu_M)$
+
+## LOTUS database
+
+Since LOTUS database [@rutzLOTUSInitiativeOpen2022] has no properties in
+$\vec{c}$ other than species and molecules, we denote
+$$P(\vec{L_S} | \vec{x_s}, \vec{R}) = P(\vec{L_s} | \vec{\xi_s}, \vec{R}),$$
+with $\vec{\xi_s} = (\xi_{s1}, \ldots, \xi_{sM} )$ the vector of
+presence/absence of all molecules $M$ in species $s$. Furthermore,
+$\xi_{sm} = min(1, \sum_{t}^{T} x_{smt})$ the minimum between $1$ and
+the sum of presence or absence of a molecule across all tissues.
+
+## MS data
 
 # Idea and concept
 
@@ -65,81 +134,54 @@ $$\mathop{\mathrm{cov}}(\epsilon_{smt}, \epsilon_{s'm't'}) = \alpha \sigma_{ss'}
 With $P$ the phenotype between two species, $E$ an environment factor
 between two species and $M$ the TODO
 
-# DAG scratch
+# Formulation
 
-## Test 1
+We seek to infer the presence or absence of $M$ metabolites in tissue
+$T$ in $S$ species. We denote by $x_{smt}$ whether metabolite
+$m=1,\ldots,M$ is present ($x_{smt}=1$) or absent ($x_{smt}=0$) in
+tissue $t = 1, \ldots T$ in species $s=1,\ldots,S$. We denote
+$\vec{x_{st}} = (x_{st1}, \ldots, x_{stM})$ the vector of molecules
+present in a tissue $T$ of a specific species $S$.
 
-We assume that the probability of having a molecule in a species is the
-average presence of that molecule across all species $\mu_m$ plus a
-normally distributed error that depends on certain parameters
-$\alpha, \beta, \ldots$.
+Let us further denote
+$\vec{x_s} = (\vec{x_{s1}}, \ldots , \vec{x_{sT}}) = (x_{s11}, \ldots, x_{s1M}, x_{s21}, \ldots, x_{sTM})$
+the vector of presence/absence of all molecules across all tissues for
+species $s$.
 
-From there, the LOTUS database and any result of MS depends on the set
-of molecules present in a species $\overrightarrow{\boldmath{x_s}}$.
-However we still have to take into account the fact that there can be an
-error of analysis on the MS $\epsilon_{m/z}$ that where
-$\epsilon_{m/z} = f(\epsilon_{01}, \epsilon_{10})$.
+We have two origins of data, mass spectrometry data and the Lotus
+database. We denote $d_{sj}$ the $j^{ \text th}$ mass spectrometry run
+for species $s$ and $\vec{L_s}$ all molecules assigned to species $s$
+present in the LOTUS database. Finally we define $R$, a function
+representing the research effort produced for either a species $s$ or a
+specific molecule $m$. We also define $\vec{\epsilon_j}$ a vector of
+error that is specific for each mass-spectrometry run.
 
-Could we assume that as $j \rightarrow \infty$, then
-$d_{sj} \rightarrow \overrightarrow{\boldmath{x_s}}$ ? TODO
+A DAG of the model can be seen in
+[\[fig:DAG_model\]](#fig:DAG_model){reference-type="ref"
+reference="fig:DAG_model"}. $\vec{\mu}$ being the vector of the average
+presence/absence of each molecule across all species and $\vec{\alpha}$
+represents the vector of all known measures of covariates between
+species and molecules.
 
-According to Pierre-Marie LOTUS database is highly dependent on the
-research effort accorded to the specific molecule. He also said that
-error rate in the majority of LOTUS database is very low since most data
-is an actual isolation of the specific compound. Error rate of LOTUS
-database should then have little effect on the model.\
+Since the tissue specific origin of a molecule is not known in the LOTUS
+database [@rutzLOTUSInitiativeOpen2022], we denote
+$$P(\vec{L_S} | \vec{x_s}, R) = P(\vec{L_s} | \vec{\xi_s}, \vec{R}),$$
+with $\vec{\xi_s} = (\xi_{s1}, \ldots, \xi_{sM} )$ the vector of
+presence/absence of all molecules $M$ in species $s$. Furthermore,
+$\xi_{sm} = min(1, \sum_{t}^{T} x_{smt})$ the minimum between $1$ and
+the sum of presence or absence of a molecule across all tissues.
 
-## Test 2
+We can also denote
+$\vec{R} = (R_{11}, \ldots, R_{1M}, R_{21}, \ldots, R_{SM})$ the vector
+of *research effort* of all molecules across all species.
 
-### MS data
-
-With $\mu_m$ the average presence of a molecule across all species.
-$\alpha, \beta, \ldots$ the environmental variables (the error that is
-normally distributed across the mean). $x_s$ the molecule $x$ in species
-$s$. $T$ the tissue of species $s$. $d_j$ the mass spec data. The
-previous DAG can then be derived as the following.
-$$P(\boldsymbol{d}| \mu_m, \alpha, \beta, \ldots) = \prod_{s=1}^{s}P(x_s|\mu_m, \alpha, \beta. \ldots) \prod_{t=1}^{t}\prod_{j=1}^{j}P(d_j | T_t, \epsilon_j)P(T_t | x_s)$$
-
-This is for one molecule. If we want to have for all the molecules we
-would have :
-
-$$P(\boldsymbol{d}| \boldsymbol{\mu}, \alpha, \beta, \ldots) = \prod_{m=1}^{m}\prod_{s=1}^{s}P(x_s|\mu_m, \alpha, \beta. \ldots) \prod_{t=1}^{t}\prod_{j=1}^{j}P(d_j | T_t, \epsilon_j)P(T_t | x_s)$$
-
-Where do we go from here ? We search the probability of a molecule in a
-species give the data. We thus have $P(x|d) = \frac{P(x, d)}{P(d)}$.
-
-Where do we use Lotus DB ? Should it be our prior probability $P(x|d)$ ?
-
-### Error rate of MS
-
-We could have either a false positive meaning that the MS detects
-something that is not truly present in the species $0\rightarrow 1$ or a
-false negative meaning that a molecule is present in the sample but is
-not present in the data $1 \rightarrow 0$.
-
-Could this be viewed as a birth and death process ? If yes, this could
-be modelled with Kolmogorov forward- master equation:
-$$\frac{dP_{ij}(t)}{dt} = \lambda_{j-1}P_{ij-1}(t) + \mu_{j+1}P_{ij+1}(t) - (\lambda_j + \mu_j)P_{ij}(t)$$
-
--   With a Poisson process for birth ($0\rightarrow 1$) TODO \...
-
--   HMM process ?
-
-### Error on Lotus DB
-
-Since the Lotus DB supposedly contains little to \"no\" errors, maybe we
-should also model as a Poisson process since error might occur but on
-rare occasions.
-
-The fact that Lotus doesn't contain many error is that each molecule
-present in the database, was isolated and analysed with either NMR or
-X-ray crystallography. Moreover, the latter techniques need to have a
-high amount of chemical extract so the probability that a compound is
-not present in the organism is close to 0 if not 0. However, not all
-entries in the database are made with these techniques so that is why we
-still need to account for that error in the model.
-
-# Ideas scratch
+The probability of having a molecule present in the LOTUS database not
+only depends on the presence/absence of that molecule in a species but
+also on the research effort done for a specific molecule or species. We
+thus have $R_{sm} = f(n_s, n_m)$ with $R_{sm} \in [0,1]$ and where $n_s$
+and $n_m$ are the number of scientific papers that relate respectively
+the species or the molecules of interest. We thus have the following
+matrix :\
 
 ::: blockarray
 cccc & $L_{sm} = NA$ & $L_{sm} = 1$\
@@ -150,31 +192,25 @@ $x_{sm}=1$ & $1-R_{sm}$ & $R_{sm}$\
 :::
 :::
 
-With $x_{sm}$ a molecule truly present or not present in a specific
-species. $L_{sm}$ the presence or absence of a molecule in a species
-that is present or not in the Lotus database. Finally, $R_{sm}$ the
-research effort made for that specific molecule. $R_{sm}$ being a
-function of the number of papers made on a specific molecule or species
-: $f(n_s, n_m)$.
+Tissue of origin is usually known in mass spectrometry analysis. From
+[\[fig:DAG_model\]](#fig:DAG_model){reference-type="ref"
+reference="fig:DAG_model"}, we have
+$P(d_{sj} | \vec{x_s}, \vec{\epsilon_j}) = P(d_{sj} | \vec{x_{st(d_{sj})}}, \vec{\epsilon_j})$
+where $t(d_{sj})$ reflects the tissue from which mass spectrometry run
+$j$ in species $s$ was sampled.
 
-# Formulation
+We thus have:
 
-We seek to infer the presence or absence of $M$ metabolites in tissue
-$T$ in $S$ species. We denote by $x_{smt}$ whether metabolite
-$m=1,\ldots,M$ is present ($x_{smt}=1$) or absent ($x_{smt}=0$) in
-tissue $t = 1, \ldots T$ species $s=1,\ldots,S$. We denote
-$\overrightarrow{x_{st}} = (x_{st1}, \ldots, x_{stM})$ the vector of
-molecules present in a tissue $T$ of a specific species $S$.
+$$P(\boldsymbol{d}, \boldsymbol{x}, \boldsymbol \mu, \boldsymbol \alpha )  = P(\boldsymbol{\mu})P(\boldsymbol{\alpha}) \prod_{s=1}^{S} P(\vec{x_s} | \boldsymbol{\mu}, \boldsymbol{\alpha}) \prod_{j=1}^{J} P(d_{sj} | \vec{x_{st(d_{sj})}}, \vec{\epsilon_j})$$
 
-Let us further denote
-$\overrightarrow{x_s} = (\overrightarrow{x_{s1}}, \ldots , \overrightarrow{x_{sT}}) = (x_{s11}, \ldots, x_{s1M}, x_{s21}, \ldots, x_{sTM})$
-the vector of presence/absence of all molecules across all tissues for
-species $s$.
+Similarly, for LOTUS database we have :
 
-We have two origins of data, mass spectrometry data and Lotus database.
-We denote $d_{sj}$ the $j^{ \text th}$ mass spectrometry run for species
-$s$. We further denote $\overrightarrow{L_s}$ all molecules assigned to
-species $s$ in the LOTUS database. Finally we define $R$, a function
-representing the research effort produced for either a species $s$ or a
-specific molecule $m$. We also define $\overrightarrow{\epsilon_j}$ a
-vector of error that is specific for a mass-spectrometry run.
+$$P(\L, \boldsymbol{x}, \boldsymbol \mu, \boldsymbol \alpha ) = P(\boldsymbol{\mu})P(\boldsymbol{\alpha}) P({\bf R}) \prod_{s=1}^{S} P(\vec{x_s} | \boldsymbol{\mu}, \boldsymbol{\alpha}) P(L_s | \vec{x_s}, {\bf R})$$
+
+## Decreasing complexity
+
+If one is interested in the presence/absence of a molecule not in the
+species but on the Genus/Order level, one can easily remodel the
+previous model such as
+$\vec{x_g} = (\vec{x_{g1}}, \ldots, \vec{x_{gM}})$ and where
+$\vec{x_{gm}} = min(1, \sum_{s \in g} \sum_{t}^{T} x_{smt})$.
