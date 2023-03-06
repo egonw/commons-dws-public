@@ -2,7 +2,7 @@
 id: yz6hq4xfzletlwqfvzsnqkl
 title: '2023-03-05'
 desc: ''
-updated: 1678011321595
+updated: 1678029413126
 created: 1678011259920
 traitIds:
   - open-notebook-commons-pmallard
@@ -30,6 +30,11 @@ Today is 2023.03.05
 There is a whole website to learn wb https://learningwikibase.com/
 Created a first Wb instance at https://dbgi-sandbox.wikibase.cloud/wiki/Main_Page
 
+
+
+De Candolle's archives
+
+https://www.biodiversitylibrary.org/item/196369#page/12/mode/1up
 
 
 ## Todo tomorrow, one day ... or never 
