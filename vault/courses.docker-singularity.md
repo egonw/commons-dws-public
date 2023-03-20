@@ -2,10 +2,10 @@
 id: Ykcls825joDD8WIqXdtCg
 title: Docker Singularity
 desc: ''
-updated: 1634198316808
+updated: 1678183849488
 created: 1634195008546
 ---
-
+ 
 Thursday 14 October 2021
 
 Zoom meetings:
