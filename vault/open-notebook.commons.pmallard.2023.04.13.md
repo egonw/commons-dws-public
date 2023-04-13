@@ -2,7 +2,7 @@
 id: wsndq74fuck4q6ivovplr64
 title: '2023-04-13'
 desc: ''
-updated: 1681393560285
+updated: 1681404476056
 created: 1681370401149
 traitIds:
   - open-notebook-commons-pmallard
@@ -25,7 +25,18 @@ Today is 2023.04.13
 
 Annotation with https://github.com/mandelbrot-project/met_annot_enhancer
 
+https://github.com/digital-botanical-gardens-initiative/emi_anacardiaceae/tree/main
 
+Working on the emi_batch_00001 (Anacardiaceae) we found two interesting clusters in Pseudospondias extracts
+
+![](/assets/images/2023-04-13-18-34-37.png)
+
+https://pubchem.ncbi.nlm.nih.gov/compound/21581584
+Ohchinolide B derivatives possibly.
+
+[Melia azedarach](https://en.wikipedia.org/wiki/Melia_azedarach "Melia azedarach, commonly known as the chinaberry tree, pride of India, bead-tree, Cape lilac, syringa berrytree, Persian lilac,  Indian lilac, or white cedar, is a species of deciduous tree in the mahogany family, Meliaceae, that is native to Indomalaya and Australasia.")
+
+https://academic.oup.com/femsle/article/120/3/267/520869
 
 
 ## Paused
@@ -84,7 +95,8 @@ Why exactly ?
 
 ### Perspectives and collab in UniFr
 
-- Clematis
+- [Clematis](https://en.wikipedia.org/wiki/Clematis "Clematis is a genus of about 380 species within the buttercup family, Ranunculaceae. Their garden hybrids and cultivars have been popular among gardeners, beginning with Clematis 'Jackmanii', a garden standby since 1862; more cultivars are being produced constantly. They are mainly of Chinese and Japanese origin. Most species are known as clematis in English, while some are also known as traveller's joy, a name invented for the sole British native, C. vitalba, by the herbalist John Gerard; virgin's bower for C. terniflora, C. virginiana, and C. viticella; old man's beard, applied to several with prominent seedheads; leather flower for those with fleshy petals; or vase vine for the North American Clematis viorna.")
+
 - Lonicera
 - Euonymus
 
