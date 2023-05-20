@@ -2,7 +2,7 @@
 id: m1phfg08i2iz6upzsh0aglm
 title: '2023-05-17'
 desc: ''
-updated: 1684338793598
+updated: 1684588873903
 created: 1684330551268
 traitIds:
   - open-notebook-mvisani
@@ -19,7 +19,9 @@ If we have a tree structure we can do either do "loopy belief propagation" which
 Now the problem for our model is that we have to combine two trees. The one from species and the one from molecules. We could think of each node as a combination of each molecule with each species. 
 ## Todo today
 * look definition of loopy back propagation. 
-
+* Check out [this blog](https://medium.com/@philipyunsoocho/image-denoising-by-gibbs-sampling-67d1ad3d7344). For more explanations. I think this new approach could really work for our case. 
+* [Here](https://towardsdatascience.com/image-denoising-with-gibbs-sampling-mcmc-concepts-and-code-implementation-11d42a90e153) is an implementation on an image. Could this be applied to our model ?
+* 
 ## Doing
 
 
