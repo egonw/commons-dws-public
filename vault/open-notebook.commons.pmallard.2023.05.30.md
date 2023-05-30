@@ -2,7 +2,7 @@
 id: fj70x7r26tmlekfouvpc73t
 title: '2023-05-30'
 desc: ''
-updated: 1685452320020
+updated: 1685452471451
 created: 1685450346784
 traitIds:
   - open-notebook-commons-pmallard
@@ -57,6 +57,7 @@ Handling missing values in trait data
 
 mbImpute: an accurate and robust imputation method for microbiome data
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02400-4
+https://github.com/ruochenj/mbImpute
 
 
 ## ChatGPT exchanges leading to the previous selected papers
