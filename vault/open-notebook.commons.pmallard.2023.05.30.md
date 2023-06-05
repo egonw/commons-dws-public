@@ -2,7 +2,7 @@
 id: fj70x7r26tmlekfouvpc73t
 title: '2023-05-30'
 desc: ''
-updated: 1685452471451
+updated: 1685538307575
 created: 1685450346784
 traitIds:
   - open-notebook-commons-pmallard
@@ -24,6 +24,7 @@ Today is 2023.05.30
 Activity report and was browsing Marco's note.
 Went for some papers on image reconstructiuon from partial inputs 
 
+
 Image reconstruction from partial subband images and its application in packet video transmission
 https://doi.org/10.1016/0923-5965(91)90010-Y
 
@@ -32,7 +33,6 @@ https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-06892-5
 Phylogenetic imputation of plant functional trait databases
 https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-0587.2013.00528.x
 Check citing articles https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-0587.2013.00528.x
-
 
 
 https://digitalcommons.aaru.edu.jo/cgi/viewcontent.cgi?article=1019&context=fej
