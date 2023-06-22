@@ -2,7 +2,7 @@
 id: r3rc6aeclin5kl4mw7002fr
 title: '2023-06-22'
 desc: ''
-updated: 1687412122669
+updated: 1687412679874
 created: 1687411812677
 traitIds:
   - open-notebook-commons-pmallard
@@ -35,6 +35,14 @@ Got inspired by this article in Science (find ref)
 ### Plan
 
 Today I'll set up the template for note taking for this project and will answer the email of the editor.
+Actually I might not need to create yet another daily template. And will keep notes in this one.
+
+Drafting notes there [[viewpoint]].
+
+Email sent.
+
+2023-06-22 07:44
+
 
 
 
