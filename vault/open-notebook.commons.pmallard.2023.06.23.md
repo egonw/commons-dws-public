@@ -1,14 +1,16 @@
 ---
-id: qyxwa1l9hfoi9d8pis7v98l
-title: Pmallard
+id: mqt1gcx2yuvpaoq5r99guwz
+title: '2023-06-23'
 desc: ''
-updated: 1687525823100
-created: 1676015914796
+updated: 1687526897777
+created: 1687525855272
+traitIds:
+  - open-notebook-commons-pmallard
 ---
 
 # This is PMAS's COMMONS Lab daily Open Notebook.
 
-Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
+Today is 2023.06.23
 
 ## Todo today
 
@@ -18,6 +20,12 @@ Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
 ### Daily work on the Open Science for natural products research Viewpoint
 
 See [[viewpoint]]
+
+Started at 2023-06-23 15:11
+Finished at 2023-06-23 15:28
+
+
+
 
 
 ###
