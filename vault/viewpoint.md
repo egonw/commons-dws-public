@@ -2,15 +2,21 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1687526404080
+updated: 1687626568224
 created: 1687412250706
 ---
 
 
 # Todo
 
-- [ ] answer back editor regarding delay for the viewpoint synopsis
-- [ ] get in touch with UniFr library regarding possibility to take in charge the Open Access publishing fees
+- [x] answer back editor regarding delay for the viewpoint synopsis
+Draft at [[viewpoint.communication.emails.npr-editor]]
+Indicated end of July for the submission of the synopsis
+Sent 2023-06-24 19:09
+- [x] get in touch with UniFr library regarding possibility to take in charge the Open Access publishing fees
+Draft at [[viewpoint.communication.emails.thomas-henkel]]
+Sent 2023-06-24 19:02
+
 - [ ] Draft a Synopsis
 
 
