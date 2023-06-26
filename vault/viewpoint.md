@@ -2,9 +2,16 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1687626568224
+updated: 1687810750361
 created: 1687412250706
 ---
+
+# Log
+
+## 2023.06.26
+2023-06-26 22:00
+2023-06-26 22:18
+
 
 
 # Todo
@@ -16,6 +23,9 @@ Sent 2023-06-24 19:09
 - [x] get in touch with UniFr library regarding possibility to take in charge the Open Access publishing fees
 Draft at [[viewpoint.communication.emails.thomas-henkel]]
 Sent 2023-06-24 19:02
+
+- [ ] Mail to possible coauthors
+Draft at [[viewpoint.communication.emails.coauthors]].  To discuss with Adriano before sending.
 
 - [ ] Draft a Synopsis
 
