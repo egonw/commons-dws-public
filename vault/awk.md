@@ -2,11 +2,14 @@
 id: 6ooxuf27zzf3grb14o18qf2
 title: Awk
 desc: ''
-updated: 1687874724625
+updated: 1687874851232
 created: 1687874706004
 ---
 
 # Sirius outputs formatting
+
+These commands require to have [awk](https://en.wikipedia.org/wiki/AWK#:~:text=AWK%20(awk)%20is%20a%20domain,data%20extraction%20and%20reporting%20tool.) and [csvcut](https://csvkit.readthedocs.io/en/latest/scripts/csvcut.html) installed on your system.
+
 
 The code processes a file named canopus_compound_summary.tsv. It searches for a field called "id" in the file's header. If found, it splits the values in that field by underscores and adds a new column called "feature_id". It then modifies the header by appending "_canopus" to each field name and prints the modified header. After that, it extracts specific columns and saves the extracted data. Finally, the extracted data is formatted as tab-delimited and saved in a file called canopus_compound_summary_id.tsv.
 
