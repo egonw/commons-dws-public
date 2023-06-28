@@ -2,7 +2,7 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1687883646387
+updated: 1687959366866
 created: 1687412250706
 ---
 
@@ -17,12 +17,17 @@ created: 1687412250706
 2023-06-27 18:34
 
 
+# Wednesday 28 June 2023
+2023-06-28 15:20
+2023-06-28 15:35
+
 
 # Todo
 
 
 - [ ] Mail to possible coauthors
-Draft at [[viewpoint.communication.emails.coauthors]].  To discuss with Adriano before sending.
+Draft at [[viewpoint.communication.emails.coauthors]].  
+~~To discuss with Adriano before sending.~~
 
 - [ ] Draft a Synopsis
 
