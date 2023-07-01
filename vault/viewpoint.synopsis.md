@@ -2,10 +2,13 @@
 id: p9727vxwvxk3fy5z6v58qxt
 title: Synopsis
 desc: ''
-updated: 1687526875778
+updated: 1688227591608
 created: 1687526093874
 ---
 
+# Framapad
+
+at https://mypads2.framapad.org/p/synopsis-bo39rh90k
 
 # Guidelines for submitting a synopsis to Natural Product Reports
 

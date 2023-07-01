@@ -2,7 +2,7 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1687959590797
+updated: 1688227725359
 created: 1687412250706
 ---
 
@@ -21,12 +21,19 @@ created: 1687412250706
 2023-06-28 15:20
 2023-06-28 15:35
 
+# Saturday 01 July 2023
+2023-07-01 17:51
+2023-07-01 18:08
+
+
+
 
 # Todo
 
-
-
+- [ ] Mail for additional 
+[[viewpoint.communication.emails.coauthors.md]]
 - [ ] Draft a Synopsis
+[[viewpoint.synopsis]]
 
 # Done
 
