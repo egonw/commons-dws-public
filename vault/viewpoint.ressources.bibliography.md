@@ -2,7 +2,7 @@
 id: hqib2p9ccn6si8ddghbx37f
 title: Bibliography
 desc: ''
-updated: 1687883637888
+updated: 1688025094672
 created: 1687882926771
 ---
 
@@ -44,3 +44,6 @@ https://www.nature.com/articles/nbt.3597
 
 Management Research as a Design Science: Articulating the Research Products of Mode 2 Knowledge Production in Management
 https://doi.org/10.1111/j.1467-8551.2005.00437.x
+
+Journal Open Access and Plan S: Solving Problems or Shifting Burdens?
+https://onlinelibrary.wiley.com/doi/full/10.1111/dech.12635
