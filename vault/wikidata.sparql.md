@@ -2,7 +2,7 @@
 id: qcUnyE9eaS2PVPPngKeB1
 title: Sparql
 desc: ''
-updated: 1670338825079
+updated: 1688283707678
 created: 1611593110381
 ---
 
@@ -889,4 +889,50 @@ https://w.wiki/5rxD
 # Researcher in the field of X working in an organisation located in country Z filter by sex Y
 
 https://w.wiki/65F4
+
+
+
+# Organisms containing 7-methyl-2,3,5,7a-tetrahydro-1H-pyrrolizin-1-ol
+
+SMILES CC1=CCN2CCC(O)C12
+
+## Aggregate producing organisms at the superior taxa level, count and order descending
+https://w.wiki/6w6J
+## Return all referenced pairs metadata
+https://w.wiki/6w7R
+## Count individual compounds
+https://w.wiki/6w7S = 369
+
+# Organisms containing 7-methyl-2,3,5,7a-tetrahydro-1H-pyrrolizine-1,1-diol
+
+SMILES CC1=CCN2CCC(O)(O)C12
+
+## Aggregate producing organisms at the superior taxa level, count and order descending
+https://w.wiki/6w6R
+## Return all referenced pairs metadata
+https://w.wiki/6w7L
+## Count individual compounds
+https://w.wiki/6w7N = 0
+
+# Organisms containing 7-methyl-2,3,5,7a-tetrahydro-1H-pyrrolizine-1,3-diol
+
+SMILES CC1=CCN2C(O)CC(O)C12
+
+## Aggregate producing organisms at the superior taxa level, count and order descending
+https://w.wiki/6w6T
+## Return all referenced pairs metadata
+https://w.wiki/6w7G
+## Count individual compounds
+https://w.wiki/6w7H = 0
+
+# Organisms containing 1-hydroxy-7-methyl-1,2,3,4,5,7a-hexahydropyrrolizin-4-ium-4-olate
+
+SMILES CC1=CC[N+]2([O-])CCC(O)C12
+
+## Aggregate producing organisms at the superior taxa level, count and order descending
+https://w.wiki/6w6a
+## Return all referenced pairs metadata
+https://w.wiki/6w73
+## Count individual compounds
+https://w.wiki/6w77 = 45
 
