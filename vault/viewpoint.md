@@ -2,7 +2,7 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1688451095256
+updated: 1688542953703
 created: 1687412250706
 ---
 
@@ -29,17 +29,24 @@ created: 1687412250706
 2023-07-04 08:11
 
 
+# Wednesday 05 July 2023
+2023-07-05 09:23
+2023-07-05 09:42
+
+
+
 
 
 # Todo
-
-- [ ] Mail for additional 
-[[viewpoint.communication.emails.coauthors.md]]
 - [ ] Draft a Synopsis
 [[viewpoint.synopsis]]
+- [ ] Set a common place for the ressources exchanges in the email conversations sofar
 
 # Done
 
+
+- [x] Mail for additional 
+[[viewpoint.communication.emails.coauthors.md]]
 - [x] Mail to possible coauthors
 Draft at [[viewpoint.communication.emails.coauthors]].  
 ~~To discuss with Adriano before sending.~~
@@ -98,9 +105,13 @@ His answer
 Possible coauthors
 
 - Adriano Rutz (contacted)
-- Egon Willighagen
-- Peter Murray Rust
-- Jean-Marc Nuzillard
-- Jonathan Bisson
+- Egon Willighagen (contacted)
+- Peter Murray Rust (contacted)
+- Jean-Marc Nuzillard (contacted)
+- Jonathan Bisson (contacted)
+- Emma Schymanski (contacted)
+- Tobias Kühn (contacted)
+- Ana Claudia Sima (contacted)
+
 
 [[viewpoint.authors]]
