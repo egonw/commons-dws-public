@@ -2,7 +2,7 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1688542953703
+updated: 1688797046994
 created: 1687412250706
 ---
 
@@ -33,6 +33,8 @@ created: 1687412250706
 2023-07-05 09:23
 2023-07-05 09:42
 
+# Saturday 08 July 2023
+2023-07-08 08:16
 
 
 
@@ -40,7 +42,11 @@ created: 1687412250706
 # Todo
 - [ ] Draft a Synopsis
 [[viewpoint.synopsis]]
+
+# Doing 
+
 - [ ] Set a common place for the ressources exchanges in the email conversations sofar
+[[viewpoint.communication.emails]]
 
 # Done
 
