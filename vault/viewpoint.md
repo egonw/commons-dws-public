@@ -2,7 +2,7 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1688797046994
+updated: 1688828136239
 created: 1687412250706
 ---
 
@@ -40,17 +40,27 @@ created: 1687412250706
 
 
 # Todo
-- [ ] Draft a Synopsis
-[[viewpoint.synopsis]]
 
 # Doing 
 
 - [ ] Set a common place for the ressources exchanges in the email conversations sofar
-[[viewpoint.communication.emails]]
+[[viewpoint.communication.emails]] 
+
+Email conversations archived at https://mypads2.framapad.org/p/email-conversations-n92xnz9pv
+Ideas and ressources at https://mypads2.framapad.org/p/ideas-and-ressources-osnpr-viewpoint-5p30rz9fm
+Synopsis at https://mypads2.framapad.org/p/synopsis-bo39rh90k
+
+
+
+
+
+
 
 # Done
 
 
+- [x] Draft a Synopsis
+[[viewpoint.synopsis]]
 - [x] Mail for additional 
 [[viewpoint.communication.emails.coauthors.md]]
 - [x] Mail to possible coauthors
