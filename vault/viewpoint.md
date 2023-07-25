@@ -2,7 +2,7 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1688828136239
+updated: 1690268908338
 created: 1687412250706
 ---
 
@@ -36,6 +36,10 @@ created: 1687412250706
 # Saturday 08 July 2023
 2023-07-08 08:16
 
+# Tuesday 25 July 2023
+2023-07-25 09:07
+
+
 
 
 
@@ -43,14 +47,8 @@ created: 1687412250706
 
 # Doing 
 
-- [ ] Set a common place for the ressources exchanges in the email conversations sofar
-[[viewpoint.communication.emails]] 
-
-Email conversations archived at https://mypads2.framapad.org/p/email-conversations-n92xnz9pv
-Ideas and ressources at https://mypads2.framapad.org/p/ideas-and-ressources-osnpr-viewpoint-5p30rz9fm
-Synopsis at https://mypads2.framapad.org/p/synopsis-bo39rh90k
-
-
+- [ ] Mail and meeting pre synopsis sending 
+[[dendron://commons-dws-private-22ZymH6cx0ls7Lc71khYE/viewpoint.communication.emails]]
 
 
 
@@ -58,6 +56,12 @@ Synopsis at https://mypads2.framapad.org/p/synopsis-bo39rh90k
 
 # Done
 
+- [x] Set a common place for the ressources exchanges in the email conversations sofar
+
+
+Email conversations archived at https://mypads2.framapad.org/p/email-conversations-n92xnz9pv
+Ideas and ressources at https://mypads2.framapad.org/p/ideas-and-ressources-osnpr-viewpoint-5p30rz9fm
+Synopsis at https://mypads2.framapad.org/p/synopsis-bo39rh90k
 
 - [x] Draft a Synopsis
 [[viewpoint.synopsis]]
