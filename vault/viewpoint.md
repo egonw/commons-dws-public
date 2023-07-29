@@ -2,7 +2,7 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1690623019063
+updated: 1690625861293
 created: 1687412250706
 ---
 
@@ -44,6 +44,7 @@ created: 1687412250706
 
 # Saturday 29 July 2023
 2023-07-29 11:29
+2023-07-29 12:17
 
 
 
@@ -54,10 +55,10 @@ created: 1687412250706
 
 # Doing 
 
-- [ ] Invite Donat 
-- [ ] Send synopsis final version to NPR
-
 # Done
+
+- [x] Invite Donat 
+- [x] Send synopsis final version to NPR
 
 - [x] Meeting pre-Synopsis
 
