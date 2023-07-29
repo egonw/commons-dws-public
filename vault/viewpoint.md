@@ -2,7 +2,7 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1690268908338
+updated: 1690623019063
 created: 1687412250706
 ---
 
@@ -39,6 +39,13 @@ created: 1687412250706
 # Tuesday 25 July 2023
 2023-07-25 09:07
 
+# Friday 28 July 2023
+2023-07-28 07:54
+
+# Saturday 29 July 2023
+2023-07-29 11:29
+
+
 
 
 
@@ -47,14 +54,20 @@ created: 1687412250706
 
 # Doing 
 
-- [ ] Mail and meeting pre synopsis sending 
-[[dendron://commons-dws-private-22ZymH6cx0ls7Lc71khYE/viewpoint.communication.emails]]
-
-
-
-
+- [ ] Invite Donat 
+- [ ] Send synopsis final version to NPR
 
 # Done
+
+- [x] Meeting pre-Synopsis
+
+Working at [[viewpoint.synopsis]]
+Meeting at https://meet.jit.si/OSNPR_viewpoint from 8:00 till 10:00 am this Friday 28th.
+
+
+- [x] Mail and meeting pre synopsis sending 
+[[dendron://commons-dws-private-22ZymH6cx0ls7Lc71khYE/viewpoint.communication.emails]]
+
 
 - [x] Set a common place for the ressources exchanges in the email conversations sofar
 
