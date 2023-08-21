@@ -2,7 +2,7 @@
 id: qcUnyE9eaS2PVPPngKeB1
 title: Sparql
 desc: ''
-updated: 1688979597572
+updated: 1692461472874
 created: 1611593110381
 ---
 
@@ -936,3 +936,99 @@ https://w.wiki/6w73
 ## Count individual compounds
 https://w.wiki/6w77 = 45
 
+
+
+
+### containing taxa + ref for a given IK
+
+SELECT  ?compound ?InChIKey ?taxon ?taxonLabel ?reference ?referenceLabel WITH {
+  SELECT ?queryKey ?srsearch ?filter WHERE {
+    VALUES ?queryKey {
+      "KWIUHFFTVRNATP"
+    }
+    BIND (CONCAT(substr($queryKey,1,14), " haswbstatement:P235") AS ?srsearch)
+    BIND (CONCAT("^", substr($queryKey,1,14)) AS ?filter)
+  }
+} AS %comps WITH {
+  SELECT ?compound ?InChIKey WHERE {
+    INCLUDE %comps
+            SERVICE wikibase:mwapi {
+              bd:serviceParam wikibase:endpoint "www.wikidata.org";
+                              wikibase:api "Search";
+                              mwapi:srsearch ?srsearch;
+                              mwapi:srlimit "max".
+              ?compound wikibase:apiOutputItem mwapi:title.
+            }
+    ?compound wdt:P235 ?InChIKey .
+    FILTER (REGEX(STR(?InChIKey), ?filter))
+  }
+} AS %compounds
+WHERE {
+  INCLUDE %compounds
+            {
+    ?compound p:P703 ?stmt.
+    ?stmt ps:P703 ?taxon.
+  }
+  OPTIONAL {
+    ?stmt prov:wasDerivedFrom ?ref.
+    ?ref pr:P248 ?reference.
+  }         
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+LIMIT 10000
+
+
+
+SELECT  ?compound ?InChIKey ?taxon ?taxonLabel ?reference ?referenceLabel WITH {
+  SELECT ?queryKey ?srsearch ?filter WHERE {
+    VALUES ?queryKey {
+      "KWIUHFFTVRNATP"
+    }
+    BIND (CONCAT(substr($queryKey,1,14), " haswbstatement:P235") AS ?srsearch)
+    BIND (CONCAT("^", substr($queryKey,1,14)) AS ?filter)
+  }
+} AS %comps WITH {
+  SELECT ?compound ?InChIKey WHERE {
+    INCLUDE %comps
+            SERVICE wikibase:mwapi {
+              bd:serviceParam wikibase:endpoint "www.wikidata.org";
+                              wikibase:api "Search";
+                              mwapi:srsearch ?srsearch;
+                              mwapi:srlimit "max".
+              ?compound wikibase:apiOutputItem mwapi:title.
+            }
+    ?compound wdt:P235 ?InChIKey .
+    FILTER (REGEX(STR(?InChIKey), ?filter))
+  }
+} AS %compounds
+WHERE {
+  INCLUDE %compounds
+   VALUES ?taxon {
+      wd:Q1303946
+    }
+  {
+    ?compound p:P703 ?stmt.
+    ?stmt ps:P703 ?taxon.
+  }
+  OPTIONAL {
+    ?stmt prov:wasDerivedFrom ?ref.
+    ?ref pr:P248 ?reference.
+    #?reference wdt:P921 ?main_subject.
+    #?main_subject ps:P921 ?taxon_ref.
+  } 
+  #FILTER ( ?taxon = ?match)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+LIMIT 10000
+
+https://query.wikidata.org/#SELECT%20%3Ftaxon_name%20%3Fcompound%20%3FInChIKey%20WITH%20%7B%0A%20%20SELECT%20%3FqueryKey%20%3Fsrsearch%20%3Ffilter%20WHERE%20%7B%0A%20%20%20%20VALUES%20%3FqueryKey%20%7B%0A%20%20%20%20%20%20%22KZJWDPNRJALLNS-VJSFXXLFSA-N%22%20%23%20beta-sitosterol%0A%20%20%20%20%7D%0A%20%20%20%20BIND%20%28CONCAT%28substr%28%24queryKey%2C1%2C14%29%2C%20%22%20haswbstatement%3AP235%22%29%20AS%20%3Fsrsearch%29%0A%20%20%20%20BIND%20%28CONCAT%28%22%5E%22%2C%20substr%28%24queryKey%2C1%2C14%29%29%20AS%20%3Ffilter%29%0A%20%20%7D%0A%7D%20AS%20%25comps%20WITH%20%7B%0A%20%20SELECT%20%3Fcompound%20%3FInChIKey%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25comps%0A%20%20%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Amwapi%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Aendpoint%20%22www.wikidata.org%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20wikibase%3Aapi%20%22Search%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20mwapi%3Asrsearch%20%3Fsrsearch%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20mwapi%3Asrlimit%20%22max%22.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fcompound%20wikibase%3AapiOutputItem%20mwapi%3Atitle.%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%3Fcompound%20wdt%3AP235%20%3FInChIKey%20.%0A%20%20%20%20FILTER%20%28REGEX%28STR%28%3FInChIKey%29%2C%20%3Ffilter%29%29%0A%20%20%20%20FILTER%20%28%3FInChIKey%20%21%3D%20%3FqueryKey%29%0A%20%20%7D%0A%7D%20AS%20%25compounds%0AWHERE%20%7B%0A%20%20INCLUDE%20%25compounds%0A%20%20%20%20%20%20%20%20%20%20%3Fcompound%20%28wdt%3AP703%2Fwdt%3AP225%29%20%3Ftaxon_name.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0ALIMIT%2010000
+
+
+
+https://query.wikidata.org/index.html#%23Goats%0ASELECT%20%3Fitem%20%3FitemLabel%20%0AWHERE%20%0A%7B%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ2934.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D
+
+https://query.wikidata.org/embed.html#%23Goats%0ASELECT%20%3Fitem%20%3FitemLabel%20%0AWHERE%20%0A%7B%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ2934.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D
+
+
+
+https://query.wikidata.org/embed.html#SELECT%20%20%3Fcompound%20%3FInChIKey%20%3Ftaxon%20%3FtaxonLabel%20%3Freference%20%3FreferenceLabel%20WITH%20%7B%0A%20%20SELECT%20%3FqueryKey%20%3Fsrsearch%20%3Ffilter%20WHERE%20%7B%0A%20%20%20%20VALUES%20%3FqueryKey%20%7B%0A%20%20%20%20%20%20%22SVFKZPQPMMZHLZ%22%0A%20%20%20%20%7D%0A%20%20%20%20BIND%20%28CONCAT%28substr%28%24queryKey%2C1%2C14%29%2C%20%22%20haswbstatement%3AP235%22%29%20AS%20%3Fsrsearch%29%0A%20%20%20%20BIND%20%28CONCAT%28%22%5E%22%2C%20substr%28%24queryKey%2C1%2C14%29%29%20AS%20%3Ffilter%29%0A%20%20%7D%0A%7D%20AS%20%25comps%20WITH%20%7B%0A%20%20SELECT%20%3Fcompound%20%3FInChIKey%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25comps%0A%20%20%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Amwapi%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Aendpoint%20%22www.wikidata.org%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20wikibase%3Aapi%20%22Search%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20mwapi%3Asrsearch%20%3Fsrsearch%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20mwapi%3Asrlimit%20%22max%22.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fcompound%20wikibase%3AapiOutputItem%20mwapi%3Atitle.%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%3Fcompound%20wdt%3AP235%20%3FInChIKey%20.%0A%20%20%20%20FILTER%20%28REGEX%28STR%28%3FInChIKey%29%2C%20%3Ffilter%29%29%0A%20%20%7D%0A%7D%20AS%20%25compounds%0AWHERE%20%7B%0A%20%20INCLUDE%20%25compounds%0A%20%20%20VALUES%20%3Ftaxon%20%7B%0A%20%20%20%20%20%20wd%3AQ136894%0A%20%20%20%20%7D%0A%20%20%7B%0A%20%20%20%20%3Fcompound%20p%3AP703%20%3Fstmt.%0A%20%20%20%20%3Fstmt%20ps%3AP703%20%3Ftaxon.%0A%20%20%7D%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fstmt%20prov%3AwasDerivedFrom%20%3Fref.%0A%20%20%20%20%3Fref%20pr%3AP248%20%3Freference.%0A%20%20%20%20%23%3Freference%20wdt%3AP921%20%3Fmain_subject.%0A%20%20%20%20%23%3Fmain_subject%20ps%3AP921%20%3Ftaxon_ref.%0A%20%20%7D%20%0A%20%20%23FILTER%20%28%20%3Ftaxon%20%3D%20%3Fmatch%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0ALIMIT%2010000
