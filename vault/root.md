@@ -2,17 +2,17 @@
 id: QvYK9hGbCvPpEfSRYhV8j
 title: Welcome to the COMMONS Lab Open Dendron
 desc: ''
-updated: 1693054200250
+updated: 1693055887396
 created: 1630130450048
 ---
 
-# COMMONS Lab Open Dendron
+![](/assets/images/allard-lab.jpg)
 
-Welcome the the COMMONS Lab Open Dendron.
+Welcome the the COMMONS Lab Open Dendron !
 
 In the [COMMONS Lab](https://www.unifr.ch/bio/en/groups/allard/) we intent to follow the [Open Notebook Science](https://en.wikipedia.org/wiki/Open-notebook_science) approach to document our research.
 
-For this we use the Dendron system as a mean to efficiently capture notes and publish them.
+For this we use the [Dendron](https://www.dendron.so/) system as a mean to efficiently capture notes and publish them.
 
 ## What is this note
 
