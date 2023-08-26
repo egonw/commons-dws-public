@@ -2,7 +2,7 @@
 id: QvYK9hGbCvPpEfSRYhV8j
 title: Welcome to the COMMONS Lab Open Dendron
 desc: ''
-updated: 1693056192172
+updated: 1693056226815
 created: 1630130450048
 ---
 
@@ -31,7 +31,7 @@ This note is a succinct tutorial note aiming to get you started in the use of th
 #### Where to get more info on Dendron ?
 
 - You can get more information in the Dendron system at the official website www.dendron.so
-- All the Dendron documentation is hosted here https://wiki.dendron.so/ . It is, obviously, a Dendron itself.
+- All the Dendron documentation is hosted here https://wiki.dendron.so/. It is, obviously, a Dendron itself.
 
 #### Concrete steps to access and contribute to the DBGI Dendron
 
