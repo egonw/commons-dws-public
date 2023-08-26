@@ -2,7 +2,7 @@
 id: spcjavj3vg70loxndmjroo2
 title: Setup
 desc: ''
-updated: 1693042978244
+updated: 1693043762046
 created: 1693042918607
 ---
 
@@ -63,7 +63,7 @@ module.exports = {
 #### Edit the template.
 
 You can (optionally) have a template for your journal notes.
-Here I used the following [[templates.open-notebook-pmallard]]. 
+Here I used the following [[templates.open-notebook.commons.pmallard]]. 
 This template can be modified according to your needs.
 
 #### Set a keyboard shortcut
@@ -78,27 +78,8 @@ For this you can
     "command": "dendron.customCommand.open-notebook-pmallard"
   }
 
-I have created additional traits for COMMONS Open Dendron contributors. You should find yours :) Else please ask.
+For example :
 
-They are called, respectively :
-
-- open-notebook-acsima.js
-- open-notebook-bmulhauser.js
-- open-notebook-brinn.js
-- open-notebook-cdessimoz.js
-- open-notebook-dagosti.js
-- open-notebook-dmietchen.js
-- open-notebook-ebruelhart.js
-- open-notebook-edefossez.js
-- open-notebook-ewillighagen.js
-- open-notebook-gkozlowski.js
-- open-notebook-hluetcke.js
-- open-notebook-jgalgonek.js
-- open-notebook-mwang.js
-- open-notebook-mwannier.js
-- open-notebook-nalvarez.js
-- open-notebook-pcudremauroux.js
-- open-notebook-pmallard.js
-- open-notebook-tmendes.js
+- open-notebook-commons-pmallard.js
 
 Adapt your keyboard shortcuts so that it leads to your own note traits.
