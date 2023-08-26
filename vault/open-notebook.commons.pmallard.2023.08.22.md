@@ -2,7 +2,7 @@
 id: wyghqjw6peta2vaci9d0fw6
 title: '2023-08-22'
 desc: ''
-updated: 1692720777872
+updated: 1692722325972
 created: 1692720332397
 traitIds:
   - open-notebook-commons-pmallard
@@ -31,7 +31,7 @@ Reading [[people.rima-ouchene]] proposition.
 Rima will join the lab starting September for a 3 months internship. The idea was to work on the somewhat archived (for now) Mircocosmics projects.
 And for her to get familiar with open science and metabo/computational metabolomics approaches.
 
-Starting a Mircorcosmics project. Over here [[project.microcosmics]].
+Starting a Micrcocosmics project. Over here [[project.microcosmics]].
 
 Rima proposed some ideas to think about https://docs.google.com/document/d/1Sub8ccgML1JCPGMOg2srQmUXQMBdrnj5/edit
 
