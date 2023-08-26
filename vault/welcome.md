@@ -2,7 +2,7 @@
 id: ovslc641d0h00s16tf6kl8w
 title: Welcome
 desc: ''
-updated: 1693041310522
+updated: 1693043602601
 created: 1693041159856
 ---
 
@@ -46,7 +46,7 @@ This note is a succinct tutorial note aiming to get you started in the use of th
 5. Voila ! You should now be in the COMMONS Lab Open Dendron.
 
 Feel free to explore and contribute.
-A first, important step could be to configure VSCode so that you can easily add a daily note. See steps described at [[open-notebook.dbgi.setup]]
+A first, important step could be to configure VSCode so that you can easily add a daily note. See steps described at [[open-notebook.commons.setup]]
 
 
 ## Questions, comments, suggestions ?
