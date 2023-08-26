@@ -90,7 +90,7 @@ publishing:
     assetsPrefix: /commons-dws-public
     copyAssets: true
     siteHierarchies:
-        - root
+        - welcome
     enableSiteLastModified: true
     siteRootDir: docs
     siteUrl: https://commons-research.github.io
