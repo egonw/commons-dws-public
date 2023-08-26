@@ -2,7 +2,7 @@
 id: QvYK9hGbCvPpEfSRYhV8j
 title: Welcome to the COMMONS Lab Open Dendron
 desc: ''
-updated: 1693055887396
+updated: 1693056192172
 created: 1630130450048
 ---
 
@@ -16,7 +16,7 @@ For this we use the [Dendron](https://www.dendron.so/) system as a mean to effic
 
 ## What is this note
 
-This note is a succinct tutorial note aiming to get you started in the use of the DBGI Dendron.
+This note is a succinct tutorial note aiming to get you started in the use of the COMMONS Lab Dendron.
 
 ## Tutorial
 
