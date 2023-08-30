@@ -2,7 +2,7 @@
 id: hpnaglyhnb48vuiniqecnqf
 title: Nginx
 desc: ''
-updated: 1678291059169
+updated: 1693340565638
 created: 1655621752930
 ---
 
@@ -270,3 +270,11 @@ And after adding this to the GDB config it went smoothly
 ```sh
 graphdb.workbench.external-url = https://enpkg.commons-lab.org/sb/
 ```
+
+### dashboard
+
+- Declared the DNS 
+- created file in /etc/nginx/sites-enabled
+
+
+
