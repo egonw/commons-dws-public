@@ -2,7 +2,7 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1690625861293
+updated: 1693637459892
 created: 1687412250706
 ---
 
@@ -46,6 +46,10 @@ created: 1687412250706
 2023-07-29 11:29
 2023-07-29 12:17
 
+# Saturday 02 September 2023
+2023-09-02 07:28
+2023-09-02 08:30
+
 
 
 
@@ -55,7 +59,14 @@ created: 1687412250706
 
 # Doing 
 
+
+
+
+
 # Done
+- [x] Setting up google docs for the Viewpoint
+https://docs.google.com/document/d/1quzvx2BbMlbUTwiqp9ksJinFR7-PQ9yKDj_9edaoguQ/edit?usp=sharing
+- [x] Share with viewpoint.communication.emails.coauthors
 
 - [x] Invite Donat 
 - [x] Send synopsis final version to NPR
@@ -75,7 +86,7 @@ Meeting at https://meet.jit.si/OSNPR_viewpoint from 8:00 till 10:00 am this Fri
 
 Email conversations archived at https://mypads2.framapad.org/p/email-conversations-n92xnz9pv
 Ideas and ressources at https://mypads2.framapad.org/p/ideas-and-ressources-osnpr-viewpoint-5p30rz9fm
-Synopsis at https://mypads2.framapad.org/p/synopsis-bo39rh90k
+Synopsis at https://mypads2.framapad.org/mypads/?/mypads/group/osnpr-2739qh9rj/pad/view/synopsis-441tvn9p1
 
 - [x] Draft a Synopsis
 [[viewpoint.synopsis]]
