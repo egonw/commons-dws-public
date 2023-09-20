@@ -2,7 +2,7 @@
 id: ugtv2j3wsqideeuqtatob3l
 title: Ressources
 desc: ''
-updated: 1695116069238
+updated: 1695204624768
 created: 1693037661150
 ---
 
@@ -14,7 +14,7 @@ Tuesday 19 September 2023
 Briefly discussed the topic with Laure Weisskopf.
 She recommended that we look for Biolog plates https://www.biolog.com/
 
-We should gete in touch with the persons having worked on soils in the botaniucal gardem
+We should get in touch with the persons having worked on soils in the botaniucal gardem
 
 
 https://www.unifr.ch/jardin-botanique/fr/assets/public/files/publications/BotaBota_brochure_Sols_WEB.pdf
