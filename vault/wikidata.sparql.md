@@ -2,7 +2,7 @@
 id: qcUnyE9eaS2PVPPngKeB1
 title: Sparql
 desc: ''
-updated: 1695308844864
+updated: 1695565010539
 created: 1611593110381
 ---
 
@@ -1047,3 +1047,11 @@ With a regex substring in the mf
 
 https://w.wiki/7WLb
 
+## Wd all
+
+https://w.wiki/7Woz
+
+## Most described taxon
+Excluding humans + only at the species level
+
+https://w.wiki/7YDr
