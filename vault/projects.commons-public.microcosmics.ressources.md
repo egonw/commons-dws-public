@@ -2,7 +2,7 @@
 id: ugtv2j3wsqideeuqtatob3l
 title: Ressources
 desc: ''
-updated: 1695204624768
+updated: 1695895821803
 created: 1693037661150
 ---
 
@@ -18,3 +18,9 @@ We should get in touch with the persons having worked on soils in the botaniucal
 
 
 https://www.unifr.ch/jardin-botanique/fr/assets/public/files/publications/BotaBota_brochure_Sols_WEB.pdf
+
+
+
+Microcosm facility
+
+https://www.thuenen.de/en/institutes/climate-smart-agriculture/laboratory-department/microcosm-facility
