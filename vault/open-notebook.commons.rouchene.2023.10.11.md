@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697032894229
+updated: 1697033396347
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -63,12 +63,17 @@ How to write note in Dendron and to sync with public commons web.
 - [[link]]
 ctrl+shift+P sho pallette
 
+#### Setting up of the Microcosmics project 
+
+### Literature 
+
+
 
 ### Experimental design of microcosmics project 
 
-*Materials and Methods
+Materials and Methods
 
-**I. Preliminary microcosm optimization step
+I. Preliminary microcosm optimization step
 
 A. Preparation of Microcosms
 We do not have data on the lab's microcosm resistance duration. Therefore, we have created three different batches of 200 grams of soil. The first batch (control) consists of soil sterilized in an autoclave at 121 °C for one hour. The second microcosm, called the natural microcosm, underwent no modifications. The last type is the microcosm enriched with a mineral solution to maintain the basic metabolism of the microcosm and promote the growth of slow-growing microorganisms, as shown in the experimental plan in Figure 1. Each of these three types of microcosms will be replicated four times, giving us a total of twelve microcosms for measurements after 1 week, 15 days, 21 days, and 30 days. All microcosms were incubated at 28 °C. All components used for the microcosms were sterilized in an autoclave for 30 minutes at 121 °C.
