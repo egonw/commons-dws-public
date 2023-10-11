@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697032713968
+updated: 1697032894229
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -21,11 +21,14 @@ Getting started with Dandron with PMA
 
 ### Daily work on the Microcosmics project
 
-I checked my inoculated plates. 
 See [[projects.commons-public.microcosmics]]
 
 
-###
+### Lab work 
+
+Check the inoculated plates.  
+
+
 ###
 
 ## Doing
