@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697033396347
+updated: 1697035066015
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -26,7 +26,20 @@ See [[projects.commons-public.microcosmics]]
 
 ### Lab work 
 
-Check the inoculated plates.  
+
+09-10-23
+
+I carried out the first sampling at the botanical garden. I took a horizon of 3- 12 cm.
+See pic [[![Alt text](image-5.png)]]
+[[![Alt text](image-6.png)]]
+[[![Alt text](image-7.png)]]
+
+10-10-2023 Check the inoculated plates.  
+
+Look pic [[![Alt text](image-1.png)]]
+[[![Alt text](image-2.png)]]
+[[![Alt text](image-3.png)]]
+[[![Alt text](image-4.png)]]
 
 
 ###
@@ -89,5 +102,10 @@ All the extractions have a final volume of 15 ml with 5 g of soil.
 Additionally, 0.5 grams of the sample were diluted in 4 milliliters of sterile distilled water and vigorously shaken. A volume of 100 μL of the diluted sample was inoculated onto various culture media, including SCA supplemented with antimicrobials (nalidixic acid, cycloheximide, and nystatin), PDA, nutrient agar, and A4. The plates were incubated at 28°C, except for those inoculated on nutrient agar, which were incubated at 37°C.
 
 ### you have to 
+
+
+
+
+
 
 
