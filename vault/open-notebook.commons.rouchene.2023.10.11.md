@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697024041443
+updated: 1697024450976
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -28,6 +28,11 @@ See [[projects.commons-public.microcosmics]]
 
 ## Doing
 
+Working on the eerimental design off the roject.
+Collecting infos and pdf and woring at [[projects.commons-public.microcosmics.experimental-design]]
+
+
+
 ## Paused
 
 ## Done
@@ -35,6 +40,9 @@ See [[projects.commons-public.microcosmics]]
 ## Notes
 
 ## Todo tomorrow, one day ... or never 
+
+
+
 
 
 ###
