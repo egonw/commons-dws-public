@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697035217464
+updated: 1697035358762
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -101,7 +101,7 @@ Additionally, 0.5 grams of the sample were diluted in 4 milliliters of sterile d
 
 1. Preare blanks for LC-MS analysis.
 2. check plates. 
-3. looking for a protocol to manipulate ecoppplates
+3. looking for a protocol to manipulate ecoplate
 
 
 
