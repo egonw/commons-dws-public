@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697035066015
+updated: 1697035217464
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -60,20 +60,16 @@ How to write note in Dendron and to sync with public commons web.
 ## Notes
 
 ## Todo tomorrow, one day ... or never 
-1. Preare blanks for LC-MS analysis.
-2. check plates. 
-3. looking for a protocol to manipulate ecoppplates
+
 ###
 ###
 
 ## Today I learned that
 
-
-
 - using ctrl+O+N i can creat a dialy note 
 - ctrl+s to save my modification  
 - ctrl+L search or create note 
-- [[link]]
+- share picture [[link]]
 ctrl+shift+P sho pallette
 
 #### Setting up of the Microcosmics project 
@@ -101,8 +97,11 @@ Method 5: 4ml of ammonium bicarbonate + 10 ml ethyl acetate.
 All the extractions have a final volume of 15 ml with 5 g of soil.
 Additionally, 0.5 grams of the sample were diluted in 4 milliliters of sterile distilled water and vigorously shaken. A volume of 100 μL of the diluted sample was inoculated onto various culture media, including SCA supplemented with antimicrobials (nalidixic acid, cycloheximide, and nystatin), PDA, nutrient agar, and A4. The plates were incubated at 28°C, except for those inoculated on nutrient agar, which were incubated at 37°C.
 
-### you have to 
+### you have to do tomorrow 
 
+1. Preare blanks for LC-MS analysis.
+2. check plates. 
+3. looking for a protocol to manipulate ecoppplates
 
 
 
