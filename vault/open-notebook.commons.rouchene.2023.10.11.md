@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697035358762
+updated: 1697097645357
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -70,7 +70,7 @@ How to write note in Dendron and to sync with public commons web.
 - ctrl+s to save my modification  
 - ctrl+L search or create note 
 - share picture [[link]]
-ctrl+shift+P sho pallette
+ctrl+shift+P show![](/assets/images/2023-10-12-08-57-45.png) pallette
 
 #### Setting up of the Microcosmics project 
 
@@ -99,11 +99,15 @@ Additionally, 0.5 grams of the sample were diluted in 4 milliliters of sterile d
 
 ### you have to do tomorrow 
 
-1. Preare blanks for LC-MS analysis.
+1. Prepare blanks for LC-MS analysis.
 2. check plates. 
 3. looking for a protocol to manipulate ecoplate
 
 
+
+### Rima note 12-10-23
+
+![](/assets/images/2023-10-12-09-00-37.png)
 
 
 
