@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697107032086
+updated: 1697107079666
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -185,6 +185,6 @@ literature
 
 ### ASk PMA
 
-organiser un doodle avec l'équipe du sol 
+organise a doodle with the soil team 
 
 
