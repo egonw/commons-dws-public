@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697103098175
+updated: 1697104364664
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -101,6 +101,8 @@ We do not have data on the lab's microcosm resistance duration. Therefore, we ha
 _Sterilization of soil_ 
 
 Soil is autoclaved at 121°C during 1h (https://www.sciencedirect.com/science/article/abs/pii/0167701296008433)
+_Samling site _
+https://maps.app.goo.gl/Ch9ccDJaAidT1GxR8
 
 
 
