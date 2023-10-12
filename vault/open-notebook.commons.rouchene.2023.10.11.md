@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697100851051
+updated: 1697101766890
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -33,6 +33,10 @@ I carried out the first sampling at the botanical garden. I took a horizon of 3-
 See pic [[![Alt text](image-5.png)]]
 [[![Alt text](image-6.png)]]
 [[![Alt text](image-7.png)]]
+![](/assets/images/2023-10-12-10-01-08.png)
+![](/assets/images/2023-10-12-10-01-36.png)
+![](/assets/images/2023-10-12-10-04-27.png)
+
 
 10-10-2023 Check the inoculated plates.  
 
@@ -40,6 +44,12 @@ Look pic [[![Alt text](image-1.png)]]
 [[![Alt text](image-2.png)]]
 [[![Alt text](image-3.png)]]
 [[![Alt text](image-4.png)]]
+
+![](/assets/images/2023-10-12-09-58-57.png)
+![](/assets/images/2023-10-12-09-59-28.png)
+![](/assets/images/2023-10-12-09-59-51.png)
+![](/assets/images/2023-10-12-10-00-21.png)
+
 
 
 ###
@@ -111,6 +121,12 @@ Additionally, 0.5 grams of the sample were diluted in 4 milliliters of sterile d
 
 # I learned how to share image with Dendronn
 ctrl+shift+p ![](/assets/images/2023-10-12-09-19-51.png)
+
+
+### Done 
+praparation of blancks for LC-MS analysis 
+boites checked 
+
 
 
 
