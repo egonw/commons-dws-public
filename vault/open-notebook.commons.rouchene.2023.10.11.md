@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697113325742
+updated: 1697113528822
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -138,7 +138,7 @@ Materials and Methods
 - Preliminary microcosm optimization step
 
 A. Preparation of Microcosms
-We do not have data on the lab's microcosm resistance duration. Therefore, we have created three different batches of 200 grams of soil. The first batch (control) consists of soil sterilized in an autoclave at 121 °C for one hour. The second microcosm, called the natural microcosm, underwent no modifications. The last type is the microcosm enriched with a mineral solution to maintain the basic metabolism of the microcosm and promote the growth of slow-growing microorganisms, as shown in the experimental plan in Figure 1. Each of these three types of microcosms will be replicated four times, giving us a total of twelve microcosms for measurements after 1 week, 15 days, 21 days, and 30 days. All microcosms were incubated at 28 °C. All components used for the microcosms were sterilized in an autoclave for 30 minutes at 121 °C.
+We do not have data on the lab's microcosm resistance duration. Therefore, we have created three different batches of 200 grams of soil. The first batch (control) consists of soil sterilized in an autoclave at 121 °C for one hour. The second microcosm, called the natural microcosm, underwent no modifications. The last type is the microcosm enriched with a mineral solution to maintain the basic metabolism of the microcosm and promote the growth of slow-growing microorganisms, as shown in the experimental plan in Figure 1. Each of these three types of microcosms will be replicated four times, giving us a total of twelve microcosms for measurements after 1 week, 15 days, 21 days, and 30 days. All microcosms were incubated at 28 °C. All components used for the microcosms were sterilized in an autoclave for 30 minutes at 121 C.
 
 _Sterilization of soil_ 
 
@@ -180,7 +180,7 @@ ctrl+shift+p ![](/assets/images/2023-10-12-09-19-51.png)
 Today I observed the appearance of the first actinomycete spores on SCA + ATB plates and a fungus on PDA medium. 
 ###  Doing
 
-literature 
+literature  
 
 
 ### ASk PMA
@@ -191,6 +191,7 @@ organise a doodle with the soil team
  
  -check plates.
  - isolation of same strains with diferent aspects in particular actino and fungi.
+ 
  
 
 
