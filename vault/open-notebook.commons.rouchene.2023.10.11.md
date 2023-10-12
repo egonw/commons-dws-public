@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697113726787
+updated: 1697141244269
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -126,6 +126,10 @@ The limitations: Le principal reproche fait à l’Eco-Plate est que ses conditi
 For bacteria: Starch casien agar(https://www.nature.com/articles/202928a0).
 We prepared a mineral solution composed of 2 g/L (NH4)2SO4, 4 g/L KH2PO4, 6 g/L Na2HPO4, 0.05 g/L CaCl.2H2O,
 0.2 g/L MgSO4.7H2O, and 0.01 g/L FeSO4.7H2O (https://link.springer.com/article/10.1007/s11270-016-2789-z).
+
+
+### Ecoplate 
+According to Rima et al., the EcoPlates™ test, especially when applied to soil, can be challenging to replicate and standardize due to the lack of detailed procedures and protocols. The main issues with this technique primarily concern soil preparation, bacterial inoculum densities, and the correct definition of the reference value (blank) when calculating diversity indices. Based on our previous research in agricultural soils, we propose a standardized and precise step-by-step method for assessing the functional diversity of a soil bacterial community using Biolog® EcoPlates (https://www.mdpi.com/2076-3417/9/19/4035).
 
 
 
