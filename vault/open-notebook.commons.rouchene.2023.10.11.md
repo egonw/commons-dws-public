@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697101766890
+updated: 1697103098175
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -98,6 +98,13 @@ I. Preliminary microcosm optimization step
 A. Preparation of Microcosms
 We do not have data on the lab's microcosm resistance duration. Therefore, we have created three different batches of 200 grams of soil. The first batch (control) consists of soil sterilized in an autoclave at 121 °C for one hour. The second microcosm, called the natural microcosm, underwent no modifications. The last type is the microcosm enriched with a mineral solution to maintain the basic metabolism of the microcosm and promote the growth of slow-growing microorganisms, as shown in the experimental plan in Figure 1. Each of these three types of microcosms will be replicated four times, giving us a total of twelve microcosms for measurements after 1 week, 15 days, 21 days, and 30 days. All microcosms were incubated at 28 °C. All components used for the microcosms were sterilized in an autoclave for 30 minutes at 121 °C.
 
+_Sterilization of soil_ 
+
+Soil is autoclaved at 121°C during 1h (https://www.sciencedirect.com/science/article/abs/pii/0167701296008433)
+
+
+
+
 **B. Screening of extraction methods
 In the first step, we optimized the soil metabolome extraction protocol. To achieve this, we extracted 5 grams of soil using five extraction methods: M1, M2, M3, M4, and M5. Subsequently, the mixtures were allowed to rest for 2 hours, after which they underwent sonication at 37 kHz with a 100-pulse wave for 30 minutes at a temperature range of 30-60°C. Following this, the samples were centrifuged at 20,000× g for 15 minutes at 4°C. The supernatants were collected and stored at -20°C for further analysis.
 Method 1: 100% methanol.
@@ -127,6 +134,13 @@ ctrl+shift+p ![](/assets/images/2023-10-12-09-19-51.png)
 praparation of blancks for LC-MS analysis 
 boites checked 
 
+###  Doing
 
+literature 
+
+
+### ASk PMA
+
+organiser un doodle avec l'équipe du sol 
 
 
