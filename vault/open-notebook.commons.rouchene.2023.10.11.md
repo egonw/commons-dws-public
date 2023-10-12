@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697100275167
+updated: 1697100851051
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -75,6 +75,7 @@ ctrl+shift+P show![](/assets/images/2023-10-12-08-57-45.png) pallette
 #### Setting up of the Microcosmics project 
 
 ### Literature 
+
 
 
 
