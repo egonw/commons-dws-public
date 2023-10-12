@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697107079666
+updated: 1697113325742
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -186,5 +186,12 @@ literature
 ### ASk PMA
 
 organise a doodle with the soil team 
+
+### to do tomorow 
+ 
+ -check plates.
+ - isolation of same strains with diferent aspects in particular actino and fungi.
+ 
+
 
 
