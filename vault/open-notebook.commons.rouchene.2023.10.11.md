@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697216901812
+updated: 1697217577035
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -241,6 +241,9 @@ organise a doodle with the soil team
  
 
   ### Done 
+  
+  I have isolated actinomycetes on SCA, named S1-S8 (B1, B2 or B3 means they come from the same isolation plate).
+  I've isolated 2 fungi (ch1,Ch2) of different aspect on PDA.   
 
   ### Program next week
 
