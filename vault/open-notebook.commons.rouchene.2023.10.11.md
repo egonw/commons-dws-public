@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697141244269
+updated: 1697191122127
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -196,7 +196,25 @@ organise a doodle with the soil team
  -check plates.
  - isolation of same strains with diferent aspects in particular actino and fungi.
  
+ #### Today is 13-10-2023 
+   
+   ### To do 
+   - Isolation of some strains 
+   - read ecoplat papers 
+   
  
+
+  ### Done 
+
+  ### Program next week
+
+  - LC-MS analysis of the first extraction 9-10-2023.
+  - after the fisrt LC-MS, second extractin with the best prtocol.
+
+  - 17-10-2023 Redrego conf.
+  - 19-10-2023.
+  -18-10-2023 going to the University of Neuchâtel with PMA for collaboration.
+  - Visit Thun city.
 
 
 
