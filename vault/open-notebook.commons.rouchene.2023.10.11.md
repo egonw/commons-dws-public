@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697191908498
+updated: 1697216822208
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -135,6 +135,14 @@ We prepared 1:100 dilutions from 10 g subsamples, inoculated the EcoPlate with t
 
 Due to its small volume (100 μl/well), the community size can be less than 10,000 individuals/well, which is a nonnegligible source of stochasticity in the initial species composition among the 96 wells in a plate. This could result in variation in color density among identical substrates within a plate (Zhou et al., 2013). To reduce the stochastic effect, three repeated sets of 31 different response wells were conducted for each plot (https://esj-journals.onlinelibrary.wiley.com/doi/full/10.1111/1440-1703.12293). 
 
+_Protocol _
+
+1.	Measure 10 g of the soil sample.
+2.	Add 10 ml of distilled water and gently shake the flask."
+3.	Inoculate the ecoplate with 100 µL for each well."
+4.	Incubate plates at 37°C."
+5.	Read at 590 nm on days 0, 1, 3, 5, 7, 10, and 14.
+
 
 
 
@@ -220,6 +228,7 @@ organise a doodle with the soil team
   - 19-10-2023.
   -18-10-2023 going to the University of Neuchâtel with PMA for collaboration.
   - Visit Thun city.
+
 
 
 
