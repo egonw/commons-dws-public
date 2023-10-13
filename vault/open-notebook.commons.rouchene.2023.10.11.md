@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697191122127
+updated: 1697191908498
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -129,7 +129,11 @@ We prepared a mineral solution composed of 2 g/L (NH4)2SO4, 4 g/L KH2PO4, 6 g/L 
 
 
 ### Ecoplate 
-According to Rima et al., the EcoPlates™ test, especially when applied to soil, can be challenging to replicate and standardize due to the lack of detailed procedures and protocols. The main issues with this technique primarily concern soil preparation, bacterial inoculum densities, and the correct definition of the reference value (blank) when calculating diversity indices. Based on our previous research in agricultural soils, we propose a standardized and precise step-by-step method for assessing the functional diversity of a soil bacterial community using Biolog® EcoPlates (https://www.mdpi.com/2076-3417/9/19/4035).
+According to So et al., the EcoPlates™ test, especially when applied to soil, can be challenging to replicate and standardize due to the lack of detailed procedures and protocols. The main issues with this technique primarily concern soil preparation, bacterial inoculum densities, and the correct definition of the reference value (blank) when calculating diversity indices. Based on our previous research in agricultural soils, we propose a standardized and precise step-by-step method for assessing the functional diversity of a soil bacterial community using Biolog® EcoPlates (https://www.mdpi.com/2076-3417/9/19/4035).
+
+We prepared 1:100 dilutions from 10 g subsamples, inoculated the EcoPlate with these diluted subsamples, incubated the plates at in situ temperature, and made measurements on Days 0, 1, 3, 5, 7, 10, and 14. The first step was to inoculate samples into an EcoPlate, either as aqueous samples or after suspension. The utilization of each carbon source during incubation was coupled to the conversion of triphenyl tetrazolium chloride to triphenyl formazan (TPF), so that carbon utilization could be quantified by the color density of TPF in each well using the optical density at 590 nm with a microplate reader (iMark; Bio-Rad Laboratories). Detailed information on EcoPlate, including the 31 carbon substrates, is available at https://www.biolog.com/wp-content/uploads/2020/05/00A-012-rD-EcoPlate-IFU.pdf (last accessed on November 9, 2021). [Correction added on 3 March 2022, after first online publication: information about the microplate reader was amended in the preceding paragraph]
+
+Due to its small volume (100 μl/well), the community size can be less than 10,000 individuals/well, which is a nonnegligible source of stochasticity in the initial species composition among the 96 wells in a plate. This could result in variation in color density among identical substrates within a plate (Zhou et al., 2013). To reduce the stochastic effect, three repeated sets of 31 different response wells were conducted for each plot (https://esj-journals.onlinelibrary.wiley.com/doi/full/10.1111/1440-1703.12293). 
 
 
 
@@ -139,10 +143,11 @@ According to Rima et al., the EcoPlates™ test, especially when applied to soil
 Materials and Methods
 
 
+
 - Preliminary microcosm optimization step
 
-A. Preparation of Microcosms
-We do not have data on the lab's microcosm resistance duration. Therefore, we have created three different batches of 200 grams of soil. The first batch (control) consists of soil sterilized in an autoclave at 121 °C for one hour. The second microcosm, called the natural microcosm, underwent no modifications. The last type is the microcosm enriched with a mineral solution to maintain the basic metabolism of the microcosm and promote the growth of slow-growing microorganisms, as shown in the experimental plan in Figure 1. Each of these three types of microcosms will be replicated four times, giving us a total of twelve microcosms for measurements after 1 week, 15 days, 21 days, and 30 days. All microcosms were incubated at 28 °C. All components used for the microcosms were sterilized in an autoclave for 30 minutes at 121 C.
+_Preparation of Microcosms
+_We do not have data on the lab's microcosm resistance duration. Therefore, we have created three different batches of 200 grams of soil. The first batch (control) consists of soil sterilized in an autoclave at 121 °C for one hour. The second microcosm, called the natural microcosm, underwent no modifications. The last type is the microcosm enriched with a mineral solution to maintain the basic metabolism of the microcosm and promote the growth of slow-growing microorganisms, as shown in the experimental plan in Figure 1. Each of these three types of microcosms will be replicated four times, giving us a total of twelve microcosms for measurements after 1 week, 15 days, 21 days, and 30 days. All microcosms were incubated at 28 °C. All components used for the microcosms were sterilized in an autoclave for 30 minutes at 121 C.
 
 _Sterilization of soil_ 
 
