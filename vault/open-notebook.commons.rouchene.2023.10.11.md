@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697216822208
+updated: 1697216901812
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -175,6 +175,29 @@ Method 4: 4ml of ammonium bicarbonate + 10 ml methanol+ 5ml of chloroform.
 Method 5: 4ml of ammonium bicarbonate + 10 ml ethyl acetate.
 All the extractions have a final volume of 15 ml with 5 g of soil.
 Additionally, 0.5 grams of the sample were diluted in 4 milliliters of sterile distilled water and vigorously shaken. A volume of 100 μL of the diluted sample was inoculated onto various culture media, including SCA supplemented with antimicrobials (nalidixic acid, cycloheximide, and nystatin), PDA, nutrient agar, and A4. The plates were incubated at 28°C, except for those inoculated on nutrient agar, which were incubated at 37°C.
+
+
+### Composition of culture media, prepared solution supplemented, and chemicals used in the experimental section 
+
+_Culture media and solutions_
+Starch casein agar
+soluble starch: 10 g
+ K2HPO4: 2 g
+ KNO3: 2 g
+Casein: 0.3 g, 
+MgSO4.7H2O 0.05 g
+ CaCO3: 0.02 g
+ FeSO4.7H2O: 0.01 g
+Agar: 15 g 
+_Mineral medium (g/L)_
+(NH)2SO4:  
+KH2PO4, 4
+Na2HPO4:  6;
+MgSO4. 7H2O: 0.2
+CaC12 .2H2O: 0.001 
+ FeSO4 - 7 H2O: 0.001
+pH 7.5.
+
 
 ### you have to do tomorrow 
 
