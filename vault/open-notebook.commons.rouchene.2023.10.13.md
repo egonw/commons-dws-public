@@ -2,7 +2,7 @@
 id: 1wqdwzyc4no58lzquin6r7f
 title: '2023-10-13'
 desc: ''
-updated: 1697193117345
+updated: 1697193774152
 created: 1697192602215
 traitIds:
   - open-notebook-commons-rouchene
@@ -39,7 +39,7 @@ See [[projects.commons-public.microcosmics]]
 
 #### Next week
  - 17-10-2023 Redrego conf 
- - 18-10-2023 go with PMA for collaboration. 
+ - 18-10-2023 go to the University of Neuchâtel with PMA for the collaboration.
  - 19-10-2023 visit thun city.
 
 
