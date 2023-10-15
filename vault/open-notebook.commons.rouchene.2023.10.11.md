@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697219322579
+updated: 1697393542650
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -254,6 +254,14 @@ organise a doodle with the soil team
   - 19-10-2023.
   -18-10-2023 going to the University of Neuchâtel with PMA for collaboration.
   - Visit Thun city.
+
+  ### Today 15-10-2023
+
+  ## To do 
+
+  - LC-MS run with PMA 
+  - check plates 
+  
 
 
 
