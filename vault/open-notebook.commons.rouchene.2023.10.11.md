@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697393542650
+updated: 1697486231971
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -255,12 +255,18 @@ organise a doodle with the soil team
   -18-10-2023 going to the University of Neuchâtel with PMA for collaboration.
   - Visit Thun city.
 
-  ### Today 15-10-2023
+  ### Today 16-10-2023
 
   ## To do 
 
   - LC-MS run with PMA 
   - check plates 
+
+
+   ### Done 
+   - We submitted the samples containing the blanks from RO_01_07_01 to RO_01_07_10 for LC-MS analysis. However, the profiles obtained are inconclusive. Therefore, the search for other extraction protocols is essential.
+   - I have also isolated two other strains of fungi.
+   - Édouard showed me his DBGI extraction method.
   
 
 
