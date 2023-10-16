@@ -2,7 +2,7 @@
 id: hpnaglyhnb48vuiniqecnqf
 title: Nginx
 desc: ''
-updated: 1693340565638
+updated: 1697209105175
 created: 1655621752930
 ---
 
@@ -278,3 +278,7 @@ graphdb.workbench.external-url = https://enpkg.commons-lab.org/sb/
 
 
 
+#### Setting up on the dbgi vm
+
+
+sudo certbot certonly --standalone --preferred-challenges http -d kg.earthmetabolome.org
