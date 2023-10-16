@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697486231971
+updated: 1697487157519
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -91,7 +91,7 @@ _Useful before setting up the microcosmis system_
  ## Microcosm incubation
 12-h photoperiod: Columbia View orchard soil was passed through a 4-mm sieve and 100 g samples were placed into 487 mL microcosms (glass jars). Jar lids were perforated to make a 1 cm diameter hole into which a rubber septum was inserted. The experiment consisted of two treatments; ASD amended with rice bran (RB) and a no-carbon input ASD control (ASD-NA), seven time points; day 0, 1, 2, 3, 7, 11, and 15, with four samples per treatment at each incubation duration point. In total, across all treatments and time points, 56 samples analyzed. For the purposes of this study, RB soil amendment treatment was not included as pathogen suppression (e.g., F. oxysporum f. sp. fragariae) was not realized under such conditions (Figure 1). In addition, RB soil incorporation does not yield an anaerobic environment (Mazzola et al., 2018), nor result in amplification of target microbial populations commonly associated with ASD-induced disease suppression, such as Clostridium spp. For the ASD treatment, 1.57 g of RB (equivalent to 20 Mg per ha per 15 cm depth in the field) was homogeneously mixed into soil. Estimated nutrient concentration of RB was C = 47.8%, N = 2.49%, P = 1.53%, K = 1.60%, S = 0.18%, C:N ratio = 19:1, pH = 6.2 (Soiltest Farm Consultants, Inc., Moses Lake, WA, United States). For both treatments, 25 mL of distilled water was added to saturate the soil pore spaces. The headspace volume over the microcosms was 409 mL. Jars were incubated in an environmental growth chamber for 15 days at 24/18°C with 12-h photoperiod. Photosynthetically active radiation (PAR, 400–700 nm) just above the jars was 226 μmol m–2 sec–2. Immediately after initiating the experiment, headspace volatiles were extracted, and a representative soil sample was collected using a #3 cork borer (7 cores from each microcosm). Soil samples were placed in a chilled sample cup, followed by immediate immersion in liquid nitrogen and stored at −80°C. This procedure was followed for soil sampling at all incubation duration points. Frozen soil cores were cryogenically milled to a fine powder and stored again at −80°C before use for metabolite analysis. For day 0 and day 1 time points, headspace O2 and CO2 composition was analyzed every 4 h and once for the remaining incubation duration points as described below (https://www.frontiersin.org/articles/10.3389/fmicb.2019.02365/full).
 
-## C/MS analysis ( soil metabolomics)
+## LC/MS analysis ( soil metabolomics)
 Extraction of the metabolome and LC-MS analysis:
 Method 1. Extracellular metabolites were extracted from 2 g of wet soil from each sample (with five technical replicates) using 10 ml of deionized water. The samples were shaken on a mechanical shaker for 12 hours at 4°C, then centrifuged at 2,500 x g for 15 minutes at 4°C, and finally filtered through 0.2 µm polyethersulfone membrane filters (Pall Corporation, New York, NY, USA). Polar metabolites were completely dried using a rapid vacuum concentrator, then chemically derivatized and analyzed by gas chromatography-mass spectrometry (GC-MS) (https://www.mdpi.com/2076-2607/10/8/1653].
 
@@ -165,7 +165,7 @@ https://maps.app.goo.gl/Ch9ccDJaAidT1GxR8
 
 
 
-- Screening of extraction methods
+- First screening of extraction methods
 
 In the first step, we optimized the soil metabolome extraction protocol. To achieve this, we extracted 5 grams of soil using five extraction methods: M1, M2, M3, M4, and M5. Subsequently, the mixtures were allowed to rest for 2 hours, after which they underwent sonication at 37 kHz with a 100-pulse wave for 30 minutes at a temperature range of 30-60°C. Following this, the samples were centrifuged at 20,000× g for 15 minutes at 4°C. The supernatants were collected and stored at -20°C for further analysis.
 Method 1: 100% methanol.
@@ -176,6 +176,18 @@ Method 5: 4ml of ammonium bicarbonate + 10 ml ethyl acetate.
 All the extractions have a final volume of 15 ml with 5 g of soil.
 Additionally, 0.5 grams of the sample were diluted in 4 milliliters of sterile distilled water and vigorously shaken. A volume of 100 μL of the diluted sample was inoculated onto various culture media, including SCA supplemented with antimicrobials (nalidixic acid, cycloheximide, and nystatin), PDA, nutrient agar, and A4. The plates were incubated at 28°C, except for those inoculated on nutrient agar, which were incubated at 37°C.
 
+##### comments after applying
+
+the five methods are not coonslusive - the search for other methods is essential. Weak profiles
+
+     - Others etraction methods: 
+
+The 45 collected soil samples, and 5 blank samples containing no
+soil, were lyophilized on an Edwards Super Modulyo freeze-drier (SciQuip Ltd., Shropshire, UK) for 7 d. Subsequently, these were ground in a Retsch MM200 stainless steel ball mill (Retsch GmbH, Haan, Germany)
+at a frequency of 20 Hz to aid recovery of metabolites from the microbial biomass (Fiehn et al., 2002; Wang et al., 2015). The samples were then stored in individual sterile glass vials at  80 �C to minimize changes in metabolites (Wellerdiek et al., 2009). The soils were extracted using 3:3:2 (v/v/v) acetonitrile-isopropanol-water, vortexed for 15 s, shakenat 4° C for 5 min, centrifuged at 1400 rpm for 2 min, and dried using a CentriVap Benchtop Centrifugal Concentrator (Labconco Corp., Kansas City, MO) (Barupal et al., 2019; Fu et al., 2019). Non-targeted primary metabolism analysis was performed using a Gerstel Automated Linear Exchange-Cold Injection System (ALEX-CIS) with Agilent gas chromatograph (GC) and Leco Pegasus IV Time Of Flight (TOF) MS at the UC Davis West Coast Metabolomics Facility using the method of Fiehn (2016). Briefly, 0.5 μl of each sample was injected onto a Rtx-5Sil MS capillary column (30 m length ° 0.25 m i.d with 10 m integrated guard column; 0.25 μm 95% dimethylsiloxane/5% diphenylpolysiloxane coating; Restek Corp., Bellefonte, PA). Using a He mobile phase, the GC thermal programme was 50 °C for 1 min, ramped to 330°C at 20° C min 1 and finally held at 330 °C for 5 min. Upon elution, samples were injected into a Pegasus IV GC-time of flight mass spectrometer (Leco Corp., St Joseph, MI), using mass resolution of 17 spectra s1 , from 80 to 500 Da, at  70 eV ionization energy and 1800 V detector voltage with a 230 °C transfer line and 250°C ion source [[https://doi.org/10.1016/j.soilbio.2020.107758]].
+
+    -- protocol steps
+     
 
 ### Composition of culture media, prepared solution supplemented, and chemicals used in the experimental section 
 
@@ -195,7 +207,7 @@ KH2PO4, 4
 Na2HPO4:  6;
 MgSO4. 7H2O: 0.2
 CaC12 .2H2O: 0.001 
- FeSO4 - 7 H2O: 0.001
+FeSO4 - 7 H2O: 0.001
 pH 7.5.
 
 
