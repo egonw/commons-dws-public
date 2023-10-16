@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697487157519
+updated: 1697488367323
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -182,12 +182,16 @@ the five methods are not coonslusive - the search for other methods is essential
 
      - Others etraction methods: 
 
-The 45 collected soil samples, and 5 blank samples containing no
+1. The 45 collected soil samples, and 5 blank samples containing no
 soil, were lyophilized on an Edwards Super Modulyo freeze-drier (SciQuip Ltd., Shropshire, UK) for 7 d. Subsequently, these were ground in a Retsch MM200 stainless steel ball mill (Retsch GmbH, Haan, Germany)
 at a frequency of 20 Hz to aid recovery of metabolites from the microbial biomass (Fiehn et al., 2002; Wang et al., 2015). The samples were then stored in individual sterile glass vials at  80 �C to minimize changes in metabolites (Wellerdiek et al., 2009). The soils were extracted using 3:3:2 (v/v/v) acetonitrile-isopropanol-water, vortexed for 15 s, shakenat 4° C for 5 min, centrifuged at 1400 rpm for 2 min, and dried using a CentriVap Benchtop Centrifugal Concentrator (Labconco Corp., Kansas City, MO) (Barupal et al., 2019; Fu et al., 2019). Non-targeted primary metabolism analysis was performed using a Gerstel Automated Linear Exchange-Cold Injection System (ALEX-CIS) with Agilent gas chromatograph (GC) and Leco Pegasus IV Time Of Flight (TOF) MS at the UC Davis West Coast Metabolomics Facility using the method of Fiehn (2016). Briefly, 0.5 μl of each sample was injected onto a Rtx-5Sil MS capillary column (30 m length ° 0.25 m i.d with 10 m integrated guard column; 0.25 μm 95% dimethylsiloxane/5% diphenylpolysiloxane coating; Restek Corp., Bellefonte, PA). Using a He mobile phase, the GC thermal programme was 50 °C for 1 min, ramped to 330°C at 20° C min 1 and finally held at 330 °C for 5 min. Upon elution, samples were injected into a Pegasus IV GC-time of flight mass spectrometer (Leco Corp., St Joseph, MI), using mass resolution of 17 spectra s1 , from 80 to 500 Da, at  70 eV ionization energy and 1800 V detector voltage with a 230 °C transfer line and 250°C ion source [[https://doi.org/10.1016/j.soilbio.2020.107758]].
 
-    -- protocol steps
-     
+    -- _Protocol steps_
+     - Lyophilization of the samples for 7 days.
+     -Grinding in a stainless steel ball mill Retsch at a frequency of 20 Hz.
+     -The samples were then stored in individual sterile glass vials at -80°C.
+     -The soils were extracted using a 3:3:2 (v/v/v) acetonitrile-isopropanol-water solution. The mixture was vortexed for 15 seconds, shaken at 4°C for 5 minutes, and then centrifuged at 1400 rpm for 2 minutes. Finally, the samples were dried using a CentriVap Benchtop CentriVap.
+     -The soils were extracted according to the following protocol: a solution of acetonitrile-isopropanol-water in proportions of 3:3:2 (v/v/v) was used. Then, the sample was vortexed for 15 seconds, shaken at 4°C for 5 minutes, and finally centrifuged at 1400 rpm for 2 minutes.
 
 ### Composition of culture media, prepared solution supplemented, and chemicals used in the experimental section 
 
