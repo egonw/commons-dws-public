@@ -2,7 +2,7 @@
 id: ehmhzkuc7v5v02me3bng7ek
 title: '2023-10-11'
 desc: ''
-updated: 1697788614771
+updated: 1697800355265
 created: 1697023998899
 traitIds:
   - open-notebook-commons-rouchene
@@ -296,7 +296,9 @@ organise a doodle with the soil team
    - write in the lab notebook
    - ask PMA if we can launch the vials extracted on 17-10-23
    - check the strains if further purification is needed   
-
+### Done 
+-Plates sheked
+-transplantation of isolated strains
   
 
 
