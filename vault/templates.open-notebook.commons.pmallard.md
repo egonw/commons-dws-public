@@ -2,7 +2,7 @@
 id: qyxwa1l9hfoi9d8pis7v98l
 title: Pmallard
 desc: ''
-updated: 1687525823100
+updated: 1699971312543
 created: 1676015914796
 ---
 
@@ -40,4 +40,4 @@ See [[viewpoint]]
 
 ## Today I learned that
 
-- 
+- o
