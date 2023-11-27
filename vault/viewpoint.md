@@ -2,7 +2,7 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1693637459892
+updated: 1701099942996
 created: 1687412250706
 ---
 
@@ -50,6 +50,9 @@ created: 1687412250706
 2023-09-02 07:28
 2023-09-02 08:30
 
+ooops
+
+# Monday 27 November 2023
 
 
 
@@ -64,6 +67,15 @@ created: 1687412250706
 
 
 # Done
+
+
+
+- [x] Proposing doodle 2024 for the Open Science for Natural Products Research Viewpoint
+- [x] Information email to the coauthors regarding the delayed deadline for the Viewpoint [[viewpoint.communication.emails]]
+Meeting for the "Open Science for Natural Products Research" Viewpoint - 2024
+https://framadate.org/VdniELdaR1c9a3gm
+
+- [x] Answering NPR people, advising for 6 month delay min
 - [x] Setting up google docs for the Viewpoint
 https://docs.google.com/document/d/1quzvx2BbMlbUTwiqp9ksJinFR7-PQ9yKDj_9edaoguQ/edit?usp=sharing
 - [x] Share with viewpoint.communication.emails.coauthors
