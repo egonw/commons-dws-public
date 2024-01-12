@@ -2,7 +2,7 @@
 id: 43p60vv8btyhaclugl93jok
 title: Viewpoint
 desc: ''
-updated: 1701099942996
+updated: 1704995330295
 created: 1687412250706
 ---
 
@@ -50,10 +50,14 @@ created: 1687412250706
 2023-09-02 07:28
 2023-09-02 08:30
 
-ooops
+
 
 # Monday 27 November 2023
 
+
+# Thursday 11 January 2024
+
+2024-01-11 18:48
 
 
 
@@ -62,6 +66,8 @@ ooops
 
 # Doing 
 
+- [ ] Messing around with ChatGPT for the Extraction of chemical and bio info from 
+Working here 
 
 
 
