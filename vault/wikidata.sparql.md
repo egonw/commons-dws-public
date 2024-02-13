@@ -2,7 +2,7 @@
 id: qcUnyE9eaS2PVPPngKeB1
 title: Sparql
 desc: ''
-updated: 1695565010539
+updated: 1707846694022
 created: 1611593110381
 ---
 
@@ -1055,3 +1055,13 @@ https://w.wiki/7Woz
 Excluding humans + only at the species level
 
 https://w.wiki/7YDr
+
+
+## sr WD by MF
+
+https://w.wiki/9AAN
+
+same with refs
+
+https://w.wiki/9AAe
+
