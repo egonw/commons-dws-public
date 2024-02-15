@@ -2,7 +2,7 @@
 id: delq7f2o12q3feeyxictk3h
 title: Datasette
 desc: ''
-updated: 1707994289928
+updated: 1707997892971
 created: 1707994164468
 ---
 
@@ -24,3 +24,8 @@ https://datasette.io/
 
 https://datasette.io/desktop
 
+
+# tutorials
+
+Just followed https://datasette.io/tutorials/clean-data
+This is stunning !
