@@ -2,7 +2,7 @@
 id: qd0nret1w82tdmoet1upt7a
 title: '2024-02-15'
 desc: ''
-updated: 1707993821754
+updated: 1707994312294
 created: 1707993148076
 traitIds:
   - open-notebook-commons-pmallard
@@ -32,6 +32,13 @@ See [[viewpoint]]
 ## Done
 
 ## Notes
+
+https://simonwillison.net/2023/Jun/18/symbex/
+
+
+Created [[resources.datasette]]
+
+
 
 ## Todo tomorrow, one day ... or never 
 
