@@ -2,7 +2,7 @@
 id: ozp2qt78t5st6m7zdgzuihd
 title: Pamrein
 desc: ''
-updated: 1708438895110
+updated: 1708439082478
 created: 1708421611411
 ---
 
@@ -22,3 +22,6 @@ created: 1708421611411
 
 ## Future perspective
 
+
+
+## Keywords

@@ -2,7 +2,7 @@
 id: 66235vsgxl5otxa5s8qbgsu
 title: '2024-02-20'
 desc: ''
-updated: 1708438512045
+updated: 1708439055527
 created: 1708422103768
 traitIds:
   - open-notebook-commons-pamrein
@@ -17,9 +17,6 @@ Today is 2024.02.20
 ### Have a look at the COMMONS research discussion forum
     - https://github.com/orgs/commons-research/discussions
 
-
-###
-###
 
 ## Doing
 - introduction to [dendron](https://www.dendron.so)
@@ -51,22 +48,8 @@ Licensing: https://www.contributor-covenant.org/
 
 
 
-
-
-
-
-
-## Paused
-
-## Done
-
-## Notes
-
-## Todo tomorrow, one day ... or never 
-
-
-###
-###
+## Keywords
+Pickaxe
 
 
 ## Today I learned that
