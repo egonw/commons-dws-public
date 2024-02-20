@@ -2,38 +2,23 @@
 id: ozp2qt78t5st6m7zdgzuihd
 title: Pamrein
 desc: ''
-updated: 1708421746052
+updated: 1708438895110
 created: 1708421611411
 ---
 
-# This is pamrein's COMMONS Lab daily Open Notebook.
+# PAMREIN's daily Open Notebook (COMMONS Lab) [{{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}]
 
-Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}
-
-## Todo today
-
-### Have a look at the COMMONS research discussion forum
-    - https://github.com/orgs/commons-research/discussions
+## Todo - [Check Github](https://github.com/orgs/commons-research/projects/2/views/1)
+-[]
 
 
-###
-###
-
-## Doing
-
-## Paused
-
-## Done
-
-## Notes
-
-## Todo tomorrow, one day ... or never 
+## Meetings
 
 
-###
-###
+
+## Daily report (What did I learned?)
 
 
-## Today I learned that
 
-- 
+## Future perspective
+
