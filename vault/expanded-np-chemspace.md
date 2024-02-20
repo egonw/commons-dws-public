@@ -2,7 +2,7 @@
 id: stj9lq0lxhfuk5ntomiozz0
 title: Expanded Np Chemspace
 desc: ''
-updated: 1705063585994
+updated: 1708422977056
 created: 1705062938684
 ---
 
@@ -13,23 +13,12 @@ For this we will exploit the initial set of know NPs chemical structure found in
 
 ## Goals
 
-- Generate a set of novel plausible chemical structure from the initial set of know NPs chemical structure found in LOTUS.
-- Generate in silico fragmentation spectra for the generated chemical structures.
-- Serve the generated chemical structure in a web portal using the MINES server as a backend.
-- Attribute plausible biological sources to the generated structures.
-- Explore the possibility of biochemical rules edition / curation.
+move to [[expanded-np-chemspace.goals]]
 
 
 ## Log
 
 ## Resources
 
-https://minedatabase.ci.northwestern.edu/#/home
-
-
-MINE 2.0: enhanced biochemical coverage for peak identification in untargeted metabolomics
-https://doi.org/10.1093/bioinformatics/btac331
-
-Pickaxe: a Python library for the prediction of novel metabolic reactions
-https://doi.org/10.1186/s12859-023-05149-8
+move to [[expanded-np-chemspace.resources]]
 
