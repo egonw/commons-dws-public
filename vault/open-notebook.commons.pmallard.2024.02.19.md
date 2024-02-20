@@ -2,7 +2,7 @@
 id: snfm0iqx7fsm9y5r1nretg9
 title: '2024-02-19'
 desc: ''
-updated: 1708338812423
+updated: 1708342610331
 created: 1708338775845
 traitIds:
   - open-notebook-commons-pmallard
@@ -43,3 +43,4 @@ See [[viewpoint]]
 ## Today I learned that
 
 - Cmd+shift+L flags/un-flags an mail in Mail (MacOS)
+- https://github.com/mikefarah/yq is a lightweight and portable command-line YAML, JSON and XML processor. yq uses jq like syntax but works with yaml files as well as json, xml, properties, csv and tsv. It doesn't yet support everything jq does - but it does support the most common operations and functions, and more is being added continuously.
