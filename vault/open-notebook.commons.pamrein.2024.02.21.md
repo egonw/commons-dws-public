@@ -2,7 +2,7 @@
 id: qy0iqvyrj0me4co8u8d25nh
 title: '2024-02-21'
 desc: ''
-updated: 1708531959264
+updated: 1708532246085
 created: 1708519545779
 traitIds:
   - open-notebook-commons-pamrein
@@ -16,7 +16,7 @@ traitIds:
 
 ## Paper's
 ### [LOTUS](https://doi.org/10.7554/eLife.70780)
-[LOTUS (LOpen Knowledge Management in Natural Products Research)](https://lotus.naturalproducts.net) is a database of over 750'000+ referenced structure-organism pairs (from wiki-data). A structure-organims pairs shows the relationship between organisms and molecules.
+[LOTUS (LOpen Knowledge Management in Natural Products Research)](https://lotus.naturalproducts.net) is a database of over 750'000+ referenced structure-organism pairs. A structure-organims pairs shows the relationship between organisms and molecules.
 With the increasing technology, the data for chemical compounds (exp. mass specrometry) and organisms (exp. sequencing machines) also increases exponentialy. To link the data will be more and more beneficial.  
 The idea of LOTUS is to interconnect the three central objects of the living (metabolites, proteins and genes).  
 
@@ -35,11 +35,11 @@ To be find, they have to be in a specific format.
 
 
 #### Link's
-[KNAPSAck]() 50'000+ structures and 100'000+ structure-organism pairs
-[NAPRA-LERT dataset]() well documented database but not available for free
-[NPAtlas]() specificly for microbial NPs.
-[COCONUT]() COlleCtion of Open NatUral producTs (similar to LOTUS)
-[natural products online](https://naturalproducts.net/) - Host for Lotus, Coconut ...
+[KNAPSAck]() 50'000+ structures and 100'000+ structure-organism pairs  
+[NAPRA-LERT dataset]() well documented database but not available for free  
+[NPAtlas]() specificly for microbial NPs.  
+[COCONUT]() COlleCtion of Open NatUral producTs (similar to LOTUS)  
+[natural products online](https://naturalproducts.net/) - Host for Lotus, Coconut ...  
 
 
 #### Question's
@@ -62,9 +62,10 @@ To be find, they have to be in a specific format.
 
 
 ## Keywords
-NP - Natural Products
-DNP - Dictionary of Natural Products (commercially available effors for comiling NP data - https://dnp.chemnetbase.com/)
-LNPN - [LOTUS database](https://lotus.naturalproducts.net)
-SSOT - Single Source of Truth
-OTL - Open Tree of life
-IDSM - Integrated Database of Small Molecules
+NP - Natural Products  
+DNP - Dictionary of Natural Products (commercially available effors for comiling NP data - https://dnp.chemnetbase.com/)  
+LNPN - [LOTUS database](https://lotus.naturalproducts.net)  
+SSOT - Single Source of Truth  
+OTL - Open Tree of life  
+IDSM - Integrated Database of Small Molecules  
+ 
