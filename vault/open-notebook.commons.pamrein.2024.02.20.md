@@ -50,8 +50,3 @@ Licensing: https://www.contributor-covenant.org/
 
 ## Keywords
 Pickaxe
-
-
-## Today I learned that
-
-- 
