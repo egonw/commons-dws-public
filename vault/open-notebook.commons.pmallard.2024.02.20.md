@@ -2,7 +2,7 @@
 id: gyjosjmyok544holtu4m195
 title: '2024-02-20'
 desc: ''
-updated: 1708426368507
+updated: 1708427301438
 created: 1708421807416
 traitIds:
   - open-notebook-commons-pmallard
@@ -31,6 +31,10 @@ See [[viewpoint]]
 Dendron training with [[people.pascal-amrein]]
 
 Shared https://doi.org/10.5281/zenodo.8137605
+
+We'll work at https://github.com/orgs/commons-research/projects/2
+
+
 
 
 ### MIBIG workshop
