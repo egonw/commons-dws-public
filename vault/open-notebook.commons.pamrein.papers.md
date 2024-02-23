@@ -2,7 +2,7 @@
 id: 2nboezy5aeoz1wel23mbniv
 title: Papers
 desc: ''
-updated: 1708615713636
+updated: 1708689392436
 created: 1708610418919
 ---
 
@@ -46,9 +46,35 @@ Aim to make more and better data available.
 
 ### [MINEs: open access databases of computationally predicted enzyme promiscuity products for untargeted metabolomics](https://doi.org/10.1186/s13321-015-0087-1)
 
+MINEs are an extension for metabolites database, which have been not observed, but very likely can occure. Based on the Biochemical Network Integrated Computational Explorer and enzyme reaction rules it will be calculated. The website is userfriendly and also available as an API: [https://minedatabase.mcs.anl.gov/#/home](https://minedatabase.mcs.anl.gov/#/home)
+
+This database includes structures for use in untargeted metabolomics. This resulting compounds are rarely found in PubChem but are structurally similar to natural products.
+
+As an input you can give an MS/MS file, structure, name.... As an output you will get information about the reaction, validated compounds...
+
+
 ### [Molecular structure discovery for untargeted metabolomics using biotransformation rules and global molecular networking](https://doi.org/10.1101/2024.02.04.578795)
 
+A big part of the MS/MS spectras are unidentified (exp. GNPS/MassIVE). 
+For this problem they developed BAM (Biotransformation-based Annotation Method).
+It has the potential to identified new molecules based on previously unknown MS/MS spectra.
+The predictionrate for the right assignment is 24.x %.  
 
+BAM concist of three steps:
+
+1. determine an annotated anchor spectrum based on high spectral similarity.  
+
+2. Apply biotranformation rules that match the observed mass difference and generate candidate structures  
+The rules are sourced from RetroRules, KEGG or Metacyc. Out of that, PROXIMALE 2 was employed.
+
+3. Rank the derivatives based on the likelihods of the applied biotransformation.
+GNN-SOM predicts the likelyhood of each atom in a molecule.
+
+
+#### Coding
+[Github - HassounLab](https://github.com/HassounLab/BAM)
+PROXIMAL2  
+GNN-SOM tool (graph neural network-based tool)
 
 
 [[open-notebook.commons.pamrein.keywords]]

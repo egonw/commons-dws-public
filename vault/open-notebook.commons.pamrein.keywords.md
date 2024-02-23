@@ -2,7 +2,7 @@
 id: 3ca85tg6eqf78kgql1mj3vl
 title: Keywords
 desc: ''
-updated: 1708614459473
+updated: 1708689593757
 created: 1708610622749
 ---
 ## Keywords
@@ -12,5 +12,12 @@ LNPN - [LOTUS database](https://lotus.naturalproducts.net)
 SSOT - Single Source of Truth  
 OTL - Open Tree of life  
 IDSM - Integrated Database of Small Molecules  
-SMILES -  
-SMARTS -  
+SMILES - Simplified Molecular Input Line Entry System (represents chemical structures in a linear string)
+BNICE - Biochemical Network Integated Computational Explorer (enzymatic algorythms)  
+KEGG - Kyoto Encyclopedia of Genes and Genomes (database)  
+SMARTS - Simplified Molecular Input Line Entry System (represent chemical structures)  
+FP2 - Fingerprints  
+FP4 - Fingerprints  
+MINEs - Metabolic In silico Network Expansions (predicted enzyme promiscuity products - database)  
+BAM - Biotransformation-based Annotation Method
+COMMONS Lab - COMputational Metabolomics & Open science for Natural products reSearch  

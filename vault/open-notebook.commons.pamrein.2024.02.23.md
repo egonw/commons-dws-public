@@ -1,14 +1,14 @@
 ---
-id: oxoker8doqq8gxa0e16wnp1
-title: '2024-02-22'
+id: wn10dc3l535y60u8yb9iq2d
+title: '2024-02-23'
 desc: ''
-updated: 1708678967995
-created: 1708610389550
+updated: 1708678994174
+created: 1708678871135
 traitIds:
   - open-notebook-commons-pamrein
 ---
 
-# PAMREIN's daily Open Notebook (COMMONS Lab) [2024.02.22]
+# PAMREIN's daily Open Notebook (COMMONS Lab) [2024.02.23]
 
 ## Todo - [Check Github](https://github.com/orgs/commons-research/projects/2/views/1)
 -[]
@@ -19,10 +19,9 @@ None
 
 
 ## Daily report (What did I learned?)
-How to work efficient? Maybe the [GTD](https://en.wikipedia.org/wiki/Getting_Things_Done) from David Allen can help.  
 
 [[open-notebook.commons.pamrein.papers]]
 
 
-
 ## Future perspective
+
