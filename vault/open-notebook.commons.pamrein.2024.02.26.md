@@ -11,11 +11,11 @@ traitIds:
 # PAMREIN's daily Open Notebook (COMMONS Lab) [2024.02.26]
 
 ## Todo - [Check Github](https://github.com/orgs/commons-research/projects/2/views/1)
--[]
+-[check out cookiecutter (with poetry)]
 
 
 ## Meetings
-
+None
 
 
 ## Daily report (What did I learned?)
@@ -27,3 +27,4 @@ traitIds:
 
 
 ## Keywords
+[[open-notebook.commons.pamrein.keywords]]
