@@ -2,7 +2,7 @@
 id: lqgtmm63ylloejro23g40r2
 title: '2024-02-27'
 desc: ''
-updated: 1709050192246
+updated: 1709050571712
 created: 1709037148042
 traitIds:
   - open-notebook-commons-pamrein
@@ -59,6 +59,10 @@ poetry shell /go into terminal mode - type "exit" to leave the shell
 
 To run codium in a specific directory, write in the shell: 'codium .'
  
+
+Installed [rust](https://www.rust-lang.org/tools/install)
+
+
 
 ## Future perspective
 
