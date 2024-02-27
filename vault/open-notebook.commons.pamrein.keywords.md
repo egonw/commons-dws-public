@@ -21,3 +21,4 @@ FP4 - Fingerprints
 MINEs - Metabolic In silico Network Expansions (predicted enzyme promiscuity products - database)  
 BAM - Biotransformation-based Annotation Method
 COMMONS Lab - COMputational Metabolomics & Open science for Natural products reSearch  
+SMART- (Simple Modular Architecture Research Tool) is a [website](http://smart.embl-heidelberg.de/) used for the identification and annotation of protein domains within protein sequences.  
