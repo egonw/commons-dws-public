@@ -2,13 +2,13 @@
 id: xd9ywk039liy4aim6negubf
 title: '2024-02-28'
 desc: ''
-updated: 1709113318742
+updated: 1709139703497
 created: 1709106768966
 traitIds:
   - open-notebook-commons-pamrein
 ---
 
-# PAMREIN's daily Open Notebook (COMMONS Lab) [2024.02.28]
+# PAMREIN's daily Open Notebook (COMMONS Lab)
 
 ## Todo - [Check Github](https://github.com/orgs/commons-research/projects/2/views/1)
 -[]write the script in python
@@ -21,15 +21,31 @@ None
 
 ## Daily report (What did I learned?)
 
+snakemake
+
 ### Poetry
 Add a package:
 
 
-### shortcuts
+### shortcuts 
 #### VScode
 `ctrl+shift+^` : open the new terminal
 
+### How Backup .bashrc
+Backup your current .bashrc file:
+```bash
+cp ~/.bashrc ~/.bashrc.bak
+```
 
+Copy the skeleton .bashrc file over yours:
+```bash
+cp /etc/skel/.bashrc ~/
+```
+
+Afterwards, load the new one:
+```bash
+source ~/.bashrc
+```
 
 ## Future perspective
 
@@ -37,3 +53,4 @@ Add a package:
 
 ## Keywords
 [[expanded-np-chemspace.keywords]]
+
