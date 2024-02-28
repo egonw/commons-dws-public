@@ -34,4 +34,4 @@ cookiecutter:
 
 
 ## Keywords
-[[open-notebook.commons.pamrein.keywords]]
+[[expanded-np-chemspace.keywords]]

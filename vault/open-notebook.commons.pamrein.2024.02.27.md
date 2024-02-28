@@ -69,4 +69,4 @@ Installed [rust](https://www.rust-lang.org/tools/install)
 
 
 ## Keywords
-[[open-notebook.commons.pamrein.keywords]]
+[[expanded-np-chemspace.keywords]]
