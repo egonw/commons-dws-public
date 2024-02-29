@@ -20,7 +20,7 @@ None
 
 ## Daily report (What did I learned?)
 
-[[expanded-np-chemspace.papers.md]]
+[[expanded-np-chemspace.information.papers]]
 
 micromamba 
 poetry
