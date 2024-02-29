@@ -2,7 +2,7 @@
 id: 3xju2sc89n29uayg8f6hega
 title: Python and Packages
 desc: ''
-updated: 1709139680672
+updated: 1709222296553
 created: 1709132173368
 ---
 # Python
@@ -46,7 +46,7 @@ To take this changes into effect you have to restart your terminal or run `sourc
 |    `pyenv versions`    	| shows all installed environments and the active one                                             	|
 |         `pyenv`        	| help site                                                                                       	|
 |  `pyenv global <system>` 	| Don't use this, if you not sure what you are doing. We will use poetry for the python versions. 	|
-
+|  `pyenv local <system>` 	| If poetry can't find your version. Use this to load the rigth version and the use poetry.      	|
 
 
 
@@ -65,14 +65,15 @@ pipx ensurepath
 
 2. install [poetry](https://python-poetry.org/docs/#installation)
 ```bash
-pipx install pipx
+pipx install poetry
 ```
 
 #### Useful commands
-| **command**                  	| **description**                                                    	|
-|------------------------------	|--------------------------------------------------------------------	|
-|       `poetry install`       	| all possible python versions to install.                           	|
-|         `poetry init`        	| This folder will set up to use a virtual environement with poetry. 	|
-|  `poetry new <projectname>`  	| Makes the folder with the files in it.                             	|
-| `poetry add <pythonpackage>` 	| Add a package to your project.                                     	|
-|       `poetry install`       	| Have to be run, befor running the code.                            	|
+| **command**                  	   | **description**                                                    	|
+|----------------------------------|--------------------------------------------------------------------	|
+|       `poetry install`       	   | all possible python versions to install.                           	|
+|         `poetry init`        	   | This folder will set up to use a virtual environement with poetry. 	|
+|  `poetry new <projectname>`  	   | Makes the folder with the files in it.                             	|
+| `poetry add <pythonpackage>` 	   | Add a package to your project.                                     	|
+|       `poetry install`       	   | Have to be run, befor running the code.                            	|
+| `poetry env use <pythonversion>` | Change python version.                            	                    |

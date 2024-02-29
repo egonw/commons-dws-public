@@ -2,7 +2,7 @@
 id: szdrijhisrocpfc7s49wifq
 title: '2024-02-29'
 desc: ''
-updated: 1709212300673
+updated: 1709222326841
 created: 1709211725312
 traitIds:
   - open-notebook-commons-pamrein
@@ -23,6 +23,19 @@ traitIds:
 
 Dendron refractor:
 https://wiki.dendron.so/notes/srajljj10V2dl19nCSFiC/
+
+
+### VSCode #Program
+| **command**        	| **description**          	|
+|--------------------	|--------------------------	|
+| `Ctrl + Shift + P` 	| Open search for commands 	|
+|     `Ctrl + P`     	| Open search for files.   	|
+
+### Poetry #Program
+Changes made in config file (`poetry config --list`):
+`virtualenvs.path = "{cache-dir}/virtualenvs"  # /home/popeye/.cache/pypoetry/virtualenvs` to
+`/home/popeye/.pyenv/versions`   
+
 
 
 ## Future perspective
