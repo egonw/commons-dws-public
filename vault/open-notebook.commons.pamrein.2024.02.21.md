@@ -15,7 +15,7 @@ traitIds:
 
 
 ## Daily report (What did I learned?)
-[[open-notebook.commons.pamrein.papers]]
+[[expanded-np-chemspace.papers.md]]
 
 
 ## Future perspective
