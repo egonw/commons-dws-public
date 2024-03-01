@@ -2,7 +2,7 @@
 id: 3xju2sc89n29uayg8f6hega
 title: Python and Packages
 desc: ''
-updated: 1709288580137
+updated: 1709289431362
 created: 1709132173368
 ---
 # Python
@@ -11,9 +11,11 @@ This should be a small introduction how to handle python environements.
 
 It is important for the following steps, to have now activated environments. For example if you using conda (you can see it in the terminal - (base) ), then you should deactivate it. Maybe in the past you had some troubles... It can be a good idea to clean the base in conda.
 
-Conda deactivate:           `conda deactivate`
-Conda actiavate (base):     `conda activate`
-Conda clean (base):         `conda clean --all`
+Conda deactivate:           `conda deactivate`  
+Conda actiavate (base):     `conda activate`  
+Conda clean (base):         `conda clean --all`  
+
+For checking, which pyhton version is in use:   `which python`  
 
 ## Python versions
 As we all, also Python is developping. Some packages are developped for the newest python and a specific time
@@ -83,7 +85,10 @@ pipx install poetry
 | `poetry add <pythonpackage>` 	   | Add a package to your project.                                     	            |   
 |       `poetry update`       	   | For added packages, it is recommended to update them after that.     	            |
 | `poetry env use <pythonversion>` | Change python version.                            	                                |
+|  `poetry run <python script.py>` | Run your code in poetry.                                            	            |
+
 
 
 `poetry install` is the same as `poetry update` if there's no *poetry.lock* file. It's only slightly more convenient to install directly from the *poetry.lock* file if you don't want to update dependencies. `poetry lock` creates a *poetry.lock* file, but does not install packages.
+It can be useful in groupworks, that the poetry.lock stays "unchanged". So all collaborators are sure, it works with the defined packages.
 
