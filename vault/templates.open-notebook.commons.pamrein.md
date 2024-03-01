@@ -2,7 +2,7 @@
 id: ozp2qt78t5st6m7zdgzuihd
 title: Pamrein
 desc: ''
-updated: 1709137817763
+updated: 1709238177634
 created: 1708421611411
 ---
 
@@ -16,7 +16,7 @@ created: 1708421611411
 
 
 
-## Daily report (What did I learned?)
+## Daily report (What did I learn?)
 
 
 

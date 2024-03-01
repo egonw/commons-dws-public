@@ -2,7 +2,7 @@
 id: wn10dc3l535y60u8yb9iq2d
 title: '2024-02-23'
 desc: ''
-updated: 1708692808823
+updated: 1709281433900
 created: 1708678871135
 traitIds:
   - open-notebook-commons-pamrein
@@ -26,4 +26,5 @@ micromamba
 poetry
 
 ## Future perspective
+
 
