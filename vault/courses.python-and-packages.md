@@ -2,12 +2,18 @@
 id: 3xju2sc89n29uayg8f6hega
 title: Python and Packages
 desc: ''
-updated: 1709222296553
+updated: 1709288580137
 created: 1709132173368
 ---
 # Python
 To get start with python is very easy. But to come back to a project and let it run again can hurt.
-This should be a small introduction how to handle python environements.
+This should be a small introduction how to handle python environements.  
+
+It is important for the following steps, to have now activated environments. For example if you using conda (you can see it in the terminal - (base) ), then you should deactivate it. Maybe in the past you had some troubles... It can be a good idea to clean the base in conda.
+
+Conda deactivate:           `conda deactivate`
+Conda actiavate (base):     `conda activate`
+Conda clean (base):         `conda clean --all`
 
 ## Python versions
 As we all, also Python is developping. Some packages are developped for the newest python and a specific time
@@ -69,11 +75,15 @@ pipx install poetry
 ```
 
 #### Useful commands
-| **command**                  	   | **description**                                                    	|
-|----------------------------------|--------------------------------------------------------------------	|
-|       `poetry install`       	   | all possible python versions to install.                           	|
-|         `poetry init`        	   | This folder will set up to use a virtual environement with poetry. 	|
-|  `poetry new <projectname>`  	   | Makes the folder with the files in it.                             	|
-| `poetry add <pythonpackage>` 	   | Add a package to your project.                                     	|
-|       `poetry install`       	   | Have to be run, befor running the code.                            	|
-| `poetry env use <pythonversion>` | Change python version.                            	                    |
+| **command**                  	   | **description**                                                    	            |
+|----------------------------------|------------------------------------------------------------------------------------|
+|       `poetry install`       	   | Takes the *.toml file and installs all the packages. Creates the poetry.lock file.	|
+|         `poetry init`        	   | This folder will set up to use a virtual environement with poetry. 	            |
+|  `poetry new <projectname>`  	   | Makes the folder with the files in it.                             	            |
+| `poetry add <pythonpackage>` 	   | Add a package to your project.                                     	            |   
+|       `poetry update`       	   | For added packages, it is recommended to update them after that.     	            |
+| `poetry env use <pythonversion>` | Change python version.                            	                                |
+
+
+`poetry install` is the same as `poetry update` if there's no *poetry.lock* file. It's only slightly more convenient to install directly from the *poetry.lock* file if you don't want to update dependencies. `poetry lock` creates a *poetry.lock* file, but does not install packages.
+
