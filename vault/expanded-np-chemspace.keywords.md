@@ -17,10 +17,10 @@ IDSM - Integrated Database of Small Molecules
 SMILES - Simplified Molecular Input Line Entry System (represents chemical structures in a linear string)
 BNICE - Biochemical Network Integated Computational Explorer (enzymatic algorythms)  
 KEGG - Kyoto Encyclopedia of Genes and Genomes (database)  
-SMARTS - Simplified Molecular Input Line Entry System (represent chemical structures)  
+SMARTS - ...  
 FP2 - Fingerprints  
 FP4 - Fingerprints  
-MINEs - Metabolic In silico Network Expansions (predicted enzyme promiscuity products - database)  
-BAM - Biotransformation-based Annotation Method
+[MINEs](https://minedatabase.mcs.anl.gov/#/home) - Metabolic In silico Network Expansions (predicted enzyme promiscuity products - database)
+BAM - Biotransformation-based Annotation Method  
 COMMONS Lab - COMputational Metabolomics & Open science for Natural products reSearch  
-SMART- (Simple Modular Architecture Research Tool) is a [website](http://smart.embl-heidelberg.de/) used for the identification and annotation of protein domains within protein sequences.  
+[SMART](http://smart.embl-heidelberg.de/) - (Simple Modular Architecture Research Tool) is a used for the identification and annotation of protein domains within protein sequences.  

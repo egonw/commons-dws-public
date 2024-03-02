@@ -29,6 +29,8 @@ polars is a package for python. It is 30x faster than pandas for data wrangling 
 Because the LOTUS dataset is very big, the table of polar has to be increased too. `data = pl.read_csv(path_to_file, separator=",", infer_schema_length=1000000)`
 
 
+Pickaxe removes stereochemistry by default.
+Compounds (SMILES) -> reaction rules (SMARTS - based on JN1224min) -> compounds, reactions, reaction rules, and target molecules (Systems Biology Markup Language (SBML)).
 
 ### Poetry #program
 poetry show : shows all available packages in this environment
