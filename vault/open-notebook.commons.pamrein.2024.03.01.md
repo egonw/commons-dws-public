@@ -25,8 +25,14 @@ Marco showed me today rust. It looks very easy to use and they have a lot of imp
 Like Julia, it can also work with other packages which increases the possibilties of the language.
 [https://survey.stackoverflow.co/2023/](https://survey.stackoverflow.co/2023/)
 
+polars is a package for python. It is 30x faster than pandas for data wrangling and analysis. It is very useful for data science tasks like feature engineering, data cleaning, etc.
+Because the LOTUS dataset is very big, the table of polar has to be increased too. `data = pl.read_csv(path_to_file, separator=",", infer_schema_length=1000000)`
+
+
+
 ### Poetry #program
-poetry show | shows all available packages in this environment
+poetry show : shows all available packages in this environment
+
 
 
 ## Future perspective
