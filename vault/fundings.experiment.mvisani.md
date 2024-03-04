@@ -2,7 +2,7 @@
 id: g78rvtx8jqw02ycntfby0d2
 title: Mvisani
 desc: ''
-updated: 1709550044805
+updated: 1709561548316
 created: 1709543816433
 ---
 
@@ -27,7 +27,7 @@ https://experiment.com/projects/jvqjplzolhyncosrbpob?s=discover
 
 # Draft 
 ## About This Project
-The Earth Metabolome Initiative aims to identify and protect the chemistry of Life. The largely unexplored metabolic diversity, which is rapidly disappearing due to species extinction, is vital for human health, nutrition. In order to uncover and protect this essential natural resource, this initiative launches a worldwide sampling and digitization project that will encourage cooperation. Our goals include protecting biodiversity, advancing life sciences, and assisting human society by developing sustainable solutions through the creation of an open, accessible, and interoperable Earth Metabolome Knowledge Base and faster global metabolome discovery.
+The Earth Metabolome Initiative aims to identify and protect the chemistry of Life. The largely unexplored metabolic diversity, which is rapidly disappearing due to species extinction, is vital for human health and nutrition. In order to uncover and protect this essential natural resource, this initiative has launched a worldwide sampling and digitization project that will encourage cooperation. Our goals include protecting biodiversity, advancing life sciences, and assisting human society by developing sustainable solutions through the creation of an open, accessible, and interoperable Earth Metabolome Knowledge Base and faster global metabolome discovery.
 
 ## What is the context of this research?
 The Earth's metabolic diversity, fundamental to biosphere processes, faces an alarming decline as species disappear. The Earth Metabolome Initiative responds to this crisis with a collaborative, global effort to sample and digitize this diversity, creating resources and technologies for accelerated metabolome discovery.
@@ -40,6 +40,8 @@ The Earth's metabolic diversity, fundamental to biosphere processes, faces an al
 3. Protect Biodiversity: Provide critical information for monitoring, develop novel metrics, and inform predictive tools to prioritize protection and incentivize conservation. The Earth Metabolome Knowledge Base becomes a valuable resource for safeguarding biodiversity and guiding conservation efforts.
 
 ## What are the goals of the project?
-Currently, we are in the process of developing the EMI portal, a website designed to enable users to upload and access their data, transforming simple mass spectrometry data into a Knowledge Graph. To spearhead this development, we've brought on board Junior Scientist Marco Visani under a 6-month contract. With full funding, we aim to extend Marco's contract for an additional 6 months to ensure the completion of the EMI portal.
+In an effort to accelerate the discovery of metabolites, we are actively working on the development of a machine learning model capable of anticipating metabolite occurrences across various species. Our objective is to use the data that the LOTUS database offers, to forecast metabolite occurrences in species that have not yet undergone detailed examination. This approach would enable us to strategically prioritize species for sampling and digitization, ultimately pinpointing the most promising candidates for uncovering novel metabolites.
 
-Additionally, Marco is actively involved in crafting a machine learning algorithm designed to predict the occurrence of metabolites in different species. This cutting-edge algorithm is slated for integration into the EMI portal, further enhancing its capabilities and utility.
+To bring this vision to fruition, we have hired Marco Visani as a Junior Bioinformatician. Marco's role involves crafting an algorithm that integrates historical data from LOTUS and untargeted metabolomics analyses to perform sensitive predictions of the occurences of metabolites in species. Should the project be fully funded, we plan to extend Marco's contract by an additional six months, ensuring the thorough development and refinement of the predictive model.
+
+By successfully implementing this model, we aim to revolutionize the metabolite discovery process, providing a valuable tool for researchers in various scientific domains. The ability to predict metabolite occurrences not only accelerates the pace of scientific discovery but also optimizes resource allocation for targeted sampling efforts. This initiative aligns with our commitment to advancing open science, and upon completion, the model and its findings will be made available to the scientific community, fostering collaboration and furthering our understanding of the chemistry of life.
