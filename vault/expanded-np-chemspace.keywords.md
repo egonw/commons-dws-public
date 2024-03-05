@@ -2,7 +2,7 @@
 id: 3ca85tg6eqf78kgql1mj3vl
 title: Keywords
 desc: ''
-updated: 1709130572537
+updated: 1709653225085
 created: 1708610622749
 ---
 
@@ -17,10 +17,12 @@ IDSM - Integrated Database of Small Molecules
 SMILES - Simplified Molecular Input Line Entry System (represents chemical structures in a linear string)
 BNICE - Biochemical Network Integated Computational Explorer (enzymatic algorythms)  
 KEGG - Kyoto Encyclopedia of Genes and Genomes (database)  
-SMARTS - ...  
+SMARTS - "SMiles ARbitrary Target Specification" 
+SMIRKS - "Simplified Molecular Input Line Entry System" is a hybrid of SMILES and SMARTS.  
 FP2 - Fingerprints  
 FP4 - Fingerprints  
 [MINEs](https://minedatabase.mcs.anl.gov/#/home) - Metabolic In silico Network Expansions (predicted enzyme promiscuity products - database)
 BAM - Biotransformation-based Annotation Method  
 COMMONS Lab - COMputational Metabolomics & Open science for Natural products reSearch  
 [SMART](http://smart.embl-heidelberg.de/) - (Simple Modular Architecture Research Tool) is a used for the identification and annotation of protein domains within protein sequences.  
+*.sdf - text-based file for storing chemical information (structure, ...).
