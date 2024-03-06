@@ -43,4 +43,4 @@ Changes made in config file (`poetry config --list`):
 
 
 ## Keywords
-[[expanded-np-chemspace.keywords]]
+[[expanded_np_chemspace.abbreviations.md]]

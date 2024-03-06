@@ -77,4 +77,4 @@ PROXIMAL2
 GNN-SOM tool (graph neural network-based tool)
 
 
-[[expanded-np-chemspace.keywords]]
+[[expanded_np_chemspace.abbreviations.md]]

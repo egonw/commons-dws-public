@@ -42,4 +42,4 @@ poetry show : shows all available packages in this environment
 
 
 ## Keywords
-[[expanded-np-chemspace.keywords]]
+[[expanded_np_chemspace.abbreviations.md]]

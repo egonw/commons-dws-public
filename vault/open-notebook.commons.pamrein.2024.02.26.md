@@ -34,4 +34,4 @@ cookiecutter:
 
 
 ## Keywords
-[[expanded-np-chemspace.keywords]]
+[[expanded_np_chemspace.abbreviations.md]]

@@ -66,4 +66,4 @@ reference_wikidata,reference_doi,manual_validation
 
 
 ## Keywords
-[[expanded-np-chemspace.keywords]]
+[[expanded_np_chemspace.abbreviations.md]]

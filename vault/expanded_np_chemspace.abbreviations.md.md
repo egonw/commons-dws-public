@@ -1,6 +1,6 @@
 ---
 id: 3ca85tg6eqf78kgql1mj3vl
-title: Keywords
+title: Abbreviations
 desc: ''
 updated: 1709653225085
 created: 1708610622749

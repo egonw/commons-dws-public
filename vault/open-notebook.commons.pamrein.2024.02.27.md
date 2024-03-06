@@ -69,4 +69,4 @@ Installed [rust](https://www.rust-lang.org/tools/install)
 
 
 ## Keywords
-[[expanded-np-chemspace.keywords]]
+[[expanded_np_chemspace.abbreviations.md]]
