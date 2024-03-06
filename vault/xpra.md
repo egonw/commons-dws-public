@@ -2,7 +2,7 @@
 id: nmnpsy2e1rwqnqgurogi2u6
 title: Xpra
 desc: ''
-updated: 1656929517763
+updated: 1709532467382
 created: 1646923333472
 ---
 
@@ -21,6 +21,18 @@ xpra start :100 --start=chromium
 xpra start :200 --start=xterm
 xpra start :300 --start=xterm
 
+To view running session
+
+xpra sessions 
+
+To rename a session
+xpra control :10 name WHATEVER
+
+Ex:
+xpra start :200 --start=xterm
+xpra control :200 name MZMINE
+
+
 
 
 ## List of xpra servers
@@ -35,3 +47,5 @@ xpra attach ssh:allardpm@biolpc045600:200
 
 ### Xterm2
 xpra attach ssh:allardpm@biolpc045600:300
+
+

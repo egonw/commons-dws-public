@@ -2,7 +2,7 @@
 id: 6ooxuf27zzf3grb14o18qf2
 title: Awk
 desc: ''
-updated: 1687874851232
+updated: 1709647352566
 created: 1687874706004
 ---
 
@@ -25,3 +25,19 @@ The code processes a file named compound_identifications.tsv. It searches for a 
 Same with score
 
 `awk 'BEGIN{FS="\t"; OFS="\t"} NR==1{for(i=1;i<=NF;i++){if($i=="id"){split_field_index=i;break}} if(split_field_index==0){print"Field not found: field_name_to_split">"/dev/stderr";exit 1}print $0,"feature_id";next}{split($split_field_index,arr,"_");print $0,arr[length(arr)]}' compound_identifications.tsv | awk 'BEGIN {FS=OFS="\t"} NR==1 {for (i=1; i<=NF; i++) $i = $i "_sirius"} {print}' | csvcut -t -c "feature_id_sirius,id_sirius,ConfidenceScore_sirius,CSI:FingerIDScore_sirius,ZodiacScore_sirius,SiriusScore_sirius,molecularFormula_sirius,adduct_sirius,InChIkey2D_sirius,InChI_sirius,name_sirius,smiles_sirius,xlogp_sirius,ionMass_sirius" | csvformat -T > compound_identifications_id.tsv`
+
+
+To add suffix/prefix
+
+This will suffix
+`awk -F'\t' 'BEGIN {OFS="\t"} NR==1 {for (i=1; i<=NF; i++) $i = $i "_suffix"} {print}' input.tsv > output.tsv`
+
+This will prefix
+`awk -F'\t' 'BEGIN {OFS="\t"} NR==1 {for (i=1; i<=NF; i++) $i = "prefix_" $i} {print}' input.tsv > output.tsv`
+
+
+CSV to TSV conversion 
+
+awk -v OFS='\t' '{ $1=$1; print }' input.csv > output.tsv
+
+
