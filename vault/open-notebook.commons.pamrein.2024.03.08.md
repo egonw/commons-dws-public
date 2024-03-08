@@ -2,7 +2,7 @@
 id: 0wn91vsfjkhnh6rpn6j51ox
 title: '2024-03-08'
 desc: ''
-updated: 1709908446778
+updated: 1709908599050
 created: 1709901587899
 traitIds:
   - open-notebook-commons-pamrein
@@ -65,6 +65,9 @@ mkdocs gh-deploy
 ```
 
 It is recommended to ignore (.ignore file) the folder /site which will be the outputfile from mkdocs. It will inclute the *.html file, *.css and so on.
+
+
+I did it for our project <https://commons-research.github.io/dataset-extractor-lotus/#information>.
 
 
 ## Future perspective
