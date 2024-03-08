@@ -2,9 +2,11 @@
 id: 8ElFvQBDYuPdyHJeLaRNS
 title: Scientific_paper
 desc: ''
-updated: 1663495097207
+updated: 1709896758416
 created: 1601410082237
 ---
+
+Pasted from https://www.nature.com/scitable/topicpage/scientific-papers-13815490/
 
 # Scientific Papers
 
