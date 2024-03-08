@@ -2,7 +2,7 @@
 id: fn43lgjthh497mtyki3ax2t
 title: '2024-03-08'
 desc: ''
-updated: 1709891144505
+updated: 1709895149031
 created: 1709888933835
 traitIds:
   - open-notebook-commons-pmallard
@@ -34,6 +34,7 @@ https://github.com/nf-core/metaboigniter/tree/2.0.0
 
 - Textes funding pour experiment.com
 
+
 - News prediction and streamlit anticipated LOTUS ()
 http://134.21.20.118:8501/
 
@@ -42,7 +43,18 @@ We start from https://pubs.acs.org/doi/epdf/10.1021/acs.jnatprod.3c00838
 https://decimer.ai/
 
 Display probabilities of the putative molecules as a barplot on a phylogenetic tree
- 
+
+See https://tb-gen.streamlit.app/~/+/ 
+
+Maybe it will require to use Dash 
+https://dash.plotly.com/cytoscape/biopython
+
+Add filter in headers possibility https://discuss.streamlit.io/t/filtering-columns-by-header-name/5946
+
+
+
+
+
 
 ## Paused
 
