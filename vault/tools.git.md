@@ -2,7 +2,7 @@
 id: kjCZnMBrXYokZny7loss4
 title: Git
 desc: ''
-updated: 1685640791711
+updated: 1709825573124
 created: 1630424670253
 ---
 
@@ -72,4 +72,17 @@ https://blog.mergify.com/what-is-a-git-merge-fast-forward/
 ## For git sensitive information removal
 
 https://rtyley.github.io/bfg-repo-cleaner/
+
+
+# Undo a git commit & redo  
+
+$ git commit -m "Something terribly misguided" # (0: Your Accident)
+$ git reset HEAD~                              # (1)
+[ edit files as necessary ]                    # (2)
+$ git add .                                    # (3)
+$ git commit -c ORIG_HEAD                      # (4)
+
+https://stackoverflow.com/a/927386
+
+
 
