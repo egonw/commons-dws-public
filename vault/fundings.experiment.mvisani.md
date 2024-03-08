@@ -2,9 +2,12 @@
 id: g78rvtx8jqw02ycntfby0d2
 title: Mvisani
 desc: ''
-updated: 1709561548316
+updated: 1709895712601
 created: 1709543816433
 ---
+
+# Google doc link
+https://docs.google.com/document/d/1M2tU1GmtFWkD05RSsxgKfchrQRhUnmf_q77IV8wyBMk/edit
 
 # experiment.com
 Experiment is a platform for funding scientific discoveries.
