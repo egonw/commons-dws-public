@@ -2,7 +2,7 @@
 id: g78rvtx8jqw02ycntfby0d2
 title: Mvisani
 desc: ''
-updated: 1709895712601
+updated: 1709896355352
 created: 1709543816433
 ---
 
@@ -29,8 +29,11 @@ https://experiment.com/projects/jvqjplzolhyncosrbpob?s=discover
 
 
 # Draft 
+
 ## About This Project
+
 The Earth Metabolome Initiative aims to identify and protect the chemistry of Life. The largely unexplored metabolic diversity, which is rapidly disappearing due to species extinction, is vital for human health and nutrition. In order to uncover and protect this essential natural resource, this initiative has launched a worldwide sampling and digitization project that will encourage cooperation. Our goals include protecting biodiversity, advancing life sciences, and assisting human society by developing sustainable solutions through the creation of an open, accessible, and interoperable Earth Metabolome Knowledge Base and faster global metabolome discovery.
+
 
 ## What is the context of this research?
 The Earth's metabolic diversity, fundamental to biosphere processes, faces an alarming decline as species disappear. The Earth Metabolome Initiative responds to this crisis with a collaborative, global effort to sample and digitize this diversity, creating resources and technologies for accelerated metabolome discovery.
@@ -48,3 +51,5 @@ In an effort to accelerate the discovery of metabolites, we are actively working
 To bring this vision to fruition, we have hired Marco Visani as a Junior Bioinformatician. Marco's role involves crafting an algorithm that integrates historical data from LOTUS and untargeted metabolomics analyses to perform sensitive predictions of the occurences of metabolites in species. Should the project be fully funded, we plan to extend Marco's contract by an additional six months, ensuring the thorough development and refinement of the predictive model.
 
 By successfully implementing this model, we aim to revolutionize the metabolite discovery process, providing a valuable tool for researchers in various scientific domains. The ability to predict metabolite occurrences not only accelerates the pace of scientific discovery but also optimizes resource allocation for targeted sampling efforts. This initiative aligns with our commitment to advancing open science, and upon completion, the model and its findings will be made available to the scientific community, fostering collaboration and furthering our understanding of the chemistry of life.
+
+
