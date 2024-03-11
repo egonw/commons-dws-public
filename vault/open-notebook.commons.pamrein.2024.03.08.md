@@ -2,7 +2,7 @@
 id: 0wn91vsfjkhnh6rpn6j51ox
 title: '2024-03-08'
 desc: ''
-updated: 1709908599050
+updated: 1710150859758
 created: 1709901587899
 traitIds:
   - open-notebook-commons-pamrein
@@ -59,15 +59,15 @@ theme: "readthedocs"
 mkdocs serve
 ```
 
-5. publish it to github
+5. publish it to github (the output will show you the link for the documentation)
 ```bash
 mkdocs gh-deploy
 ```
 
-It is recommended to ignore (.ignore file) the folder /site which will be the outputfile from mkdocs. It will inclute the *.html file, *.css and so on.
+It is recommended to ignore (.ignore file) the folder /site which will be the outputfile from mkdocs. It will inclute the *.html file, *.css and others.
 
 
-I did it for our project <https://commons-research.github.io/dataset-extractor-lotus/#information>.
+With the gh-deploy the following webpage went online <https://commons-research.github.io/dataset-extractor-lotus/#information>.
 
 
 ## Future perspective
