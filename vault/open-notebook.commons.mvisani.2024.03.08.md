@@ -2,7 +2,7 @@
 id: jw21bshi0z4fd96sselk09w
 title: '2024-03-08'
 desc: ''
-updated: 1709896311862
+updated: 1709896890787
 created: 1709888939513
 traitIds:
   - open-notebook-mvisani
@@ -15,13 +15,18 @@ Today is 2024.03.08
 ## Notes
 Talk with PMA
 ### Nextflow
+
 ### Text for experiment.com
 **about this project** : , we want to predict the molecules of life. No introduction to EMI. 
+See [[writing.scientific_paper]]
+See https://docs.google.com/document/d/1M2tU1GmtFWkD05RSsxgKfchrQRhUnmf_q77IV8wyBMk/edit
 
-Don't my name 
 ### Anticipated LOTUS new predictions
 Todo : add a display of probabilites 
 strangly the model predicts all species to be around 0.8 at minimum. 
+Call Luca to discuss this ! --> TODO today
+
+investigate interactive phylogenetic plots 
 
 ## Todo today
 * 
