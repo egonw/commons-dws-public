@@ -2,14 +2,13 @@
 id: k6pqpyhgiyyl2vuzky78xfu
 title: Documentation
 desc: ''
-updated: 1710154721771
+updated: 1710236266306
 created: 1710151461752
 ---
 
-# Documentation
 Documentation is an important step for all kind of projects.
 Specially then, when you want to share it and used by the community.
-Mostly the mayority of time is spend for coding and some small part for documentation.
+Mostly the mayority of time is spend for coding and some small part for the documentation.
 To make the documentation easier and less timeconsuming, some packages are developped.
 
 
@@ -36,10 +35,10 @@ pip install mkdocs
 # for more material <https://squidfunk.github.io/mkdocs-material/>
 pip install mkdocs-material
 ```
-It also exist some other themes, which can be found here: <https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes>.  
+ 
 
 ### Project layout
-If you run the first time `mkdocs new <project_name>`, it will create new folders for the documentation and a confic file (mkdocs.yml). 
+If you run the first time `mkdocs new <project_name>`, it will create new folders for the documentation and a config file (mkdocs.yml). 
 
     mkdocs.yml    # The configuration file.
     docs/
@@ -102,6 +101,56 @@ copyright: |
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
-* `mkdocs gh-deploy` - Deploy the documentation to GitHub pages.
+* `mkdocs gh-deploy` - Deploy the documentation to GitHub pages and push it with the branch gh-pages.
 * `mkdocs gh-deploy --help` - Print help of gh-deploy
+
+The easiest way to "deploy" the documentation is putting the required files in the **/docs** folder and configuring the **mkdocs.yml** file.
+With the command `mkdocs gh-deploy` the documentation will be deployed and pushed to Github (uses the branch: gh-deploy). This can takes less than a minute. The website name you can find in the terminal output of this command or < username >.github.io/< repository >.
+
+
+### github - workflows 
+For even make it easier for the documentation, it's possible to do an ["action"](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions?learn=getting_started) on github.
+It is a `/.github/workflows/*.yml` file, which will be run after a specific event.
+In this case we will run the command `mkdocs gh-deploy` after a push to the main or master branch.  
+
+Create the folders and file `/.github/workflows/mkdocs.yml` and put the following content in the file (**ci.yml**):
+```yaml
+name: ci-mkdocs
+
+#if pushed from master or main, this action will be triggered
+on:
+  push:
+    branches:
+      - master 
+      - main
+permissions:
+  contents: write
+
+#jobs to be executed
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - run: pip install mkdocs-material
+      - run: pip install pillow cairosvg
+      - run: mkdocs gh-deploy --force
+```
+The main part for this file comes from the following sourece: <https://squidfunk.github.io/mkdocs-material/publishing-your-site/?h=github#with-github-actions>.  
+
+Now, when you push your documentation with the main branch, it will be automaticaly deployed on github. You even don't have to run anymore `mkdocs gh-deploy`.
 
