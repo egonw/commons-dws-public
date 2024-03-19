@@ -2,7 +2,7 @@
 id: jhfbx6adq7mbinwf4uvu0pm
 title: courses-keyboardshortcuts
 desc: ''
-updated: 1710410614560
+updated: 1710866121077
 created: 1710409612333
 ---
 
@@ -24,3 +24,5 @@ created: 1710409612333
 `CTRL + D`: mark the current word 
 
 
+Github
+CTRL + K : search
