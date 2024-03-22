@@ -2,7 +2,7 @@
 id: 3xju2sc89n29uayg8f6hega
 title: Python and Packages
 desc: ''
-updated: 1709289431362
+updated: 1711113510735
 created: 1709132173368
 ---
 # Python
@@ -86,6 +86,8 @@ pipx install poetry
 |       `poetry update`       	   | For added packages, it is recommended to update them after that.     	            |
 | `poetry env use <pythonversion>` | Change python version.                            	                                |
 |  `poetry run <python script.py>` | Run your code in poetry.                                            	            |
+|        `poetry show`             | Poetry show packages from environment.                               	            |
+                       
 
 
 
