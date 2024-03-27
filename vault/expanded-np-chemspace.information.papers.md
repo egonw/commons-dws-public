@@ -2,7 +2,7 @@
 id: loztevovn8nanzdk302b756
 title: Papers
 desc: ''
-updated: 1709213762502
+updated: 1711555256988
 created: 1709212733420
 ---
 
@@ -37,11 +37,6 @@ Aim to make more and better data available.
 [NPAtlas]() specificly for microbial NPs.  
 [COCONUT]() COlleCtion of Open NatUral products (similar to LOTUS)  
 [natural products online](https://naturalproducts.net/) - Host for Lotus, Coconut ...  
-
-
-#### Question's
-- The search of "cocain" give you two answers but kind of the same information. Why? https://lotus.naturalproducts.net/search/simple/cocain
-
 
 
 ### [MINEs: open access databases of computationally predicted enzyme promiscuity products for untargeted metabolomics](https://doi.org/10.1186/s13321-015-0087-1)

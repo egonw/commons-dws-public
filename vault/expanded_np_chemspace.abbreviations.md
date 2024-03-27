@@ -2,7 +2,7 @@
 id: 3ca85tg6eqf78kgql1mj3vl
 title: Abbreviations
 desc: ''
-updated: 1709653225085
+updated: 1711553381116
 created: 1708610622749
 ---
 
@@ -18,7 +18,7 @@ SMILES - Simplified Molecular Input Line Entry System (represents chemical struc
 BNICE - Biochemical Network Integated Computational Explorer (enzymatic algorythms)  
 KEGG - Kyoto Encyclopedia of Genes and Genomes (database)  
 SMARTS - "SMiles ARbitrary Target Specification" 
-SMIRKS - "Simplified Molecular Input Line Entry System" is a hybrid of SMILES and SMARTS.  
+SMIRKS - "Simplified Molecular Input Line Entry System" is a hybrid of SMILES and SMARTS. It represent reactions in a string. 
 FP2 - Fingerprints  
 FP4 - Fingerprints  
 [MINEs](https://minedatabase.mcs.anl.gov/#/home) - Metabolic In silico Network Expansions (predicted enzyme promiscuity products - database)

@@ -2,7 +2,7 @@
 id: jhfbx6adq7mbinwf4uvu0pm
 title: courses-keyboardshortcuts
 desc: ''
-updated: 1710866121077
+updated: 1711533536648
 created: 1710409612333
 ---
 
@@ -26,3 +26,12 @@ created: 1710409612333
 
 Github
 CTRL + K : search
+
+
+Dendron
+Ctrl + L : open new *.md file
+
+Visual Studio / Codium:
+Ctrl + ` : open integrated terminal
+Ctrl + Shift + C : open terminal outside editor
+
