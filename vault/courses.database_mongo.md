@@ -2,7 +2,7 @@
 id: qwi1ic2njr33r4lwel0v598
 title: Database_mongo
 desc: ''
-updated: 1711545332615
+updated: 1711641260444
 created: 1711527900165
 ---
 # databases
@@ -15,6 +15,8 @@ The website (datanyze))[https://www.datanyze.com/market-share/databases--272] sh
 
 ## mongodb
 MongoDB is a source-available, cross-platform, document-oriented database program. Classified as a NoSQL database product, MongoDB utilizes JSON-like documents with optional schemas. The initial release was in February 2009. [Source Wikipedia](https://en.wikipedia.org/wiki/MongoDB)
+
+Instead of using querys (like in SQL), they are using CRUD operations.
 
 This database is used by the [minesdatabase](https://github.com/tyo-nu/MINE-Database).
 
@@ -40,6 +42,7 @@ sudo systemctl stop mongod
 
 ### mongo shell (CLI)
 To have a look at the databases use the mongo shell `mongosh`. To use it, the mongod service needs to be running.
+The MongoDB Shell uses a Node REPL environment. This means that we are able to use JavaScript variable declaration, function declaration, and loops.
 
 ```sh
 # start CLI
@@ -75,3 +78,29 @@ Installation: <https://www.mongodb.com/docs/compass/master/install/>
 
 ### mongo university (learning area)
 More informations about mongo db can be found here: [Mongo University](https://learn.mongodb.com/learning-paths/introduction-to-mongodb)
+
+
+#### mongodb commands
+search: 
+`db.sales.find({ <field>: { <operator> : <value> } })`
+example: `db.sales.find({ "items.price": { $gt: 50}})`
+
+field:  
+$elemMatch - find this element in value
+
+
+operator:  
+$eq - equal  
+$gt - greater than
+$gte - greater than or equal to
+$lt - less than
+$lte - less than or equal to
+$ne - not equal
+
+
+db.sales.find({
+  items: {
+    $elemMatch: { name: "laptop", price: { $gt: 800 }, quantity: { $gte: 1 } },
+  },
+})
+
