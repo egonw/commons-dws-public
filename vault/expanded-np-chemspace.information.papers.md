@@ -2,7 +2,7 @@
 id: loztevovn8nanzdk302b756
 title: Papers
 desc: ''
-updated: 1711555256988
+updated: 1712060041513
 created: 1709212733420
 ---
 
@@ -72,4 +72,5 @@ PROXIMAL2
 GNN-SOM tool (graph neural network-based tool)
 
 
+### [Pickaxe...](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05149-8)
 [[expanded_np_chemspace.abbreviations.md]]
