@@ -2,7 +2,7 @@
 id: nmnpsy2e1rwqnqgurogi2u6
 title: Xpra
 desc: ''
-updated: 1709532467382
+updated: 1712147145461
 created: 1646923333472
 ---
 
@@ -32,6 +32,9 @@ Ex:
 xpra start :200 --start=xterm
 xpra control :200 name MZMINE
 
+
+xpra start :100 --start=chromium
+xpra control :100 name CHROMIUM
 
 
 

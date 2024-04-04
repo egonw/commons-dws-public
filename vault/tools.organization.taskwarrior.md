@@ -2,7 +2,7 @@
 id: NOjG8VZncte4kDY12I6yi
 title: Taskwarrior
 desc: ''
-updated: 1679231767345
+updated: 1712243966501
 created: 1617783155898
 ---
 
@@ -99,4 +99,21 @@ The steup guidelines
 
 https://gothenburgbitfactory.github.io/taskserver-setup/
 
+
+
+# Taskopen
+
+Is great to annotate and link files to task
+
+https://github.com/jschlatow/taskopen
+
+```bash
+task 15 annotate Hello
+task 15 http://www.example.com
+task 15 ~/path/to/file
+```
+
+```bash
+taskopen 15
+```
 
