@@ -2,7 +2,7 @@
 id: loztevovn8nanzdk302b756
 title: Papers
 desc: ''
-updated: 1712155632065
+updated: 1712245303552
 created: 1709212733420
 ---
 
@@ -73,8 +73,29 @@ GNN-SOM tool (graph neural network-based tool)
 
 
 ### [Pickaxe...](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05149-8)
+- prepackaged ruleset (JN1224min - metacyc) with UniProt IDs of enzyms
+- rules provided on Pickaxe do not utilize stereochemistry
+- RDKit: Cheminformatics program applies the SMARTS rules.
+- compounds and reactions can be filtered in the same run.
 
+Filters:
+- Similarity filter:
+    Input: 
+    Output: 
 
+- Metabolomics filter:
+    Input: list of experimental mass-to-charge (m/z), list of possible adducts
+    Output: compares the two lists by the m/z values and give back all compounds with a specific treshhold
+
+- Thermodynamic filter:
+    Info: eQuilator (module) biochemical thermodynamic calculator 
+    Input: 
+
+- Feasibility filter:
+    Info: DeepRFC (<https://​doi.​org/​10.​1002/​biot.​20200​0605>) DeepRFC utilizes substrate-product pairs within KEGG reactions to train a deep neural net to predict a reaction’s feasibility.
+
+![ distancemeters ](expanded-np-chemspace.distancemeters_chemical_moleculs.png)  
+*distancemeters <https://www.sciencedirect.com/science/article/pii/S1046202314002631?via%3Dihub>*
 
 
 [[expanded_np_chemspace.abbreviations.md]]
