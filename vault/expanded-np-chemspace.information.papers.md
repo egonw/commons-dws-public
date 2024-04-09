@@ -2,7 +2,7 @@
 id: loztevovn8nanzdk302b756
 title: Papers
 desc: ''
-updated: 1712245303552
+updated: 1712676619178
 created: 1709212733420
 ---
 
@@ -79,9 +79,23 @@ GNN-SOM tool (graph neural network-based tool)
 - compounds and reactions can be filtered in the same run.
 
 Filters:
-- Similarity filter:
+
+- Similarity Filtering (Tanimoto):
+    Info: filters out the samples, which are not higher than the given similarity treshhold. Similarity is calculated with the Tanimoto distance of the targets and new made molecules.
+    Input:  
+        cutoff_fingerprint_method = "Morgan"
+        cutoff_similarity_method = "Tanimoto"
+        similarity_threshold = [0, 0.9]
+    Output:  
+
+- Similarity Sampling Filter:
+    Info: samples a specific amount of a given samplespace (made by the simlarity filter). The similarity filter has to be activated!!!
     Input: 
+        cutoff_fingerprint_method = "Morgan"
+        cutoff_similarity_method = "Tanimoto"
+        similarity_threshold = [0, 0.9]
     Output: 
+        n-samples
 
 - Metabolomics filter:
     Input: list of experimental mass-to-charge (m/z), list of possible adducts
