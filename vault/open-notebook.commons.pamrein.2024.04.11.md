@@ -2,7 +2,7 @@
 id: mbolgh4877ht0ades5qwtuj
 title: '2024-04-11'
 desc: ''
-updated: 1712843868637
+updated: 1713337706117
 created: 1712843783666
 traitIds:
   - open-notebook-commons-pamrein
@@ -25,7 +25,7 @@ SPE, specificity
 PPV, positive predictive value 
 NPV, negative predictive value
 
-feasibility filter had some problems. He couldn't find any possible reaction, which is a little bit wiered. 
+feasibility filter had some problems. He couldn't find any possible reaction, which is a little bit weired. 
 
 ## Future perspective
 

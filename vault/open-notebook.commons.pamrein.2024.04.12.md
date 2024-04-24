@@ -2,7 +2,7 @@
 id: 6xlwl68hslmqvyux5zzrjs3
 title: '2024-04-12'
 desc: ''
-updated: 1712935456723
+updated: 1713969063566
 created: 1712928745427
 traitIds:
   - open-notebook-commons-pamrein
@@ -24,13 +24,17 @@ Numba: Python package for "in time" compyling.
 micromamba is an environment control program, which I am using for the cluster in bern. 
 <https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html>. 
 This is the way, how I am able to run different python versions.
-I tried also conda, which didn't worked...
+I tried also conda, which sdidn't worked...
 
 If srun: use --partition=pibu_el8
 
 file xxx : gives you the format of the file xxx
 lsquota: gives you the disk usage info of your project/group
 
+Because of ibu cluster problems, I ve got the advice from bertier to reinstall conda, pyenv and ....
+I deleted Conda, pyenv and micromamba. Poetry (I guess) was in an environment and also deleted.
+
+The reinstalling process is still going on.
 
 ## Future perspective
 
