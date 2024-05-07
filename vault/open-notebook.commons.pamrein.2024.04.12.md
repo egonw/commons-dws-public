@@ -2,7 +2,7 @@
 id: 6xlwl68hslmqvyux5zzrjs3
 title: '2024-04-12'
 desc: ''
-updated: 1713969063566
+updated: 1715092469841
 created: 1712928745427
 traitIds:
   - open-notebook-commons-pamrein
@@ -24,7 +24,7 @@ Numba: Python package for "in time" compyling.
 micromamba is an environment control program, which I am using for the cluster in bern. 
 <https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html>. 
 This is the way, how I am able to run different python versions.
-I tried also conda, which sdidn't worked...
+I tried also conda, which didn't worked...
 
 If srun: use --partition=pibu_el8
 

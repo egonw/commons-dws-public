@@ -2,7 +2,7 @@
 id: afv4h9sz8pw66ie3ap53c0b
 title: '2024-04-26'
 desc: ''
-updated: 1714144747399
+updated: 1714459189793
 created: 1714119118718
 traitIds:
   - open-notebook-commons-pamrein
@@ -31,7 +31,7 @@ Also a Github account is given: <https://github.com/JamesJeffryes/MINE-API>.
 But it is not possible to find the code, how they put the reactions togheter. 
 It looks like they are working with the BNICE methode (database?) which is comming from the University of Lausanne.
 
-To get access to the BNICE database, you have to sign up. This you can only do, if you are an professor.
+To get access to the BNICE database, you have to sign up. This you can only do, if you are a professor.
 
 
 ## Future perspective
