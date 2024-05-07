@@ -2,7 +2,7 @@
 id: 7ecl420o90am8q0dszrh19e
 title: Cookie Cutter
 desc: ''
-updated: 1646416439555
+updated: 1714662717587
 created: 1646409467048
 ---
 
@@ -17,3 +17,13 @@ Using the github template is allready a good start maybe https://levelup.gitconn
 Having a look at https://www.youtube.com/watch?v=HM56wCNxCnQ
 
 Stop at 1:04:00 and workinh here /Users/pma/Dropbox/git_repos/mapp-metabolomics-unit/cookie_cut_project
+
+
+https://cruft.github.io/cruft/
+
+cruft create https://github.com/mapp-metabolomics-unit/mapp-repo-cookiecutter.git --overwrite-if-existscruft create https://github.com/mapp-metabolomics-unit/mapp-repo-cookiecutter.git --overwrite-if-exists
+
+You can check a project 
+
+cruft check
+
