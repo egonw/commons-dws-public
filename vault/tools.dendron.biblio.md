@@ -30,11 +30,11 @@ Bib file formatting is required to avoid the previous error. This error is someh
 From the automatically sync .bib of Mendeley, make a copy and ctrl+F replace all { by \\'{ and all all } by \\'}
 This should make the trick.
 
-See [[cli.sed_bash]] for the recipee.
+See [[tools.cli.sed_bash]] for the recipee.
 
 And here goes a Note reference 
 
-((ref: [[cli.sed_bash]]))
+((ref: [[tools.cli.sed_bash]]))
 
 //DONE check Amoeba splitting of notes (here is a typical application case ... Automatization and sed lines should go in separate notes as these can be used for other purposes than just the .bib reformating) 2021-01-02 17:30 checking .... and just splitted the above sed commands
 
