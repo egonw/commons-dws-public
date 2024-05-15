@@ -2,7 +2,7 @@
 id: qif0jyj3eq4vc0hjboq7ul2
 title: '2024-05-14'
 desc: ''
-updated: 1715699521866
+updated: 1715756016347
 created: 1715681212641
 traitIds:
   - open-notebook-commons-pamrein
@@ -28,12 +28,12 @@ pickle : datathing in python (4bits)
 
 I've got the feeling, that the masterthesis is about to make Mines more efficient. We can run it and the choosen rules works finde, but in the beginning he tries for almost a minute to run tensorflow (or checking it). Also to parallel stuff doesn't work properly.
 
-I also have now problems to run it on the cluster or localy... this is amazing!!!
+I also have now problems to run it localy... this is amazing!!!
 
 I tried to rerun my pickaxe script on my laptop, which gives me errors because a module "lxml" is not installed. 
 I reinstalled it with linuxbrew. Doesn't help. I run ´pip install lxml´ and then it worked... this is scaring me.
 
-lxml: 
+lxml: it is a tool to handle html and xml in python. It is used to parse and manipulate XML and HTML documents. It provides a Pythonic API for processing XML and HTML documents.
 
 
 ## Future perspective
