@@ -2,7 +2,7 @@
 id: qif0jyj3eq4vc0hjboq7ul2
 title: '2024-05-14'
 desc: ''
-updated: 1715756016347
+updated: 1715847473940
 created: 1715681212641
 traitIds:
   - open-notebook-commons-pamrein
@@ -23,7 +23,7 @@ traitIds:
 
 cache decorator - use a function to save it on storage.
 
-pickle : datathing in python (4bits)
+pickle : datathing in python (4bits). 
 
 
 I've got the feeling, that the masterthesis is about to make Mines more efficient. We can run it and the choosen rules works finde, but in the beginning he tries for almost a minute to run tensorflow (or checking it). Also to parallel stuff doesn't work properly.

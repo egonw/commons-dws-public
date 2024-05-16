@@ -2,7 +2,7 @@
 id: s8uwcdt6efqj6bms67yv68q
 title: '2024-04-18'
 desc: ''
-updated: 1713969063560
+updated: 1715783286846
 created: 1713439943293
 traitIds:
   - open-notebook-commons-pamrein
@@ -21,7 +21,7 @@ traitIds:
 ## Daily report (What did I learn?)
 
 **How to use JupyterLab on the cluster**  
-1. start the correct environment and jupyter lab
+1. start the correct environment and jupyter lab (Maybe you want also activate a specific environment with `poetry shell`)
 ```bash
 srun --partition=pibu_el8 --cpus-per-task=10 --mem=30G --time=10:00:00 --pty /bin/bashun
 micromamba activate jup_lab
