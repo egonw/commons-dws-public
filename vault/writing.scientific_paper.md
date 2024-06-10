@@ -2,11 +2,16 @@
 id: 8ElFvQBDYuPdyHJeLaRNS
 title: Scientific_paper
 desc: ''
-updated: 1709897863355
+updated: 1718024294683
 created: 1601410082237
 ---
 
 # Scientific Papers
+
+
+(https://www.nature.com/scitable/topicpage/scientific-papers-13815490/)
+
+
 
 Scientific papers are for sharing your own original research work with other scientists or for reviewing the research conducted by others. As such, they are critical to the evolution of modern science, in which the work of one scientist builds upon that of others. To reach their goal, papers must aim to inform, not impress. They must be highly readable — that is, clear, accurate, and concise. They are more likely to be cited by other scientists if they are helpful rather than cryptic or self-centered.
 
