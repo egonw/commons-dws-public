@@ -2,7 +2,7 @@
 id: NQYMosADQOZjknNMpqnTQ
 title: Tmux
 desc: ''
-updated: 1691510050208
+updated: 1717761328680
 created: 1642180965235
 ---
 
@@ -29,7 +29,7 @@ Start an attached session:
 If the Tmux session has a name:
 
 `tmux attach -t [name]`
-
+ %>% 
 List all Tmux sessions:
 
 `tmux ls`
