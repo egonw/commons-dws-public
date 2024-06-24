@@ -1,9 +1,9 @@
 ---
-id: ygi65eohoguwzczxg0qzm36
-title: '2024-05-01'
+id: kocs8r5jlwhy9vxi0tlrck0
+title: '2024-05-16'
 desc: ''
-updated: 1714546553190
-created: 1714546553190
+updated: 1715848287114
+created: 1715848188142
 traitIds:
   - open-notebook-commons-pamrein
 ---
@@ -19,7 +19,8 @@ traitIds:
 
 
 ## Daily report (What did I learn?)
-
+Today I like to write the first part of the masterthesis. 
+I also have planned to start to run some more SMILES with the mongodb. Just to see how it works and how I can control / quality check it.
 
 
 ## Future perspective
