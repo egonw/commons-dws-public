@@ -2,7 +2,7 @@
 id: e6tpq5tzanm7vd89qt4zgix
 title: '2024-06-20'
 desc: ''
-updated: 1718890053463
+updated: 1719910912009
 created: 1718868287301
 traitIds:
   - open-notebook-commons-pamrein
@@ -34,7 +34,7 @@ parquet: column oriented storage with a self-describing header (metadata). It wa
 
 - DuckDB can use parquet files. (https://duckdb.org/2024/03/26/42-parquet-a-zip-bomb-for-the-big-data-age.html)
 
-for big data processing they speak from dask or spark. Dask is in general less heavy and faster. It get public 2014 and spark 2010.
+for big data processing they speak from dask or spark. Dask is in general less heavy and faster. It get public 2014 and spark 2010. ^uapatuqa2w46
 
 
 > Which are the "intresting questions" for this dataset?
