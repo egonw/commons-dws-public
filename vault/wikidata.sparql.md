@@ -2,7 +2,7 @@
 id: qcUnyE9eaS2PVPPngKeB1
 title: Sparql
 desc: ''
-updated: 1714125509266
+updated: 1720522668139
 created: 1611593110381
 ---
 
@@ -1076,3 +1076,8 @@ https://w.wiki/9qZT
 https://w.wiki/rL
 
 https://w.wiki/9tCe
+
+### Qlever WD OTT id for LOTUS taxa
+
+https://qlever.cs.uni-freiburg.de/wikidata/TqdMNf
+
