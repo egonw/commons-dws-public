@@ -2,7 +2,7 @@
 id: qcUnyE9eaS2PVPPngKeB1
 title: Sparql
 desc: ''
-updated: 1720522668139
+updated: 1720770679966
 created: 1611593110381
 ---
 
@@ -1081,3 +1081,8 @@ https://w.wiki/9tCe
 
 https://qlever.cs.uni-freiburg.de/wikidata/TqdMNf
 
+###  WD taxa lacking OTT ids
+
+https://qlever.cs.uni-freiburg.de/wikidata/ThyZSf
+
+2024.07.12 2024-07-12 09:47 > 1'755'037
