@@ -2,7 +2,7 @@
 id: IG6I7CXHNtcsZV3idu0Z8
 title: Tar
 desc: ''
-updated: 1611406532608
+updated: 1722256672254
 created: 1609690553137
 ---
 
@@ -18,7 +18,6 @@ tar -zcvf tar-archive-name.tar.gz source-folder-name
 
 To extract a tar.gz compressed archive you can use the following command
 
-```bash
 tar -zxvf tar-archive-name.tar.gz
 ```
 
