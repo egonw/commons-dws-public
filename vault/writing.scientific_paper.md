@@ -2,7 +2,7 @@
 id: 8ElFvQBDYuPdyHJeLaRNS
 title: Scientific_paper
 desc: ''
-updated: 1718621470595
+updated: 1724861585527
 created: 1601410082237
 ---
 
@@ -177,3 +177,16 @@ Third, indicate what you have done in an effort to address the need (this is the
 Finally, preview the remainder of the paper to mentally prepare readers for its structure, in the object of the document.
 
 
+# Title 
+time
+## Context
+First, provide some context to orient you/readers/your grandma who are less familiar with your topic and to establish the importance of this note/paragraph/text/paper/project.
+## Need
+Second, state the need for your note/paragraph/text/paper/project, as an opposition between what you/others/the scientific community/your grandma currently has and what it wants.
+## Task (of the note/paragraph/text/paper/project)
+Third, indicate what you have done in an effort to address the need (this is the task).
+- [ ] did this
+- [ ] did that
+- [ ] oh and this also
+## Object (of the note/paragraph/text/paper/project)
+Finally, preview the remainder of the paper to mentally prepare you/readers for its structure, in the object of the document.
